@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zn">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>首頁</title>
+      
+      <link rel="stylesheet" href="./typing.css">
+      <link rel="stylesheet" href="./index.css">
+      <!-- jquery函式庫 -->
+      <!-- <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" /> -->
+      <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+      <!-- <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> -->
+</head>
+<body>
+      <!-- <nav class="navbar" id="menu">
+            <ul class="nav-ul">
+                  <li>你看到我
+                        <ul class="sub-ul">
+                              <li>許多東西</li>
+                        </ul>
+                  </li>
+                  
+            </ul>
+      </nav> -->
+      
+      <nav class="fullscreen-menu">
+            <ul>
+                  <li><a href="./autotypeing.html" target="_self">導覽</a></li>
+                  <li><a href="#" target="_self">導覽</a></li>
+                  <li><a href="#">導導覽覽</a></li>
+                  <li><a href="#">關於</a></li>
+                  
+            </ul>
+      </nav>
+      
+      <div class="hamburger-menu">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+      </div>
+      <div class="top-box">
+            <p id="typing" >
+            </p>
+            <a href="https://github.com/iach526526" target="_blank" class="GitHub_btn">Go To GitHub</a>
+      </div>
+      <!-- <div style="height: 1024px;"></div>
+      <div>
+
+      </div> -->
+      
+</body>
+<!-- 自己寫的 -->
+
+<script src="typing.js"></script><!-- autotyping程式 -->
+<!-- 選單觸發程式 -->
+<script>
+      $('.hamburger-menu').click(function(){//判斷選單有無被點擊，若有，開啟全屏選單，並把選單下層的元素加上毛玻璃特效
+            $('.fullscreen-menu').toggleClass('display_nav');
+            $('div:not(.fullscreen-menu,.hamburger-menu,.line)').toggleClass('blur');
+            $('.hamburger-menu').toggleClass('move');
+
+      });
+      $('.fullscreen-menu:not(ul)').click(function(){//若全屏選單已經開啟且被點擊任一處，則關閉選單(把選單加上display:none的效果)
+            $('.fullscreen-menu').toggleClass('display_nav');
+            $('div:not(.fullscreen-menu,.hamburger-menu,.line)').toggleClass('blur');
+            $('.hamburger-menu').toggleClass('move');//漢堡選單交叉的CSS
+      });
+
+</script>
+</html>

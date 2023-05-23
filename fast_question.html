@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            display: flex;
+            justify-content: center;    
+            align-items: center; 
+            
+        }
+        .content
+        {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            width: 100vw;
+            background-color: rgb(183, 183, 185);
+        }
+        .timer{
+            background-color: #eae0d0;
+            height:200px;
+            width: 200px;
+            color: gray;
+            display: flex;
+            justify-content: center;    
+            align-items: center; 
+        }
+        .countdownTitle{
+            font-size: 80px;
+            font-weight: 600;
+            /* margin-bottom: 20px; */
+            border: 10px solid gray; /* 初始邊框樣式 */
+            border-radius: 50%;
+            padding: 20px 25px 20px 25px;
+        }
+        .selection-btns
+        {
+            margin-top: 15%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-self: center;
+            width: 100%;
+      
+        }
+        .btn
+        {
+            height: 50%;
+            /* margin-top: 1%; */
+            width: 40%;
+        }
+    </style>
+</head>
+
+<body>
+    <body>
+        <div class="content">
+            <div class="timer">
+                    <div id="count_down_timer" class="countdownTitle"></div>
+            </div>
+            <div id="title"></div>
+            <div class="selection-btns">
+                <button type="button" class="btn btn-primary" id="btn1">123466</button>
+                <button type="button" class="btn btn-danger" id="btn2">123466</button>
+                <button type="button" class="btn btn-info"id="btn3">123466</button>
+                <button type="button" class="btn btn-warning"id="btn4">123466</button>
+            </div>
+        </div>
+        
+        
+</body>
+<script>
+    var question =new Array();
+    question[0]=['問題1',"選項1","選項2","選項3","選項4",4];
+    var timerVariable;
+    function countDown(totalMilliseconds) {
+        var interval = setInterval(function() {
+            totalMilliseconds -= 10;
+            var seconds = Math.floor(totalMilliseconds / 1000);
+            var formattedTime = seconds.toString().padStart(2,'0');
+            document.getElementById("count_down_timer").innerHTML = formattedTime;
+            console.log(totalMilliseconds);
+            
+            if (totalMilliseconds <= 0) {
+                clearInterval(interval);
+                // alert('時間到');
+                return;
+            }
+        }, 10);
+    }
+    for(var i = 0; i < question.length; i++)
+    {
+        countDown(30000);// 倒數(毫秒) 1000ms=1s
+        $('#title')
+    }
+    
+</script>
+</html>
