@@ -83,18 +83,18 @@
             $('div:not(.fullscreen-menu,.hamburger-menu,.line)').toggleClass('blur');
             $('.hamburger-menu').toggleClass('move');//漢堡選單交叉的CSS
       });
-      $.ajax(
-            {
-                  url:"https://github-readme-stats.vercel.app/api?username=iach526526",
-                  type: "GET",
-                  jsonpCallback: 'jsonCallback',
-                  dataType: "jsonp",
-                  success: function(response) {
-                        console.log(response)
-                        $('#myDiv').html(response);
-                  }
-            }
-      )
+      // $.ajax(
+      //       {
+      //             url:"https://github-readme-stats.vercel.app/api?username=iach526526",
+      //             type: "GET",
+      //             jsonpCallback: 'jsonCallback',
+      //             dataType: "jsonp",
+      //             success: function(response) {
+      //                   console.log(response)
+      //                   $('#myDiv').html(response);
+      //             }
+      //       }
+      // )
 
 </script>
 </html>
