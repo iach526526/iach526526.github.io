@@ -1,5 +1,5 @@
 var i = 0;
-var txt = '只是簡單的打字效果';//typing content縱使改變，依然故我
+var txt = '縱使改變，依然故我';//typing content只是簡單的打字效果
 var speed = 100;//字符跳動速度
 function delWriter(){
     document.getElementById("typing").innerHTML = document.getElementById("typing").innerHTML.slice(0,-1);

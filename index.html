@@ -11,6 +11,9 @@
       <!-- <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" /> -->
       <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
       <!-- <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
       <!-- <nav class="navbar" id="menu">
@@ -27,10 +30,10 @@
       <nav class="fullscreen-menu">
             <ul>
                   <li><a href="./autotypeing.html" target="_self">導覽</a></li>
-                  <li><a href="#" target="_self">導覽</a></li>
+                  <li><a href="./fast_question.html" target="_self">快問快答</a></li>
                   <li><a href="#">導導覽覽</a></li>
                   <li><a href="#">關於</a></li>
-                  
+                  <li><a href="https://github.com/iach526526" target="_blank" class="GitHub_btn">Go To GitHub</a></li>
             </ul>
       </nav>
       
@@ -42,12 +45,26 @@
       <div class="top-box">
             <p id="typing" >
             </p>
-            <a href="https://github.com/iach526526" target="_blank" class="GitHub_btn">Go To GitHub</a>
       </div>
-      <!-- <div style="height: 1024px;"></div>
-      <div>
-
-      </div> -->
+      <div class="vertical-container">
+            <div class="left-side-photo">
+                  <img src="./imgs/IMG_6801.jpg" >
+                  <h2 id="name">Each Chen</h2>
+            </div>
+            
+      <div id="myDiv" class="center-photo">
+            <div id="introduce">
+                 <p>
+                        Hi!👋I'am Each.Welcome to my website.
+                  </p> 
+            </div>
+            <div>
+                  <h1>開發貢獻</h1>
+                  <img src="https://github-readme-stats.vercel.app/api?username=iach526526&show_icons">
+            </div>
+            
+      </div>
+      </div>
       
 </body>
 <!-- 自己寫的 -->
@@ -66,6 +83,18 @@
             $('div:not(.fullscreen-menu,.hamburger-menu,.line)').toggleClass('blur');
             $('.hamburger-menu').toggleClass('move');//漢堡選單交叉的CSS
       });
+      $.ajax(
+            {
+                  url:"https://github-readme-stats.vercel.app/api?username=iach526526",
+                  type: "GET",
+                  jsonpCallback: 'jsonCallback',
+                  dataType: "jsonp",
+                  success: function(response) {
+                        console.log(response)
+                        $('#myDiv').html(response);
+                  }
+            }
+      )
 
 </script>
 </html>

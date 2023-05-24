@@ -57,7 +57,7 @@
         }
         .btn
         {
-            height: 50%;
+            height: 20vh;
             /* margin-top: 1%; */
             width: 40%;
         }
@@ -83,7 +83,9 @@
 </body>
 <script>
     var question =new Array();
-    question[0]=['問題1',"選項1","選項2","選項3","選項4",4];
+    question[0]=['問題0',"選項1","選項2","選項3","選項4",4];
+    question[1]=['問題1',"選項1","選項2","選項3","選項4",4];
+
     var timerVariable;
     function countDown(totalMilliseconds) {
         var interval = setInterval(function() {
@@ -101,10 +103,10 @@
         }, 10);
     }
     for(var i = 0; i < question.length; i++)
-    {
-        countDown(30000);// 倒數(毫秒) 1000ms=1s
-        $('#title')
+    {   $('#title').html(question[0][0])
+        // if()
+        countDown(3000);// 倒數(毫秒) 1000ms=1s
+        console.log(i)
     }
-    
 </script>
 </html>

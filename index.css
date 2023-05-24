@@ -3,7 +3,9 @@
     padding: 0;
     margin: 0;
 }
-
+body{
+  overflow-x: hidden;
+}
 a{
   text-decoration: none;
 }
@@ -20,12 +22,44 @@ a{
 .top-box
 {
     background-color: #657BCA;
-    width: 100%;
-    height: 60%;
-    position: absolute;
+    width: 100vw;
+    height: 60vh;
+    position: relative;
 }
-
-
+.vertical-container
+{
+  padding-top: 3%;
+  display: flex; 
+  width: 100vw;
+  flex-wrap: wrap;
+  justify-content:left;
+  background-color: #d0ddf6; 
+  /* 主要色調，淡藍色 */
+}
+.left-side-photo
+{
+  flex: 1;
+  text-align: center;
+}
+#name{
+  margin: 5% 0 5% 0;
+  font-size: 10vh;
+  font-family: 'Caveat', cursive;
+}
+#introduce
+{
+  margin-bottom: 5%;
+}
+#introduce>p
+{
+  font-size: 3vh;
+}
+.center-photo
+{
+  /* position: relative; */
+  flex: 1;
+  text-align: center;
+}
 /*那一顆漢堡選單*/
 .hamburger-menu {
   position: fixed;
@@ -116,13 +150,13 @@ a{
       filter: blur(5px);
   }
   
-.GitHub_btn
+/* .GitHub_btn
 {
   background-color: #292626;
   color: #fff;
-  position: absolute;
+  display: flex;
+  justify-content: center;    
+  align-items: center; 
   text-align: center;
   font-weight: 500;
-  top: 60%;
-  left:47%
-}
+} */
