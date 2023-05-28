@@ -1,65 +1,79 @@
-
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
+  max-width: 100vw;
 }
-body{
+
+body {
   overflow-x: hidden;
 }
-a{
+
+a {
   text-decoration: none;
 }
-.navbar{
-    display:inline;
+
+.navbar {
+  display: inline;
 }
-.sub-ul{
-    display: none;
-    position: absolute;
+
+.sub-ul {
+  display: none;
+  position: absolute;
 }
-.nav-ul:hover .sub-ul{
-    display: flex;
+
+.nav-ul:hover .sub-ul {
+  display: flex;
 }
-.top-box
-{
-    background-color: #657BCA;
-    width: 100vw;
-    height: 60vh;
-    position: relative;
-}
-.vertical-container
-{
-  padding-top: 3%;
-  display: flex; 
+
+.top-box {
+  background-color: #657BCA;
   width: 100vw;
+  height: 60vh;
+  position: relative;
+}
+
+.vertical-container {
+  padding-top: 3%;
+
+  display: flex;
   flex-wrap: wrap;
-  justify-content:left;
-  background-color: #d0ddf6; 
+  justify-content: left;
+  background-color: #d0d2d6;
   /* 主要色調，淡藍色 */
 }
-.left-side-photo
-{
+
+.left-side-photo {
   flex: 1;
   text-align: center;
+
 }
-#name{
+
+.left-side-photo img {
+  border: thick double #32a1ce;
+}
+
+#name {
   margin: 5% 0 5% 0;
   font-size: 10vh;
   font-family: 'Caveat', cursive;
 }
-#introduce
-{
+
+#introduce {
   margin-bottom: 5%;
 }
-#introduce>p
-{
+
+#introduce>p {
   font-size: 3vh;
 }
-.center-photo
-{
+
+.states {
+  margin-top: 7.5%;
   /* position: relative; */
+  min-width: 50vw;
   flex: 1;
   text-align: center;
 }
+
 /*那一顆漢堡選單*/
 .hamburger-menu {
   position: fixed;
@@ -69,10 +83,12 @@ a{
   right: 20px;
   /* background-color: #fff; */
   justify-content: space-between;
-  cursor: pointer;/*游標接近會變成手指*/
+  cursor: pointer;
+  /*游標接近會變成手指*/
   display: block;
   z-index: 4500;
 }
+
 .line {
   width: 90%;
   justify-content: center;
@@ -81,75 +97,84 @@ a{
   background-color: #ffffff;
   transition: transform 0.3s ease;
 }
+
 /*選取同時有.hamburger-menu和.move為父元素的line*/
 /*move是用JS加上去的*/
-.hamburger-menu.move .line:nth-child(1){
+.hamburger-menu.move .line:nth-child(1) {
   transform: translateY(15px) rotate(45deg);
 }
-.hamburger-menu.move .line:nth-child(2){
+
+.hamburger-menu.move .line:nth-child(2) {
   opacity: 0;
 }
-.hamburger-menu.move .line:nth-child(3){
+
+.hamburger-menu.move .line:nth-child(3) {
   transform: translateY(-15px) rotate(-45deg);
 }
+
 /*那一顆漢堡選單*/
 /*全屏選單*/
 .fullscreen-menu {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #383737;/*#6b6969*/
-    color: #fff;
-    display: none;
-    z-index: 90000;/*設定圖層優先(很大，希望在最上)*/
-    opacity: 0.9; /*半透明*/
-  }
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #383737;
+  /*#6b6969*/
+  color: #fff;
+  display: none;
+  z-index: 90000;
+  /*設定圖層優先(很大，希望在最上)*/
+  opacity: 0.9;
+  /*半透明*/
+}
 
-  
-  .fullscreen-menu ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    text-align: center;
-  }
-  
-  .fullscreen-menu ul li {
-    margin-bottom: 20px;
-    font-style:italic;
-    border-bottom-style: solid;
-    border-width: 0.5px;
-    padding-bottom:7px;
-  }
-  
-  .fullscreen-menu ul li a {
-    color: #f0f6ef;
-    text-decoration: none;
-    font-size: 24px;
-    text-align: center;
-    letter-spacing: 5px;
-    font-weight:400;
-    /* text-decoration: underline rgb(233, 228, 241) 1px;
+
+.fullscreen-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
+
+.fullscreen-menu ul li {
+  margin-bottom: 20px;
+  font-style: italic;
+  border-bottom-style: solid;
+  border-width: 0.5px;
+  padding-bottom: 7px;
+}
+
+.fullscreen-menu ul li a {
+  color: #f0f6ef;
+  text-decoration: none;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 5px;
+  font-weight: 400;
+  /* text-decoration: underline rgb(233, 228, 241) 1px;
     padding-bottom:100px; */
-  }
-  .fullscreen-menu ul li a:hover {
-    color: rgb(104, 248, 248);
-  }
+}
 
-  /*透過按鈕的JS觸發添加/刪除在nav上的類別*/
-  .display_nav{
-    display: block;
-  }
-  .blur{
-      filter: blur(5px);
-  }
-  
+.fullscreen-menu ul li a:hover {
+  color: rgb(104, 248, 248);
+}
+
+/*透過按鈕的JS觸發添加/刪除在nav上的類別*/
+.display_nav {
+  display: block;
+}
+
+.blur {
+  filter: blur(5px);
+}
+
 /* .GitHub_btn
 {
   background-color: #292626;
