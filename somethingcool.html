@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>作品集</title>
+    <style>
+        .list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .list img {
+            height: 15vh;
+            border-radius: 8px;
+            margin: 10px;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .list img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="list">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=iach526526&repo=play_popcat" alt="play_popcat">
+        
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=iach526526&repo=web_crawler" alt="web_crawler">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=iach526526&repo=Caesar-cipher" alt="Caesar-cipher">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=iach526526&repo=CPE" alt="CPE">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=iach526526&repo=zerojudge-s-code " alt="zerojudge-s-code ">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=iach526526&repo=html_project " alt="html_project ">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=iach526526&repo=yokai-sangokus_discord_bot" alt="yokai-sangokus_discord_bot">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=iach526526&repo=iach526526.github.io" alt="iach526526.github.io">
+        <!-- 最好用JS寫個排序 -->
+
+    </div>
+    <script>
+        const repositoryImages = document.querySelectorAll('.list img');
+        repositoryImages.forEach((image) => {
+          image.addEventListener('click', () => {
+            const repositoryName = image.alt;
+      
+            window.open(`https://github.com/iach526526/${repositoryName}`);
+          });
+        });
+      </script>
+</body>

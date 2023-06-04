@@ -1,0 +1,100 @@
+/*那一顆漢堡選單*/
+.hamburger-menu {
+    position: fixed;
+    height: 65px;
+    width: 65px;
+    top: 20px;
+    right: 20px;
+    /* background-color: #fff; */
+    justify-content: space-between;
+    cursor: pointer;
+    /*游標接近會變成手指*/
+    display: block;
+    z-index: 4500;
+  }
+  
+  .line {
+    width: 90%;
+    justify-content: center;
+    height: 5%;
+    margin-top: 20%;
+    background-color: #ffffff;
+    transition: transform 0.3s ease;
+  }
+  
+  /*選取同時有.hamburger-menu和.move為父元素的line*/
+  /*move是用JS加上去的*/
+  .hamburger-menu.move .line:nth-child(1) {
+    transform: translateY(15px) rotate(45deg);
+  }
+  
+  .hamburger-menu.move .line:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .hamburger-menu.move .line:nth-child(3) {
+    transform: translateY(-15px) rotate(-45deg);
+  }
+  
+  /*漢堡選單點開後的畫面*/
+  /*全屏選單*/
+  .fullscreen-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #383737;
+    /*#6b6969*/
+    color: #fff;
+    display: none;
+    z-index: 90000;
+    /*設定圖層優先(很大，希望在最上)*/
+    opacity: 0.9;
+    /*半透明*/
+  }
+  
+  
+  .fullscreen-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+  }
+  
+  .fullscreen-menu ul li {
+    margin-bottom: 20px;
+    font-style: italic;
+    border-bottom-style: solid;
+    border-width: 0.5px;
+    padding-bottom: 7px;
+  }
+  
+  .fullscreen-menu ul li a {
+    color: #f0f6ef;
+    text-decoration: none;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight: 400;
+    /* text-decoration: underline rgb(233, 228, 241) 1px;
+      padding-bottom:100px; */
+  }
+  
+  .fullscreen-menu ul li a:hover {
+    color: rgb(104, 248, 248);
+  }
+  
+  /*透過按鈕的JS觸發添加/刪除在nav上的類別*/
+  .display_nav {
+    display: block;
+  }
+  
+  .blur {
+    filter: blur(10px);
+  }

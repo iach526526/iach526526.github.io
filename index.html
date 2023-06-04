@@ -4,34 +4,28 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>首頁</title>
-      
-      <link rel="stylesheet" href="./typing.css">
-      <link rel="stylesheet" href="./index.css">
-      <!-- jquery函式庫 -->
+            <!-- jquery函式庫 -->
       <!-- <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" /> -->
       <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
       <!-- <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> -->
       <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+
+      <link rel="stylesheet" href="./css/typing.css">
+      <link rel="stylesheet" href="./css/index.css">
+      <link rel="stylesheet" href="./hamburger.css">
+ 
+
 </head>
 <body>
-      <!-- <nav class="navbar" id="menu">
-            <ul class="nav-ul">
-                  <li>你看到我
-                        <ul class="sub-ul">
-                              <li>許多東西</li>
-                        </ul>
-                  </li>
-                  
-            </ul>
-      </nav> -->
+
       
       <nav class="fullscreen-menu">
             <ul>
-                  <li><a href="./autotypeing.html" target="_self">導覽</a></li>
+                  <li><a href="./index.html" target="_self">回首頁</a></li>
                   <li><a href="./fast_question.html" target="_self">快問快答</a></li>
-                  <li><a href="#">導導覽覽</a></li>
+                  <li><a href="./somethingcool.html">作品集</a></li>
                   <li><a href="#">關於</a></li>
                   <li><a href="https://github.com/iach526526" target="_blank" class="GitHub_btn">Go To GitHub</a></li>
             </ul>
@@ -59,40 +53,14 @@
                         </p> 
                   </div>
                   <h1>開發貢獻</h1>
-                  <img src="https://github-readme-stats.vercel.app/api?username=iach526526&show_icons" width="90%">
-            
+                  <img src="https://github-readme-stats.vercel.app/api?username=iach526526&show_icons" width="50%">
+                  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iach526526&layout=compact" width="50%">
             </div>
       </div>
       
 </body>
-<!-- 自己寫的 -->
+<!-- 自己寫的，必須寫在最後，否則裡面的程式不認識這頁的html們 -->
 
-<script src="typing.js"></script><!-- autotyping程式 -->
-<!-- 選單觸發程式 -->
-<script>
-      $('.hamburger-menu').click(function(){//判斷選單有無被點擊，若有，開啟全屏選單，並把選單下層的元素加上毛玻璃特效
-            $('.fullscreen-menu').toggleClass('display_nav');
-            $('div:not(.fullscreen-menu,.hamburger-menu,.line)').toggleClass('blur');
-            $('.hamburger-menu').toggleClass('move');
-
-      });
-      $('.fullscreen-menu:not(ul)').click(function(){//若全屏選單已經開啟且被點擊任一處，則關閉選單(把選單加上display:none的效果)
-            $('.fullscreen-menu').toggleClass('display_nav');
-            $('div:not(.fullscreen-menu,.hamburger-menu,.line)').toggleClass('blur');
-            $('.hamburger-menu').toggleClass('move');//漢堡選單交叉的CSS
-      });
-      // $.ajax(
-      //       {
-      //             url:"https://github-readme-stats.vercel.app/api?username=iach526526",
-      //             type: "GET",
-      //             jsonpCallback: 'jsonCallback',
-      //             dataType: "jsonp",
-      //             success: function(response) {
-      //                   console.log(response)
-      //                   $('#myDiv').html(response);
-      //             }
-      //       }
-      // )
-
-</script>
+<script src="./JS/typing.js"></script><!-- autotyping程式 -->
+<script src="./hamburger.js"></script>
 </html>
