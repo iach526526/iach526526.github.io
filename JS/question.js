@@ -23,6 +23,11 @@ var questions = [
     answer: 2
 },
 {
+    question:'What is the color of the cat avatar on the homepage?',
+    options: ['#172a54', 'red', 'yellow', '#d2d2d2'],
+    answer: 0
+},
+{
     question: "I'm learning several programming languages and development tools, one of which I really like. Can you guess my favorite programming language?",
     options: ['Swift', "html(sorry, it's not a programming language!)", 'Java', 'C++'],
     answer: 3
@@ -43,7 +48,7 @@ var questions = [
     answer: 2
 },
 {
-    question: "點選紅色按鈕通關",
+    question: '根據色光三原色，點選:白色-淺藍色的按鈕通關<br><a href="./imgs/three_color.jpg" target="_blank">點我看提示<a>',
     options: ['　', "　", '　', '　'],
     answer: 1
 },
