@@ -5,11 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>作品集</title>
+    <link rel="stylesheet" href="./hamburger.css">
+    
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <style>
+        body{
+            background-color: #F3DFA2;
+        }
         .list {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
+            top: 25%;
+            position: absolute;
         }
 
         .list img {
@@ -26,9 +36,23 @@
     </style>
 </head>
 <body>
+    <nav class="fullscreen-menu">
+        <ul>
+            <li><a href="./index.html" target="_self">回首頁</a></li>
+            <li><a href="./fast_question.html" target="_self">快問快答</a></li>
+            <li><a href="./somethingcool.html">作品集</a></li>
+            <li><a href="#" id="about">關於</a></li>
+            <li><a href="https://github.com/iach526526" target="_blank" class="GitHub_btn">Go To GitHub</a></li>
+        </ul>
+    </nav>
+  
+    <div class="hamburger-menu">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+    </div>
     <div class="list">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=iach526526&repo=play_popcat" alt="play_popcat">
-        
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=iach526526&repo=play_popcat" alt="play_popcat"> 
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=iach526526&repo=web_crawler" alt="web_crawler">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=iach526526&repo=Caesar-cipher" alt="Caesar-cipher">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=iach526526&repo=CPE" alt="CPE">
@@ -39,6 +63,7 @@
         <!-- 最好用JS寫個排序 -->
 
     </div>
+    <script src="./hamburger.js"></script>
     <script>
         const repositoryImages = document.querySelectorAll('.list img');
         repositoryImages.forEach((image) => {

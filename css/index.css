@@ -28,7 +28,7 @@ a {
 .top-box {
   background-color: #657BCA;
   width: 100vw;
-  height: 60vh;
+  height: 30vh;
   position: relative;
 }
 
@@ -72,5 +72,6 @@ a {
   min-width: 50vw;
   flex: 1;
   text-align: center;
+  padding-bottom: 3%;
 }
 
