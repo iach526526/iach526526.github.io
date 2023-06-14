@@ -1,0 +1,66 @@
+.timeline {
+    
+    width:80vw;
+    height: 2vh;
+    list-style: none;
+    text-align: justify;
+    margin: 50vh auto;
+
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,0)), color-stop(45%, rgba(255,255,255,0)), color-stop(51%, rgba(191,128,11,1)), color-stop(57%, rgba(255,255,255,0)), color-stop(100%, rgba(255,255,255,0)));
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 45%, rgb(109, 98, 228) 51%, rgba(255,255,255,0) 57%, rgba(255,255,255,0) 100%);
+}
+.timeline::after {
+    display: inline-block;
+    content: "";
+    width: 100%;
+}
+.timeline li {
+    display: inline-block;
+    /* width: 20px;
+    height: 20px; */
+    background: #3855e5af;
+    text-align: center;
+    line-height: 1.2;
+    position: relative;
+    border-radius: 50%;
+}
+/*li前面，即timeline大標題(日期)*/
+.timeline li:before {
+    
+    display: inline-block;
+    content: attr(data-year);
+    font-size: 3vw;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family:'Papyrus';
+}
+.timeline li:nth-child(odd):before {
+    top: -5vw;
+}
+.timeline li:nth-child(even):before {
+    bottom: -5vw;
+    
+}
+/*li後面，即timeline內容*/ 
+.timeline li:after {
+    display: inline-block;
+    content: attr(data-text);
+    font-size: 3vw;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Comic Sans MS';
+
+}
+.timeline li:nth-child(odd):after {
+    bottom: 0;
+    margin-bottom: -10px;
+    transform: translate(-50%, 100%);
+    
+}
+.timeline li:nth-child(even):after {
+    top: 0;
+    margin-top: -10px;
+    transform: translate(-50%, -100%);
+}
