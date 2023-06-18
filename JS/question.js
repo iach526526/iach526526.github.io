@@ -39,7 +39,7 @@ var questions = [
 },
 {
     question: "對上一題很有信心？那再來一題吧!<br>下列何者較可能在Each住的地方——臺灣發生 ？",
-    options: ['搭捷運被吊臂砸到', "4個人顧1隻魚顧到飛走", '在國際機場裡游泳', '以上皆是'],
+    options: ['搭捷運被吊臂砸到', "溫度劑可以量雪的深度", '在國際機場裡游泳', '以上皆是'],
     answer: 3
 },
 {
@@ -48,7 +48,7 @@ var questions = [
     answer: 2
 },
 {
-    question: '根據色光三原色，點選:白色-淺藍色的按鈕通關<br><a href="./imgs/three_color.jpg" target="_blank">點我看提示<a>',
+    question: '根據色光三原色，點選:白色-青色的按鈕通關<br><a href="./imgs/three_color.jpg" target="_blank">點我看提示<a>',
     options: ['　', "　", '　', '　'],
     answer: 1
 },
