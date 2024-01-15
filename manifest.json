@@ -4,7 +4,7 @@
   "description": "pwa",
   "icons": [
     {
-      "src": "con16X16.png",
+      "src": "con16.png",
       "sizes": "16x16",
       "type": "image/png",
       "purpose":"any"
@@ -13,7 +13,7 @@
   "theme_color":"#171717",
   "background_color": "red",
   "display": "standalone",
-  "scope":"/",
-  "start_url":"/",
+  "scope":"/iach526526.github.io/",
+  "start_url":"/iach526526.github.io/",
   "orientation":"portrait"
 }
