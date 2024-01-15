@@ -4,8 +4,8 @@
   "description": "pwa",
   "icons": [
     {
-      "src": "con16.png",
-      "sizes": "16x16",
+      "src": "kidaha-01.svg",
+      "sizes": "1000x1000",
       "type": "image/png",
       "purpose":"any"
     }
