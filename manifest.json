@@ -4,8 +4,8 @@
   "description": "pwa",
   "icons": [
     {
-      "src": "con16x16.png",
-      "sizes": "16X16",
+      "src": "con16X16.png",
+      "sizes": "16x16",
       "type": "image/png",
       "purpose":"any"
     }
