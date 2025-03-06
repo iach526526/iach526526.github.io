@@ -27,6 +27,8 @@ jobs:
           key: ${{ runner.OS }}-npm-cache
           restore-keys: |
             ${{ runner.OS }}-npm-cache
+      - name: install nexmoe
+        run: npm install hexo-theme-nexmoe hexo-renderer-inferno
       - name: Install Dependencies
         run: npm install
       - name: Build
