@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="zh"><head>
+<title>讓我接任務！！用 notion 創建自已的公會任務欄 - iach(Each Chen)</title>
+<meta charset="UTF-8">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<meta name="description" content="最近事情蠻多的，但都不是什麼急事，就想一直拖，連帶讓我的累累病發作。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="讓我接任務！！用 notion 創建自已的公會任務欄">
+<meta property="og:url" content="https://iach.cc/dev/smart-notion/index.html">
+<meta property="og:site_name" content="iach(Each Chen)">
+<meta property="og:description" content="最近事情蠻多的，但都不是什麼急事，就想一直拖，連帶讓我的累累病發作。">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://iach.cc/images/dev/smart-notion/Integrations.webp">
+<meta property="og:image" content="https://iach.cc/images/dev/smart-notion/connect.webp">
+<meta property="og:image" content="https://iach.cc/images/dev/smart-notion/dbid.webp">
+<meta property="og:image" content="https://iach.cc/images/dev/smart-notion/githubenv.webp">
+<meta property="og:image" content="https://iach.cc/images/dev/smart-notion/test.webp">
+<meta property="og:image" content="https://iach.cc/images/dev/smart-notion/demo.gif">
+<meta property="og:image" content="https://iach.cc/images/dev/smart-notion/minoto_and_hinoa_by_mcdobo_degkfuv-fullview.webp">
+<meta property="article:published_time" content="2024-07-27T07:10:34.000Z">
+<meta property="article:modified_time" content="2025-03-06T13:51:38.385Z">
+<meta property="article:author" content="iach526">
+<meta property="article:tag" content="python">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://iach.cc/images/dev/smart-notion/Integrations.webp">
+
+<link rel="stylesheet" href="/lib/fancybox/fancybox.css">
+<link rel="stylesheet" href="/lib/mdui_043tiny/mdui.css">
+
+
+<link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1741269102907">
+
+<link rel="stylesheet" href="/css/style.css?v=1741269102907">
+
+
+
+
+    
+        <link rel="stylesheet" href="/custom.css?v=1741269102907">
+    
+
+
+
+<script src="/lib/mdui_043tiny/mdui.js" async></script>
+<script src="/lib/fancybox/fancybox.umd.js" async></script>
+<script src="/lib/lax.min.js" async></script>
+
+
+<script async src="/js/app.js?v=1741269102907"></script>
+
+ 
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4D4ZJ9G024"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag("js", new Date());
+
+  gtag("config", "G-4D4ZJ9G024");
+</script>
+
+
+<link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/atom-one-dark.min.css">
+<meta name="generator" content="Hexo 7.3.0"></head><body class="nexmoe mdui-drawer-body-left"><div id="nexmoe-background"><div class="nexmoe-bg" style="background-image: url(https://i.dawnlab.me/b5a7e61560facdd5b8aa9683fce147d7.png)"></div><div class="mdui-appbar mdui-shadow-0"><div class="mdui-toolbar"><a class="mdui-btn mdui-btn-icon mdui-ripple" mdui-drawer="{target: &#039;#drawer&#039;, swipe: true}" title="menu"><i class="mdui-icon nexmoefont icon-menu"></i></a><div class="mdui-toolbar-spacer"></div><a class="mdui-btn mdui-btn-icon" href="/" title="iach526"><img src="https://github.com/iach526526.png" alt="iach526"></a></div></div></div><div id="nexmoe-header"><div class="nexmoe-drawer mdui-drawer" id="drawer">
+    <div class="nexmoe-avatar mdui-ripple">
+        <a href="/" title="iach526">
+            <img src="https://github.com/iach526526.png" alt="iach526" alt="iach526">
+        </a>
+    </div>
+    <div class="nexmoe-count">
+        <div><span>Articles</span>2</div>
+        <div><span>Tags</span>1</div>
+        <div><span>Categories</span>1</div>
+    </div>
+    <div class="nexmoe-list mdui-list" mdui-collapse="{accordion: true}">
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple false" href="/" title="首頁">
+            <i class="mdui-list-item-icon nexmoefont icon-home"></i>
+            <div class="mdui-list-item-content">
+                首頁
+            </div>
+        </a>
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple false" href="/archive.html" title="動態">
+            <i class="mdui-list-item-icon nexmoefont icon-container"></i>
+            <div class="mdui-list-item-content">
+                動態
+            </div>
+        </a>
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple false" href="/./about" title="關於我">
+            <i class="mdui-list-item-icon nexmoefont icon-info-circle"></i>
+            <div class="mdui-list-item-content">
+                關於我
+            </div>
+        </a>
+        
+    </div>
+    
+    
+        
+        <div class="nexmoe-widget-wrap">
+    <div class="nexmoe-widget nexmoe-search">
+         
+            <form id="search_form" action_e="https://www.google.com/search?q=site:iach.cc" onsubmit="return search();">
+                <label><input id="search_value" name="q" type="search" placeholder="Search"></label>
+            </form>
+         
+    </div>
+</div>
+
+
+
+
+    
+        
+        <div class="nexmoe-widget-wrap">
+	<div class="nexmoe-widget nexmoe-social">
+		<a
+			class="mdui-ripple"
+			href="https://space.bilibili.com/1388888232"
+			target="_blank"
+			mdui-tooltip="{content: '哔哩哔哩'}"
+			style="
+				color: rgb(231, 106, 141);
+				background-color: rgba(231, 106, 141, .1);
+			"
+		>
+			<i
+				class="nexmoefont icon-bilibili"
+			></i> </a
+		><a
+			class="mdui-ripple"
+			href="https://github.com/iach526526/"
+			target="_blank"
+			mdui-tooltip="{content: 'GitHub'}"
+			style="
+				color: rgb(25, 23, 23);
+				background-color: rgba(25, 23, 23, .1);
+			"
+		>
+			<i
+				class="nexmoefont icon-github"
+			></i> </a
+		>
+	</div>
+</div>
+
+    
+        
+        
+  <div class="nexmoe-widget-wrap">
+    <h3 class="nexmoe-widget-title">Categories</h3>
+    <div class="nexmoe-widget">
+
+      <ul class="category-list">
+
+        
+
+
+        
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/coding/">coding</a>
+          <span class="category-list-count">1</span>
+        </li>
+
+        
+      </ul>
+
+    </div>
+  </div>
+
+
+    
+        
+        
+  <div class="nexmoe-widget-wrap">
+    <div id="randomtagcloud" class="nexmoe-widget tagcloud nexmoe-rainbow">
+      <a href="/tags/python/" style="font-size: 10px;">python</a>
+    </div>
+    
+      <script>
+        var maxTagcloud = parseInt(17);
+        var tags_length = parseInt(1);
+        var tags_arr = [];
+        for(var i = 0; i < tags_length; i++){
+          tags_arr.push(i);
+        }
+        tags_arr.sort(function (l, r) {
+          return Math.random() > 0.5 ? -1 : 1;
+        });
+        tags_arr = tags_arr.slice(0, maxTagcloud < tags_length ? tags_length - maxTagcloud : 0);
+        for(var tag_i = 0; tag_i < tags_arr.length; tag_i++){
+          document.getElementById("randomtagcloud").children[tags_arr[tag_i]].style.display = 'none';
+        }
+      </script>
+    
+  </div>
+
+    
+        
+        
+        
+  <div class="nexmoe-widget-wrap">
+    <h3 class="nexmoe-widget-title">Archive</h3>
+    <div class="nexmoe-widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/">2025</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/">2024</a><span class="archive-list-count">1</span></li></ul>
+    </div>
+  </div>
+
+
+
+    
+        
+        
+  <div class="nexmoe-widget-wrap">
+    <h3 class="nexmoe-widget-title">Recent Posts</h3>
+    <div class="nexmoe-widget">
+      <ul>
+        
+          <li>
+            <a href="/Apothecary-Diaries-op-html-cover/">我用網頁還原了藥師少女的獨語OP中的星空場景</a>
+          </li>
+        
+          <li>
+            <a href="/dev/smart-notion/">讓我接任務！！用 notion 創建自已的公會任務欄</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+    
+        
+   
+    <div class="nexmoe-copyright">
+        &copy; 2025 iach526
+        Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+        & <a href="https://github.com/theme-nexmoe/hexo-theme-nexmoe" target="_blank">Nexmoe</a>
+        
+    </div>
+</div><!-- .nexmoe-drawer --></div><div id="nexmoe-content"><div class="nexmoe-primary"><div class="nexmoe-post">
+  <article>
+    
+        <div class="nexmoe-post-cover absolute" style="padding-top: 30%;"> 
+            <img src="/images/dev/smart-notion/minoto_and_hinoa_by_mcdobo_degkfuv-fullview.webp" alt="讓我接任務！！用 notion 創建自已的公會任務欄" loading="lazy">
+            <h1>讓我接任務！！用 notion 創建自已的公會任務欄</h1>
+        </div>
+    
+    
+    <div class="nexmoe-post-meta">
+    <div class="nexmoe-rainbow">
+        <a class="nexmoefont icon-calendar-fill">2024年07月27日</a>
+        
+            <a class="nexmoefont icon-appstore-fill -link" href="/categories/coding/">coding</a>
+        
+        
+    </div>
+    
+    
+    
+    
+    
+</div>
+
+    <p>最近事情蠻多的，但都不是什麼急事，就想一直拖，連帶讓我的累累病發作。</p>
+<span id="more"></span>
+
+<h4 id="呀咧呀咧，It’s-time-to-go-to-work"><a href="#呀咧呀咧，It’s-time-to-go-to-work" class="headerlink" title="呀咧呀咧，It’s time to go to work"></a><strong>呀咧呀咧，It’s time to go to work</strong></h4><p>但決定起身做事後又很難決定要先做什麼。看來我需要有個冒險公會每日指派任務給我，所以我決定用 notion 每天隨機抽出一件事放進今天做完清單，有精力再領別的事來做。</p>
+<p>這是我使用的任務清單模板，可以<br><a target="_blank" rel="noopener" href="https://grave-milk-49d.notion.site/327582f4f57245dba861699bcef48139?pvs=4">點我去使用模板</a></p>
+<p>首先到 <a target="_blank" rel="noopener" href="https://www.notion.so/profile/integrations">https://www.notion.so/profile/integrations</a> 創建一個 Integrations (之後會簡稱它叫做服務)，然後選擇要作用的 notion 資料庫並命名，Type 選擇 internal 。</p>
+<p>查看剛創建的服務資訊，在 Internal Integration Secret 欄位點選 show 可以選取並複製 token ，等等寫程式會用到它，需要時就回來複製。<br><img onerror="imgOnError(this);" data-fancybox="gallery" src="/images/dev/smart-notion/Integrations.webp" alt="alt text" data-caption="alt text" loading="lazy"></p>
+<p>回到 notion 在剛剛授權的資料庫裡面選一個你要操作的 page 關聯剛剛創建的服務。<br>點選右上角三個點&gt; connect to &gt;找到剛剛創建的服務點它一下確定</p>
+<p><img onerror="imgOnError(this);" data-fancybox="gallery" src="/../images/dev/smart-notion/connect.webp" alt="alt text" data-caption="alt text" loading="lazy"></p>
+<p>然後在連結好服務的 page 裡面(連結會自動包含該 page 底下的所有子 page)創建一個 database ，滿版(full page)或內嵌(inline)都可以，注意不要使用到view，它們倆長太像害我 debug 蠻久的。</p>
+<p>然後就是快樂的 coding 時間，程式就是塞 token 和要存取的 database 在 header 送出請求，伺服器回應，Database-id 資料庫 URL 在 domain 後到?前的那坨，可以在表格旁邊的三個點裡面的 copy link to 拿到這張表格的 URL。</p>
+<p>下面的表格 URL</p>
+<p><a target="_blank" rel="noopener" href="https://www.notion.so/3cdd807b718c4162928bbdb4b883c0e6?v=5cc6e003bfb34159aa04fb12f0e5fa86&pvs=4">https://www.notion.so/3cdd807b718c4162928bbdb4b883c0e6?v=5cc6e003bfb34159aa04fb12f0e5fa86&amp;pvs=4</a></p>
+<p>DB id 就是 3cdd807b718c4162928bbdb4b883c0e6。<br><img onerror="imgOnError(this);" data-fancybox="gallery" src="/images/dev/smart-notion/dbid.webp" alt="copy-db-id" data-caption="copy-db-id" loading="lazy"></p>
+<p>最後我把程式放在 GitHub ，並使用 GiHub action 每天排程自動執行發派任務。當然如果要專門用伺服器跑，或是把程式寫成 JavaScript 放在 Google app Script 讓 iPhone 捷徑每天定時自己去呼叫也是可以。有很多種方法可以自動執行，挑你認為最方便的方式就好。</p>
+<p>如果 notion 資料庫用的和我一樣也可以直接 fork 我的 repo ，在自己 repo 的 Setting &gt; Secrets and variables &gt; Actions &gt; new repository secret 配置自己的 NOTION_TOKEN 和 DATABASE_ID (命名需要和我一樣，不然要自己改.github&#x2F;workflows)。</p>
+<p><img onerror="imgOnError(this);" data-fancybox="gallery" src="/images/dev/smart-notion/githubenv.webp" alt="alt text" data-caption="alt text" loading="lazy"></p>
+<p>可以在 repo 的 action 手動執行看看，結果如下圖。會自動從把優先順序為今日重點的條目清掉並從情境為 random 的條目隨機選一個做為今日重點就是成功了。</p>
+<p><img onerror="imgOnError(this);" data-fancybox="gallery" src="/images/dev/smart-notion/test.webp" alt="test auto work" data-caption="test auto work" loading="lazy"></p>
+<p><img onerror="imgOnError(this);" data-fancybox="gallery" src="/images/dev/smart-notion/demo.gif" alt="gif demo" data-caption="gif demo" loading="lazy"></p>
+<p><a target="_blank" rel="noopener" href="https://developers.notion.com/docs/create-a-notion-integration">notion 官方文檔</a></p>
+<p>就是這樣啦，希望大家的事情都可以如期做完。拖延症和累累病退散</p>
+<p><a target="_blank" rel="noopener" href="https://www.deviantart.com/mcdobo/art/Minoto-and-Hinoa-874353991"><img onerror="imgOnError(this);" data-fancybox="gallery" src="/images/dev/smart-notion/minoto_and_hinoa_by_mcdobo_degkfuv-fullview.webp" alt="drawing" data-caption="drawing" loading="lazy"></a></p>
+
+    
+  </article>
+
+  
+  
+  <div class="nexmoe-post-meta nexmoe-rainbow">
+   
+    
+        <a class="nexmoefont icon-tag-fill -none-link" href="/tags/python/" rel="tag">python</a>
+    
+</div>
+  
+  
+    <script async src="/js/copy-codeblock.js?v=1741269102886"></script>
+  
+
+  
+      <div class="nexmoe-post-footer">
+          
+      </div>
+  
+</div></div><div class="nexmoe-post-right">    <div class="nexmoe-fixed">
+        <div class="nexmoe-tool">
+
+            
+
+            
+            
+            <button class="mdui-fab catalog" style="overflow:unset;">
+                <i class="nexmoefont icon-i-catalog"></i>
+                <div class="nexmoe-toc">
+                    <ol class="toc"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%91%80%E5%92%A7%E5%91%80%E5%92%A7%EF%BC%8CIt%E2%80%99s-time-to-go-to-work"><span class="toc-number">1.</span> <span class="toc-text">呀咧呀咧，It’s time to go to work</span></a></li></ol>
+                </div>
+            </button>
+            
+
+            
+
+            <a href="#nexmoe-content" class="backtop toc-link" aria-label="Back To Top" title="top"><button class="mdui-fab mdui-ripple"><i class="nexmoefont icon-caret-top"></i></button></a>
+        </div>
+    </div>
+</div></div><div id="nexmoe-footer"><!--!--></div><div id="nexmoe-search-space"><div class="search-container"><div class="search-header"><div class="search-input-container"><input class="search-input" type="text" placeholder="Search" onInput="sinput();"></div><a class="search-close" onclick="sclose();">×</a></div><div class="search-body"></div></div></div><div><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2058306854838448" crossorigin="anonymous"></script>
+</div></body></html>
