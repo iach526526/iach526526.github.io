@@ -1,0 +1,38 @@
+name: Hexo Deploy
+
+on:
+  push:
+    branches:
+      - edit # 監聽 edit 分支
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.DEPLOYTOKEN }}
+          submodules: recursive
+      - name: Use Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Cache NPM dependencies
+        uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: ${{ runner.OS }}-npm-cache
+          restore-keys: |
+            ${{ runner.OS }}-npm-cache
+      - name: Install Dependencies
+        run: npm install
+      - name: Generate Static Files
+        run: npm run build
+      - name: Deploy to main branch
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan main
+          git --work-tree public add --all
+          git --work-tree public commit -m "Deploy Hexo site"
+          git push origin HEAD:main --force
