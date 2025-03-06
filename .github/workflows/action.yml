@@ -1,25 +1,25 @@
-name: Pages
+name: Hexo Deploy
 
 on:
   push:
     branches:
-      - edit
+      - edit  # 監聽 edit 分支的推送
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout edit branch
+        uses: actions/checkout@v4
         with:
           token: ${{ secrets.DEPLOYTOKEN }}
-          # If your repository depends on submodule, please see: https://github.com/actions/checkout
           submodules: recursive
+
       - name: Use Node.js 20
         uses: actions/setup-node@v4
         with:
-          # Examples: 20, 18.19, >=16.20.2, lts/Iron, lts/Hydrogen, *, latest, current, node
-          # Ref: https://github.com/actions/setup-node#supported-version-syntax
           node-version: "20"
+
       - name: Cache NPM dependencies
         uses: actions/cache@v4
         with:
@@ -27,24 +27,28 @@ jobs:
           key: ${{ runner.OS }}-npm-cache
           restore-keys: |
             ${{ runner.OS }}-npm-cache
+
       - name: Install Dependencies
         run: npm install
-      - name: Build
+
+      - name: Build Hexo site
         run: npm run build
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./public
-  deploy:
-    needs: build
-    permissions:
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+
+      - name: Deploy to main branch
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          # 檢查是否為 main 分支，如果不是則檢出
+          git fetch origin main || git checkout --orphan main
+          git checkout main
+          git pull origin main
+
+          # 確保 public 內容會被複製過來，並且不覆蓋 CNAME 記錄
+          cp -r public/* .
+          
+
+          # 提交並推送
+          git add --all
+          git commit -m "Deploy Hexo site from edit branch"
+          git push origin main
