@@ -2,9 +2,12 @@
 title: 讓我接任務！！用 notion 創建自已的公會任務欄
 date: 2024-07-27 7:10:34
 tags:
-  - project
   - python
 categories: [coding]
+cover: /images/dev/smart-notion/minoto_and_hinoa_by_mcdobo_degkfuv-fullview.webp
+coverWidth: 2000
+coverHeight: 600
+reprint: true
 ---
 
 

@@ -32,7 +32,11 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git checkout --orphan main
-          git --work-tree public add --all
-          git --work-tree public commit -m "Deploy Hexo site"
-          git push origin HEAD:main --force
+          git fetch origin main || git checkout --orphan main
+          git checkout main
+          git pull origin main
+          rm -rf *
+          cp -r public/* .
+          git add --all
+          git commit -m "Deploy Hexo site"
+          git push origin main
