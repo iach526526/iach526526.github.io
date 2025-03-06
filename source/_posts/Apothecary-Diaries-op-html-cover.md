@@ -16,6 +16,7 @@ cover: /images/cover-Apothecary-Diaries-op-html.png
 
 星星的部分我用 JavaScript 動態自動一大堆，並使用我們小學二年級都學過的橢圓公式讓它繞圈圈。
 
+
 如果你需要一邊看 code 和成果練習的話，這是 codepen 的版本，你可以自己註解部分的程式碼來查看差異，[點我觀看](https://codepen.io/iach526526/pen/wBvgwQx)。為了方便演示，codepen 上的版本是沒有把地平線去背的，貓貓就是一個長方形的方塊，
 
 這是最終的成果展示，希望你喜歡我今天的分享。
