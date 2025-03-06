@@ -35,8 +35,6 @@ jobs:
           git fetch origin main || git checkout --orphan main
           git checkout main
           git pull origin main
-          rm -rf *
-          cp -r public/* .
           git add --all
           git commit -m "Deploy Hexo site"
           git push origin main
