@@ -2,6 +2,10 @@
 title: 給我乾淨的 YouTube
 date: 2025-03-26 23:31:49
 tags: [Youtube,rss,web-plugin]
+cover: https://img.iach.cc/banner/alexander-shatov-niUkImZcSP8-unsplash.webp
+coverWidth: 2000
+coverHeight: 600
+categories: [科技玩物]
 ---
 YouTube 應該是大家常常拜訪的網站之一，那裡匯集了各種類型的影片，現在做影片創作就沒有人沒聽過 YouTube ，從學術研究、生活娛樂，甚至是電器維修的影片上面都能找到，這個平台已經算是現代社會文明結晶的一部份了。隨著我衝浪的資歷隨著時間增加，我認識更多我喜歡的創作者，要穩定的收到接收到我關注的創作者的新內容變的愈來愈困難，隨之而來的是演算法幫我在首頁做的主動篩選，現在還有多少人打開 YouTube 會直接無視首頁的推播有目的的到搜尋欄找影片或是查看訂閱列表？
 
