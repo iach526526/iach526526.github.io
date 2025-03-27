@@ -42,6 +42,6 @@ YouTube 每個頻道的 RSS 實際上是`https://www.youtube.com/feeds/videos.xm
 
 如果閒這樣太麻煩，在 feedly 中可以在 create Ai Feed 直接輸入頻道網址，就可以直接訂閱。
 
-![MY-RSS](https://img.iach.cc/clipboard/r2/MY-RSS.webp)
+![MY-RSS](https://img.iach.cc/clipboard/MY-RSS.webp)
 
 我除了觀看 YouTube 、Ptt、Dacard 等主流網站，還是會有其他追蹤其他獨立網站或個人 blog ，如果你的生活只有上面那些主流網站，我覺得你要反省一下，你到底是在使用網路還是被科技公司用？ RSS 可以給我一個集中的平台管理我觀看的內容。尤其是在追蹤的網頁愈來愈多的時候，總是要讓他們匯集到一個的方讓我方便查看更新。如果網站沒有主動提供 RSS ，也可以上第三方網站手動建立，GitHub 也有一個開源項目在幫網站 RSS 建立，叫做[Rss Hub](https://github.com/DIYgod/RSSHub)，[這是作者的 blog](https://diygod.cc/rsshub-radar?q=rss) ，大推
