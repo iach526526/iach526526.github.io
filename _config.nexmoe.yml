@@ -134,7 +134,7 @@ slotSidebar: |
 #   请在你的配置文件中设置 slotComment
 
 slotCopyright: | 
-  <strong>版權聲明：</strong>本文采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/deed.zh" target="_blank">CC BY-NC-SA 3.0 CN</a>
+  <strong>版權聲明：</strong>本文采用 <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/tw/deed.zh-hant" target="_blank">CC BY-NC-SA 2.0 TW</a>
 
 # slotArticleEnd: | 
 #   <p><img src="https://i.dawnlab.me/53a8c7cf3ad77a0f0a456ce2c6afe88a.png" loading="lazy"></p>
