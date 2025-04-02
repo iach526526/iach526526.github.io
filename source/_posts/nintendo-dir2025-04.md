@@ -1,12 +1,13 @@
 ---
 title: 任天堂 2025/4/2 直面會
 cover: https://img.iach.cc/general/ninetndo-dir/2025-04-02-21-43-53.webp
+og_image: https://img.iach.cc/general/ninetndo-dir/2025-04-02-21-43-53.webp
 tag:
     - Nintendo Switch
 categories: [科技玩物]
 ---
 晚上看了任天堂 Direct 直播，Switch 2 真香 ！
-
+<!-- more -->
 [直播影片](https://www.youtube.com/watch?v=VrTVeYm4iIM)
 ## 新主機
 > 省流：向下兼容 switch 1 遊戲，包括數位版本。主機內建 Discord ，Joy-con 有滑鼠功能很酷炫，6 /5 開賣
