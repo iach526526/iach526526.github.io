@@ -6,6 +6,8 @@ tag:
 categories: [科技玩物]
 ---
 晚上看了任天堂 Direct 直播，Switch 2 真香 ！
+
+[直播影片](https://www.youtube.com/watch?v=VrTVeYm4iIM)
 ## 新主機
 > 省流：向下兼容 switch 1 遊戲，包括數位版本。主機內建 Discord ，Joy-con 有滑鼠功能很酷炫，6 /5 開賣
 ### 硬體
@@ -162,5 +164,4 @@ categories: [科技玩物]
 ![](https://img.iach.cc/general/ninetndo-dir/2025-04-02-21-55-55.webp)
 ----
 我看到 Nintendo GameCube 之前的介紹而已，對 GameCube 沒有很感興趣，總之和二代主機同一天發售。想睡了，有興趣可以去任天堂 YouTube 看回檔，影片時長一小時。
-
-[直播影片](https://www.youtube.com/watch?v=VrTVeYm4iIM)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VrTVeYm4iIM?si=7sfpVZwL6A81Hz4z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
