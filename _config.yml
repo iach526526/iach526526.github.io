@@ -105,3 +105,8 @@ theme: nexmoe
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+feed:
+  type: rss2
+  path: rss.xml
+  limit: 10 # 最大文章數量
+  content: false # 是否顯示內文
