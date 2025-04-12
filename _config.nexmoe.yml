@@ -66,12 +66,16 @@ widgets:
                 - https://github.com/iach526526/
                 - icon-github
                 - rgb(25, 23, 23)
-                - rgba(25, 23, 23, .1)
+                - rgba(84, 19, 176,.1)
             Telegram:
                 - https://t.me/iach526
                 - icon-telegram
                 - rgb(59, 151, 239)
                 - rgba(59, 151, 239, .1)
+            Rss:
+                - ./rss.xml
+                - icon-rss
+                - rgb(255, 64, 16)
             # Twitter:
             #     - https://twitter.com/nexmoe
             #     - icon-twitter
