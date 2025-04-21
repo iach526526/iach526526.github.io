@@ -4,6 +4,7 @@ cover: https://img.iach.cc/general/ninetndo-dir/2025-04-02-21-43-53.webp
 og_image: https://img.iach.cc/general/ninetndo-dir/2025-04-02-21-43-53.webp
 tag:
     - Nintendo Switch
+date: 2025-04-02 23:15:12
 categories: [科技玩物]
 ---
 晚上看了任天堂 Direct 直播，Switch 2 真香 ！
