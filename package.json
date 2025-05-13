@@ -30,6 +30,6 @@
     "hexo-theme-nexmoe": "^4.2.2",
     "inferno": "^8.2.3",
     "inferno-create-element": "^8.2.3",
-    "semver": "^7.5.4"
+    "semver": "^7.7.2"
   }
 }
