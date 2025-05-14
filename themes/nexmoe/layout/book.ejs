@@ -1,0 +1,22 @@
+<section class="nexmoe-bookshelf">
+    <h1 style="color: #eee;">📚 我的書架</h1>
+    <div class="book-list" style="display: flex; flex-wrap: wrap; gap: 1rem;">
+        <% site.pages.filter(p => p.source.startsWith('bookshelf/') && p.source.endsWith('.md') && p.source !== 'bookshelf/index.md').forEach(page => { %>
+            <div class="book-item" style="width: 150px; text-align: center;">
+                <% if (page.source !== 'bookshelf/index.md') { %>
+                    <a href="<%- url_for(page.path) %>">
+                        <% if (page.cover) { %>
+                            <img src="<%- page.cover %>" alt="<%= page.title %>" style="width: 100%; height: auto; border-radius: 8px;">
+                        <% } else { %>
+                            <div style="width: 100%; height: 200px; background: #b02020; display: flex; align-items: center; justify-content: center;">
+                                <span style="color: #eee;"><%= page.title %></span>
+                            </div>
+                        <% } %>
+                    </a>
+                    <h3 style="margin-top: 0.5rem; font-size: 1rem; color: #eee;"><%= page.title %></h3>
+
+                <% } %>
+            </div>
+        <% }); %>
+    </div>
+</section>
