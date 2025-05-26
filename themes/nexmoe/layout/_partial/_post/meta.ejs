@@ -1,6 +1,8 @@
 <div class="nexmoe-post-meta">
     <div class="nexmoe-rainbow">
-        <a class="nexmoefont icon-calendar-fill"><%- date(page.date, "YYYY年MM月DD日") %></a>
+        <% if (!page.no_date) { %>
+            <a class="nexmoefont icon-calendar-fill"><%- date(page.date, "YYYY年MM月DD日") %></a>
+        <% } %>
         <% if (page.categories && page.categories.length){ %>
             <%- list_categories(page.categories, {
                 show_count: false,
