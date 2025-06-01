@@ -108,5 +108,5 @@ deploy:
 feed:
   type: rss2
   path: rss.xml
-  limit: 10 # 最大文章數量
-  content: false # 是否顯示內文
+  limit: 0 # 最大文章數量
+  content: true # 是否顯示內文
