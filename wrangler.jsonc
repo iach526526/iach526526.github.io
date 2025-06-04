@@ -1,5 +1,7 @@
 {
     "name": "hexo-nexmoe",
     "compatibility_date": "2025-06-05",
-    "main": "./public/index.html"
+      "assets": {
+        "directory": "./public"
+  }
 }
