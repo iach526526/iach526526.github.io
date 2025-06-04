@@ -22,7 +22,8 @@ if (is_archive()){
 <% if (page.cover) { %>
 <meta property="og:image" content="<%= page.cover %>" />
 <% } else { %>
-<!-- <meta property="og:image" content="" /> -->
+<meta property="og:image" content="" />
+<!-- 什麼都不要做 -->
 <% } %>
 <link rel="shortcut icon" href="<%= theme.favicon.href %>" type="<%= theme.favicon.type %>" />
 <%- open_graph({twitter_id: theme.twitter, google_plus: theme.google_plus, fb_admins: theme.fb_admins, fb_app_id: theme.fb_app_id}) %>
