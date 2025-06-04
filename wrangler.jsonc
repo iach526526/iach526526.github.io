@@ -1,4 +1,5 @@
 {
-	    "name": "worker-name",
+    "name": "hexo-nexmoe",
     "compatibility_date": "2025-06-04",
-    "main": "./public/"}
+    "main": "./build"
+}
