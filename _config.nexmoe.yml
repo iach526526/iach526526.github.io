@@ -33,7 +33,9 @@ menu:
         - icon-container
     書架:
         - /bookshelf
-
+    近況:
+        - /now.html
+        - icon-battlenet
     # 我的朋友:
     #     - /PY.html
     # 给我赞助:
