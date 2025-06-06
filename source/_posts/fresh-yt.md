@@ -1,11 +1,11 @@
 ---
 title: 給我乾淨的 YouTube
 date: 2025-03-26 23:31:49
-tags: [Youtube,rss,web-plugin]
 cover: https://img.iach.cc/banner/alexander-shatov-niUkImZcSP8-unsplash.webp
 coverWidth: 2000
 coverHeight: 600
-categories: [科技玩物]
+tags: [Youtube,rss,web-plugin]
+categories: [好用軟體]
 ---
 YouTube 應該是大家常常拜訪的網站之一，那裡匯集了各種類型的影片，現在做影片創作就沒有人沒聽過 YouTube ，從學術研究、生活娛樂，甚至是電器維修的影片上面都能找到，這個平台已經算是現代社會文明結晶的一部份了。隨著我衝浪的資歷隨著時間增加，我認識更多我喜歡的創作者，要穩定的收到接收到我關注的創作者的新內容變的愈來愈困難，隨之而來的是演算法幫我在首頁做的主動篩選，現在還有多少人打開 YouTube 會直接無視首頁的推播有目的的到搜尋欄找影片或是查看訂閱列表？
 
@@ -20,7 +20,10 @@ YouTube 應該是大家常常拜訪的網站之一，那裡匯集了各種類型
 - 隱藏 shorts
 - 幫新影片推播分類
 
-儘管這些事情都可以使用 [FreeTube](https://freetubeapp.io/) 這樣的第三方工具或 [YouTube Revanced](https://github.com/ReVanced/revanced-manager)幫 App 上補丁做到相同的功能，但我還是有在 iPad 、iPhone 使用 YouTube 並且離線播放的需求，iOS 系統比較難搞一些，還是花了錢買了 Premium ，都花了錢了，我平常還是會留在 YouTube 的官方網站觀看影片，因此利用外部工具對原版網站稍作調整下會比較符合我目前的需求。
+儘管這些事情都可以使用 [FreeTube](https://freetubeapp.io/) 這樣的第三方工具或 [YouTube Revanced](https://github.com/ReVanced/revanced-manager)幫 App 上補丁做到相同的功能，但我就是想先改掉原版的網頁精神勝利一下。
+
+> 我也曾經想留在原版的網頁，是 YouTube 把介面改的那麼難用我才開始用第三方程式的，這可不能怪我。
+
 ## unhook
 unhook 是一個支援 fireFox 、Chrome 和 Edage 的電腦瀏覽器擴充套件，到[官網](https://unhook.app/)選擇使用的瀏覽器安裝就可以了。在擴充套件列表打開擴充套件設定頁面，就有各種選項讓自由的讓我們選擇要隱藏哪些元件。第一個 `Hide home feed` 就是引首頁推薦欄，這樣，乾淨多了吧。
 

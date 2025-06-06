@@ -3,7 +3,8 @@ title: 讓我接任務！！用 notion 創建自已的任務欄
 date: 2024-07-27 7:10:34
 tags:
   - python
-categories: [coding]
+  - notion
+categories: [資訊科技]
 cover: https://img.iach.cc/general/smart-notion/banner.webp
 coverWidth: 1200
 coverHeight: 600

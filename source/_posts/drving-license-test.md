@@ -4,7 +4,7 @@ date: 2025-05-05 11:19:31
 tags:
     - Python
     - pdf
-categories: [生活駭客]
+categories: [資訊科技]
 cover: https://img.iach.cc/general/drving-license-test/lorie-everly-6rI52gYMcYw-unsplash.webp
 coverWidth: 2000
 coverHeight: 600

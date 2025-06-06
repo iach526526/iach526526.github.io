@@ -4,7 +4,7 @@ date: 2025-06-04 20:23:20
 tags:
     - 前端開發
     - 字型
-categories: [科技玩物]
+categories: [好用軟體]
 cover: https://img.iach.cc/general/free-webfont/emfont-index.webp
 ---
 ## 為什麼會需要用到網頁字型？

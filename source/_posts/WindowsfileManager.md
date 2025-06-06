@@ -2,8 +2,8 @@
 title: 難用的預設，Windows 10 檔案總管調校
 date: 2024-02-16 14:35:16
 tags:
-  - 疑難雜症
-categories: [Windows]
+  - Windows
+categories: [資訊科技]
 cover: https://img.iach.cc/general/WindowsfileManager/majid-rangraz-xZMghzq01UQ-unsplash.webp
 ---
 
