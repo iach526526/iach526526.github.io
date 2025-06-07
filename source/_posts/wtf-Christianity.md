@@ -3,7 +3,7 @@ title: 「上帝死了」之後的信仰與自由
 date: 2025-06-06 22:40:04
 tags: 哲學思辨
 categories: [雜談]
-cover : https://img.iach.cc/general/wtf-Christianity/jesus-die.png
+cover : https://img.iach.cc/general/wtf-Christianity/jesus-die.webp
 ---
 # 前言
 >根據統計，基督教在台灣還算是一個流行的宗教信仰，我認識的人裡面和讀到這篇文章的人之中肯定也有人是信奉基督教的，但我不討厭你們，我只是認真討論宗教的歷史和我的主觀看法，同時也會論其他宗教，基督教只是標題殺和一個切入點，別那麼緊張。如果你對種話題比較敏感，你可以[「自己決定」](#你真的有自主權嗎)要不要關掉這篇文章。
