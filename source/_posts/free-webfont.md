@@ -24,7 +24,7 @@ cover: https://img.iach.cc/general/free-webfont/emfont-index.webp
 
 ## 網路上可以免費使用的網頁字型
 ### Google Font
-這是一個 Google 提供的線上字型服務，使用上非長簡單，只要到官網挑選「想要的字型」複製 embed code 貼到[網頁](https://fonts.google.com/)
+這是一個 Google 提供的線上字型服務，使用上非常簡單，只要到官網挑選「想要的字型」複製 embed code 貼到[網頁](https://fonts.google.com/)
 上就以使用 CSS 套用了。不過對於中文字型來說，你只有 Noto 這個和 Adobe 合作推出的開源字型可以使用，沒有那麼多變化可以玩。
 
 ![google-font](https://img.iach.cc/general/free-webfont/google-font.webp)
@@ -78,6 +78,19 @@ cover: https://img.iach.cc/general/free-webfont/emfont-index.webp
 </p>
 <p class="emfont-PopGothicTC-400">
     這個段落使用了 emfont 的大波浪圓體字型，字重 400
+</p>
+#### 特殊字型
+值得注意的是：有一套叫做 Nerd font 的開源字型使用方式比較特別，因為這主要是提供表情符號的字型，建議到[官網](https://www.nerdfonts.com/cheat-sheet)
+cheet sheet 挑好 icon 後選擇複製 「icon」貼到 html 文本中，結果就會這這樣：
+
+```html
+<p class="emfont-Nerd">
+    這個段落使用了 emfont Nerd font 這邊會顯示出一個 GitHub icon 
+</p>
+```
+
+<p class="emfont-Nerd">
+    這個段落使用了 emfont Nerd font 這邊會顯示出一個 GitHub icon 
 </p>
 
 #### 極致壓縮
