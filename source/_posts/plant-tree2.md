@@ -21,7 +21,7 @@ coverWidth: 1200
 
 ![](https://img.iach.cc/general/plant-tree/2025-06-13-21-23-26.webp)
 
-除草劑專殺草本植物，服用後三個時辰不服用大量清水就會在 7 日內爆體而王，實在是居家旅行，殺草滅口必備良藥。
+除草劑專殺草本植物，施用後三個時辰內植物不服用大量清水就會在 7 日內爆體而亡，實在是居家旅行，殺草滅口必備良藥。
 
 ![含笑半步顛](https://img.iach.cc/general/plant-tree/killer.webp)
 
