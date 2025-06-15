@@ -4,7 +4,7 @@ date: 2025-06-13 22:27:14
 categories: [生活點滴]
 tag:
     - 種樹
-cover: https://img.iach.cc/general/plant-tree/rrgress.jpg
+cover: https://img.iach.cc/general/plant-tree/rrgress.webp
 coverHeight: 500
 coverWidth: 1200
 ---
