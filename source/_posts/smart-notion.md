@@ -61,4 +61,6 @@ DB id 就是 3cdd807b718c4162928bbdb4b883c0e6。
 
 就是這樣啦，希望大家的事情都可以如期做完。拖延症和累累病退散
 
-[<img src="https://img.iach.cc/general/smart-notion/minoto_and_hinoa_by_mcdobo_degkfuv-fullview.webp" alt="drawing" style="width:600px;"/>](https://www.deviantart.com/mcdobo/art/Minoto-and-Hinoa-874353991)
+![](https://img.iach.cc/general/smart-notion/minoto_and_hinoa_by_mcdobo_degkfuv-fullview.webp)
+
+<sub><center>[圖源](https://www.deviantart.com/mcdobo/art/Minoto-and-Hinoa-874353991)</center></sub>
