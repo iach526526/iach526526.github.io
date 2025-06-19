@@ -81,6 +81,11 @@ widgets:
                 - ./rss.xml
                 - icon-rss
                 - rgb(255, 64, 16)
+            email:
+                - mailto:info@iach.cc
+                - icon-mail-fill
+                - rgb(59, 151, 239)
+                - rgba(59, 151, 239, .1)
             # Twitter:
             #     - https://twitter.com/nexmoe
             #     - icon-twitter

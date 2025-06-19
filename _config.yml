@@ -5,7 +5,8 @@
 # Site
 title: '奕站'
 subtitle: "Each's site"
-description: 'This is Each Chen. I am a collage student in Taiwan. I am interested in programming and technology. I will share my learning experience and some interesting things on this blog.'
+description: '奕站，奕其的個人網站'
+# 可能是未來 i18n 內容This is Each Chen. I am a collage student in Taiwan. I am interested in programming and technology. I will share my learning experience and some interesting things on this blog.
 keywords:
 author: iach526
 language: zh-tw
