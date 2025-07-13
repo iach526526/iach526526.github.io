@@ -11,7 +11,7 @@
             "
         >
             <% if (options.social[name][1] && options.social[name][1].startsWith("emfont-")) { %>
-    				<i class="emfont-NerdMono-min"><b><%= options.social[name][1].slice(7) %></b></i>
+    				<i class="emfont-NerdMono-min" sytle="color:green"><b style="color: <%= options.social[name][2] %>;"><%= options.social[name][1].slice(7) %></b></i>
             <% } else { %>
                 <i class="nexmoefont 
                     <% if (options.social[name][1]) { %>
