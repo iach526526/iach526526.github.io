@@ -50,42 +50,44 @@ widgets:
       enable: true
       options: 
         search: 
-            type: engine # 可选engine（用搜索引擎搜索）、swiftype、或local（本地搜索）
+            type: local # 可选engine（用搜索引擎搜索）、swiftype、或local（本地搜索）
             url: https://www.google.com/search?q=site:iach.cc # 搜索引擎地址，在type为swiftype时无效 e.g:https://www.google.com/search?q={你的博客链接}
             id: <swiftype-id> # swiftype的id，见启用教程。在type为engine时无效
     - name: social
       enable: true
       options: 
         social:
-            # QQ群:
-            #     - https://jq.qq.com/?_wv=1027&k=5CfKHun
-            #     - icon-QQ
-            #     - rgb(249, 174, 8)
-            #     - rgba(249, 174, 8, .1)
-            哔哩哔哩:
+            bilibili:
                 - https://space.bilibili.com/1388888232
                 - icon-bilibili
                 - rgb(231, 106, 141)
                 - rgba(231, 106, 141, .1)
             GitHub:
                 - https://github.com/iach526526/
-                - icon-github
+                - emfont-
                 - rgb(25, 23, 23)
-                - rgba(84, 19, 176,.1)
+                - rgba(154, 144, 189, 0.48)
             Telegram:
                 - https://t.me/iach526
                 - icon-telegram
                 - rgb(59, 151, 239)
                 - rgba(59, 151, 239, .1)
-            Rss:
-                - ./rss.xml
-                - icon-rss
-                - rgb(255, 64, 16)
+            Matrix-@iach526:
+              - https://app.element.io/#/user/@iach526:matrix.org
+              - emfont-󰭹
+              - rgb(0, 151, 0)
+              - rgba(15, 151, 0,.1)
             email:
                 - mailto:info@iach.cc
                 - icon-mail-fill
                 - rgb(59, 151, 239)
-                - rgba(59, 151, 239, .1)
+            Rss:
+                - ./rss.xml
+                - icon-rss
+                # - rgb(255, 64, 16)
+                # - rgba(59, 151, 239, .1)
+                - rgb(247, 132, 34)
+                - rgba(247, 132, 34, .1)
             # Twitter:
             #     - https://twitter.com/nexmoe
             #     - icon-twitter
@@ -94,8 +96,6 @@ widgets:
             # RSS:
             #     - https://nexmoe.com/atom.xml
             #     - icon-rss
-            #     - rgb(247, 132, 34)
-            #     - rgba(247, 132, 34, .1)
     - name: category
       enable: true
     - name: tagcloud

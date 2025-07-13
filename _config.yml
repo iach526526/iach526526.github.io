@@ -7,7 +7,12 @@ title: '奕站'
 subtitle: "Each's site"
 description: '奕站，奕其的個人網站'
 # 可能是未來 i18n 內容This is Each Chen. I am a collage student in Taiwan. I am interested in programming and technology. I will share my learning experience and some interesting things on this blog.
-keywords:
+keywords: 
+  陳奕其
+  iach526
+  iach
+  iach.cc
+  奕站
 author: iach526
 language: zh-tw
 timezone: 'Asia/Taipei'
@@ -72,8 +77,19 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
+  好用軟體: good-software
+  生活點滴: life
+  科技玩物: tech-toy
+  資訊科技: tech
+  雜談: other-talk
 tag_map:
-
+  種樹: p-tree
+  自架: self-host
+  哲學思辨: think
+  好駭客: good-hacker
+  前端開發: front-end
+  字型: font
+  電腦周邊: PC
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
 meta_generator: true
@@ -112,3 +128,23 @@ feed:
   path: rss.xml
   limit: 0 # 最大文章數量
   content: true # 是否顯示內文
+
+# 站內搜尋
+jsonContent:
+  meta: false
+  pages: false
+  posts:
+    title: true 
+    date: false 
+    path: true 
+    text: true
+    raw: false
+    content: false
+    slug: false
+    updated: false
+    comments: false
+    link: false
+    permalink: false
+    excerpt: false
+    categories: false
+    tags: false
