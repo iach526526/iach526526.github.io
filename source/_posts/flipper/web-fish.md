@@ -5,13 +5,13 @@ tags:
       - flipper
       -  好駭客
 categories: [科技玩物]
-cover: https://img.iach.cc/general/flipper-fish/james-wheeler-HJhGcU_IbsQ-unsplash.webp
+cover: https://img.iach.cc/general/flipper/james-wheeler-HJhGcU_IbsQ-unsplash.webp
 ---
 
 
 今天要使用 Flipper 製作假 AP 並送出假的驗證網頁讓連到的人輸入，<!-- more -->你可以送出任何需要輸入帳號密碼並有送出按鈕的網頁，在別人剛連上你的假 AP 的時候誘導他輸入某個平台的帳號密碼，取決於你攻擊的地點和需要的取得的帳號密碼。其中校園網路 sso 的驗證畫面這種無鎖頭、常常需要重連的網站我覺得成功率是最高的，因為如果連免費 wi-fi 突然跳出的 Google 的畫面一看就很可疑。
 
-![](https://img.iach.cc/general/flipper-fish/wi-fiLogin.webp)
+![](https://img.iach.cc/general/flipper/wi-fiLogin.webp)
 ## 前置作業（做出驗證網頁）
 
 GitHub 上有一些[範例](https://github.com/bigbrodude6119/flipper-zero-evil-portal/tree/main/portals)提供我們製作釣魚網站的 html ，包括 Google、Apple、Amazon 等等，主要是給一個格式和可執行的範例，在真實世界我很懷疑當有人連上網路驗證頁被要求輸入這些平台的帳號有誰會不疑有他乖乖輸入。
@@ -54,7 +54,7 @@ sudo apt-get install potrace
 inkscape logo.ico --export-plain-svg=logo.svg
 ```
 執行命令後選擇「內嵌」確定，如此一來才是把圖片 base 後放進去，連結模式只會是相對路徑。
-![alt text](https://img.iach.cc/general/flipper-fish/inkscape-dot.webp)
+![alt text](https://img.iach.cc/general/flipper/inkscape-dot.webp)
 
 然後把 svg 拖進去 svg viewwr 得到 ```<svg></svg>```，然後把包裹的內容放進網頁傳給 flipper ，但因為 base64 編碼太長了，晶片記憶體滿了會當機，很明顯這種披著 svg 的點陣圖並不管用，必須真的用向量來描述 logo ，幾種參考作法：
 
@@ -67,7 +67,7 @@ inkscape logo.ico --export-plain-svg=logo.svg
 
 要用程式轉成向量路徑，我一樣選擇使用 inkscape，匯入點陣圖圖片後在上方工具列點選 `路徑`→`描繪點陣圖`（shift+alt+b）
 
-![](https://img.iach.cc/general/flipper-fish/2025-04-12-14-05-33.webp)
+![](https://img.iach.cc/general/flipper/2025-04-12-14-05-33.webp)
 
 選自動掃描，依照情況自己調一下參數就可以了，我其實不是很想在這上面琢磨太久，學校的 logo svg 圖案很複雜，其實就算轉檔了加進網頁裡面也很容易多字，看啊，校徽有一大堆鋸齒也是防偽的效果呢（笑！
 
@@ -98,21 +98,21 @@ inkscape logo.ico --export-plain-svg=logo.svg
 ## 匯入 index.html 進 flipper
 1. 把做好的 html 換進 flipper 裡面的 `apps_data/evil_portal/`
 
-![](https://img.iach.cc/general/flipper-fish/2025-04-12-14-12-05.webp)
+![](https://img.iach.cc/general/flipper/2025-04-12-14-12-05.webp)
 
 2. 在 wifi maraud 載入要使用的 html
 
-![](https://img.iach.cc/general/flipper-fish/2025-04-12-17-01-32.webp)
+![](https://img.iach.cc/general/flipper/2025-04-12-17-01-32.webp)
 
 set html 出現很多文字報錯，大概都是 html 內容太長了（確定你的線都有插好）
 
-![](https://img.iach.cc/general/flipper-fish/2025-04-12-17-03-20.webp)
-![](https://img.iach.cc/general/flipper-fish/2025-04-12-14-32-17.webp)
+![](https://img.iach.cc/general/flipper/2025-04-12-17-03-20.webp)
+![](https://img.iach.cc/general/flipper/2025-04-12-14-32-17.webp)
 
 
 出現 html set 才是成功
 
-![](https://img.iach.cc/general/flipper-fish/2025-04-12-17-04-22.webp)
+![](https://img.iach.cc/general/flipper/2025-04-12-17-04-22.webp)
 
 ## 選擇 AP
 加載完後要去選擇你要模仿的目標，這樣等一下 SSID 才會是他的名稱，並且原本的會消失。
