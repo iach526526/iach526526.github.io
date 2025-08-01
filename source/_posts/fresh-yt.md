@@ -5,7 +5,9 @@ cover: https://img.iach.cc/banner/alexander-shatov-niUkImZcSP8-unsplash.webp
 coverWidth: 2000
 coverHeight: 600
 tags: [Youtube,rss,web-plugin]
-categories: [好用軟體]
+categories: 
+    - [好用軟體]
+    - [精選]
 ---
 YouTube 應該是大家常常拜訪的網站之一，那裡匯集了各種類型的影片，現在做影片創作就沒有人沒聽過 YouTube ，從學術研究、生活娛樂，甚至是電器維修的影片上面都能找到，這個平台已經算是現代社會文明結晶的一部份了。隨著我衝浪的資歷隨著時間增加，我認識更多我喜歡的創作者，要穩定的收到接收到我關注的創作者的新內容變的愈來愈困難，隨之而來的是演算法幫我在首頁做的主動篩選，現在還有多少人打開 YouTube 會直接無視首頁的推播有目的的到搜尋欄找影片或是查看訂閱列表？
 
@@ -47,7 +49,7 @@ YouTube 當然也有提供每個頻道的 RSS ，只是他們設計的非常隱�
 
 YouTube 每個頻道的 RSS 實際上是`https://www.youtube.com/feeds/videos.xml?channel_id=`加上頻道 ID 的組合，這個頻道 ID 可以在頻道首頁檢視原始碼 ctrl+f 搜尋 channel_id 找到對應的值，網路上也有一些[小工具](https://tubepilot.ai/tools/youtube-rss-feed-generator/)允許你貼入頻道首頁連結，自動幫你轉成 RSS feed 放進閱讀器。
 
-如果閒這樣太麻煩，在 feedly 中可以在 create Ai Feed 直接輸入頻道網址，就可以直接訂閱。
+如果嫌這樣太麻煩，在 feedly 中可以在 create Ai Feed 直接輸入頻道網址，就可以直接訂閱。
 
 ![MY-RSS](https://img.iach.cc/clipboard/MY-RSS.webp)
 
