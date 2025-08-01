@@ -2,24 +2,20 @@
 title: 近況
 layout: now
 ---
-<sub>最後更新日期：2025/6/19</sub>
+<sub>最後更新日期：2025/8/1</sub>
 
 ## 最進的生活
 ### 生活型態
 -  🗺️ 住在臺中市西屯區
 -  🛏️ 每天 11 點左右睡覺，7：30 起床
--   📐學習三角函數和矩陣
 -  🌅放暑假，九月即將就讀大學一年級
 ### 科技研究
 - 開發 [emfont](https://github.com/emfont/emfont)
 - 修 [中興大學選課小幫手](https://github.com/EricYang801/NCHU_Course_Selector)的 bug ，等作者 merge ，原始專案看起來是 vibe coding 的產物，我要是想不開會再去重構。
 - 讀五花八門我有興趣的課外讀物，心情好的話會寫成 blog
 - Play Pico CTF
-- 尋找可以自訂網域的 email 服務，要付錢的沒差，我不想用 Apple 的 icloud+ 了
-- 架 nextCloud
-- 整理家裡的 CD
 ### 練習盲打
-每天會上 [typeingClub ](https://www.typingclub.com/)上練習英文打字，現在可以 10 隻指頭並用盲打，平均正確率 93%，26 wpm。 
+每天會上 [typeingClub ](https://www.typingclub.com/)上練習英文打字，現在可以 10 隻指頭並用盲打，平均正確率 95%，40 wpm。 
 希望可以到 50 wpm 以上，拿來操作 Vim 應該很方便
 ### 課程
 - 台大開放式課程-[懷疑論](https://ocw.aca.ntu.edu.tw/courses/106S102)
@@ -27,17 +23,18 @@ layout: now
 ### 交通工具
 - 機車-有一台三陽 A125，是平常主要的交通工具
 - 腳踏車-型號是捷安特 G2800，最近比較少用，不過開學之後應該會帶去學校騎。
-- 汽車-有手排車駕照，但沒有車
+- 汽車-有手排車駕照
 ### 電腦
-- GB-BRR7H-4800 搭配 AMD Ryzen 7 4800U with Radeon Graphics-8 核 CPU ，有 64G 記憶體-安裝 Arch Linux 讓我亂搞
-- Lenovo E530 筆記型電腦-安裝 Linux mint ，非常好用，我的行動砲台
+- 微型主機：GB-BRR7H-4800 搭配 AMD Ryzen 7 4800U with Radeon Graphics-8 核 CPU ，有 64G 記憶體-安裝 Arch Linux 讓我亂搞
+- 筆記型電腦：Lenovo E530 -安裝 Linux mint ，非常好用，我的行動砲台
+- 組裝機：TUF GAMING B560M-PLUS WIFI 主版搭配 intel i5 2.6Ghz ，40G RAM-安裝 Windows 10
 - 樹莓派 5 8G -現在沒插電，不想買他的硬碟 PCIe 擴充版所以沒有足夠的空間拿來當成檔案伺服器，這種屎缺讓舊電腦來就可以了，或許之後可以來搞電視盒子之類的播放器？
 ### 周邊硬體
-- CORSAIR k70 core-紅軸機械鍵盤。我覺得不太適合我，我打字常常很大力，打英文很容易誤觸多打好幾個字。我平常有在清潔鍵盤，使用狀況良好，希望有緣人可以收走他，拿另一副和我換我會更開心。
+- CORSAIR k70 core-紅軸機械鍵盤。很容易誤觸多打好幾個字，我最近正懷疑是不是我自己打字習慣有問題
 - logitech G102-在保固內壞掉免費換新的滑鼠
 - Flipper zero-好東西，可以拿來當遙控器、卡片模擬和訊號干擾器
 ## 遊戲
-最近地球 Online 支線任務比較多，沒什麼空閒玩其他遊戲，不要推坑我玩新的。
+最近地球 Online 支線任務比較多，沒什麼空閒玩其他遊戲，不太可能玩新的。
 #### 偶爾遊玩
 - 健身環大冒險
 #### 未破關(閒置)
