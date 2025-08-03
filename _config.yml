@@ -151,3 +151,12 @@ jsonContent:
     excerpt: false
     categories: false
     tags: false
+sitemap:
+  path:
+    - sitemap.xml
+    - sitemap.txt
+  template: ./template/sitemap_template.xml
+  template_txt: ./template/sitemap_template.txt
+  rel: false
+  tags: true
+  categories: true
