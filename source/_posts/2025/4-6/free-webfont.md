@@ -1,4 +1,5 @@
 ---
+permalink: /free-webfont/
 title: emfont-中文開源網頁字型解決方案
 date: 2025-06-04 20:23:20
 tags:

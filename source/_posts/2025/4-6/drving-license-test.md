@@ -1,4 +1,5 @@
 ---
+permalink: /drving-license-test/
 title: 我需要一個更好用的駕照題庫刷題程式
 date: 2025-05-05 11:19:31
 tags:

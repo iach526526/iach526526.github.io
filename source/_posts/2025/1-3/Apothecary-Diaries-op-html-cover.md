@@ -1,4 +1,5 @@
 ---
+permalink: /Apothecary-Diaries-op-html-cover/
 title: 我用網頁還原了藥師少女的獨語OP中的星空場景
 date: 2025-03-06 14:26:34
 tags:

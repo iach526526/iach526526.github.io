@@ -1,4 +1,5 @@
 ---
+permalink: /fix-mouse/
 title: 滑鼠維修不求人，10 塊錢讓滑鼠重獲新生
 cover : https://img.iach.cc/general/fix-mouse/IMG_0518.webp
 date: 2025-05-22 12:59:29

@@ -1,4 +1,5 @@
 ---
+permalink: /wtf-Christianity/
 title: 「上帝死了」之後的信仰與自由
 date: 2025-06-06 22:40:04
 tags: 哲學思辨

@@ -1,4 +1,5 @@
 ---
+permalink: /plant-tree/
 title: 在空地種「一點」樹
 date: 2025-04-21 16:14:14
 categories: [生活點滴]

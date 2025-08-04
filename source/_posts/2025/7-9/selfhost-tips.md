@@ -1,4 +1,5 @@
 ---
+permalink: /selfhost-tips/
 title : 自架服務踩過的一些坑
 cover : https://img.iach.cc/banner/joshua-sortino-LqKhnDzSF-8-unsplash.webp
 date: 2025-07-08 14:14:14

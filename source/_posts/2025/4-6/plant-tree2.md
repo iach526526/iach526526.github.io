@@ -1,4 +1,5 @@
 ---
+permalink: /plant-tree2/
 title: 兩個月後，那些樹都怎麼了？
 date: 2025-06-13 22:27:14
 categories: [生活點滴]

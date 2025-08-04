@@ -1,4 +1,5 @@
 ---
+permalink: /nintendo-dir2025-04/
 title: 任天堂 2025/4/2 直面會
 cover: https://img.iach.cc/general/ninetndo-dir/2025-04-02-21-43-53.webp
 og_image: https://img.iach.cc/general/ninetndo-dir/2025-04-02-21-43-53.webp

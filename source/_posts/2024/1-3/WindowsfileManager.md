@@ -1,4 +1,5 @@
 ---
+permalink: /WindowsfileManager/
 title: 難用的預設，Windows 10 檔案總管調校
 date: 2024-02-16 14:35:16
 tags:

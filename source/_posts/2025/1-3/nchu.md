@@ -1,4 +1,5 @@
 ---
+permalink: /nchu/
 title: 中興大學特殊選才新生暨家長座談會
 categories: [生活點滴]
 date: 2025-01-24 19:00

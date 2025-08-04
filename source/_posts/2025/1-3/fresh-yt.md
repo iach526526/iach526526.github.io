@@ -1,4 +1,5 @@
 ---
+permalink: /fresh-yt/
 title: 給我乾淨的 YouTube
 date: 2025-03-26 23:31:49
 cover: https://img.iach.cc/banner/alexander-shatov-niUkImZcSP8-unsplash.webp
