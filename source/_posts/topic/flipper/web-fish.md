@@ -1,6 +1,7 @@
 ---
 title: 看看我的小海豚今天釣到什麼魚？
 date: 2025-04-12 17:36:12
+permalink: /web-fish
 tags: 
       - flipper
       -  好駭客
