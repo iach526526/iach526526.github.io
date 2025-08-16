@@ -2,23 +2,20 @@
 title: 近況
 layout: now
 ---
-<sub>最後更新日期：2025/8/1</sub>
+<sub>最後更新日期：2025/8/16</sub>
 
-## 最進的生活
+## 最近的生活
 ### 生活型態
 -  🗺️ 住在臺中市西屯區
 -  🛏️ 每天 11 點左右睡覺，7：30 起床
 -  🌅放暑假，九月即將就讀大學一年級
 ### 科技研究
-- 開發 [emfont](https://github.com/emfont/emfont)
-- 修 [中興大學選課小幫手](https://github.com/EricYang801/NCHU_Course_Selector)的 bug ，等作者 merge ，原始專案看起來是 vibe coding 的產物，我要是想不開會再去重構。
 - 讀五花八門我有興趣的課外讀物，心情好的話會寫成 blog
+- 玩無線電，現在有無線電二等執照
 - Play Pico CTF
 ### 練習盲打
 每天會上 [typeingClub ](https://www.typingclub.com/)上練習英文打字，現在可以 10 隻指頭並用盲打，平均正確率 95%，40 wpm。 
 希望可以到 50 wpm 以上，拿來操作 Vim 應該很方便
-### 課程
-- 台大開放式課程-[懷疑論](https://ocw.aca.ntu.edu.tw/courses/106S102)
 ## 裝備
 ### 交通工具
 - 機車-有一台三陽 A125，是平常主要的交通工具
@@ -33,6 +30,7 @@ layout: now
 - CORSAIR k70 core-紅軸機械鍵盤。很容易誤觸多打好幾個字，我最近正懷疑是不是我自己打字習慣有問題
 - logitech G102-在保固內壞掉免費換新的滑鼠
 - Flipper zero-好東西，可以拿來當遙控器、卡片模擬和訊號干擾器
+- ANYTALK FT388GPS-支援三等頻段的對講機
 ## 遊戲
 最近地球 Online 支線任務比較多，沒什麼空閒玩其他遊戲，不太可能玩新的。
 #### 偶爾遊玩
