@@ -6,6 +6,10 @@ coverHeight : 600
 coverWidth : 1200
 description: '這年頭留給繪圖區的工具不多了，今天要用海豚機畫圖'
 keywords: flipper,bad usb
+categories: 
+    - [科技玩物]
+tags: 
+  - flipper
 ---
 上禮拜在[營隊](../../2025/7-9/huisun)打開我畫 ASCII art 的興趣，回家後又再研究一下有效率產圖的方式，今天分享我這幾天用 Flipper zero 畫圖的心得。
 
