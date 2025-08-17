@@ -1,17 +1,37 @@
-
-
-# 關於本站
-iach.cc 是我在 2025 年建立的網站，使用 hexo & Nexmoe 架成，目前部屬在 CloudFlare Page 上的靜態網頁。
-
-這裡是進入我打造的賽博世界起點，我會在這邊分享我的動態，偶爾上來寫點東西證明我還活網。題材嘛...可能會雜一點，我最近應該寫什麼都有可能，可以到 [動態頁](./archive.md)的標籤看看有什麼樣的文章。可以訂閱 [我的RSS](https://www.iach.cc/rss.xml)在第一時間收到文章更新。
-
-這裡不是學習筆記站點，我有在打算建另一個網站寫這些東西，不過還沒有準備好公開，再等等吧~
+---
+title: 關於
+layout: about
+---
 
 ## 關於我自己
 我常用的網路 ID 是 iach526 ，取自我的名字奕其。
 
-我從高中開始接觸資訊領域相關技術，平常喜歡寫程式、看書、算數學。如果你想找我的話，這個網站選單列表有我的 Telegram 可以找到我。
-## 證書
-- CCNA (Cisco Certified Network Associate)
-- IPAS (Industry Professional Assessment System)Information Security Engineer
-- NCC Amateur Radio Operator's Certificate (Call sign: BM4LTB)
+我從高中開始接觸資訊領域相關技術，平常喜歡研究資訊技術和[看各種類型的書](./bookshelf/)，目前是應用數學系就讀大學一年級，沒事喜歡待在家或出沒於圖書館。如果你想聯絡我的話，依照使用頻率由高到低可以使用這些方式：
+
+#### 秒讀～三小時內回覆 😄
+- Discord：只給夠熟的朋友和社群訊息
+- [Signal](https://signal.me/#eu/_bVYwHbGfgIHw0xRL-XAPmcSnBnx9KJYLr8A--ZRwzFuBxVdfO9MeJEJ9V079Ud3)
+- [Telegram](https://t.me/iach526)
+- email:**info@iach.cc**
+#### 一～兩天內回覆 😃
+- [Matrix](https://app.element.io/#/user/@iach526:matrix.org)(可以使用任何支援[Matrix](https://matrix.org/)通訊協定的客戶端，例如 Element、FluffyChat[等等](https://matrix.org/ecosystem/clients/))
+- [simpleX](https://smp8.simplex.im/a#w7nEAU3WdaAMpkp9ZuzhX8TbGt82llgUjRElU60bGRs)（匿名去中心化即時通訊軟體，用起來邏輯和一般軟體不大相同，要負責管好自己的資料，不需要電話、email 就可以使用）
+#### 不推薦使用 👎 💩
+身為一名提倡自由與開源軟體的數位公民，我反對監控式資本主義，不喜歡閉源、又不以使用者利益為發展目標的通訊平台。要就像 Discord 提供優質訂閱服務，要不就開源，不接受廣告練蠱場謝謝，我的腦袋不是給廣告商投放廣告和幹片用的。
+
+下面這些通訊平台我有註冊帳號，或許私訊我會看到，但因為通訊軟體需要大家一起改變慣用軟體，還沒辦法馬上不用，不過有逐漸在減少使用頻率，不可能即時找到我，不要建議用這些平台找我。
+
+- FB＆IG：廣告和垃圾內容多到爆，又不尊重用戶隱私的爛平台
+- Line：廣告也是愈來愈多，Linux 電腦甚至不能裝。收到的檔案會過期存在手機，現在還要收掉無障礙友善的 Chrome 擴充套件版，強力抵制。
+
+
+## 關於本站
+iach.cc 是我在 2025 年建立的網站，使用 hexo & Nexmoe 架成，目前部屬在 CloudFlare Page 上的靜態網頁。
+
+這裡是進入我打造的賽博世界起點，我會在這邊分享我的動態，比起追蹤我其他的社群媒體，這裡能看到的內容會比較多，自架 blog 是一個沒有言論審查、可以讓文字依照我的需求變大變小的自由空間。可以到 [動態頁](./archive.md)的標籤看看有什麼樣的文章，並訂閱 [我的RSS](https://www.iach.cc/rss.xml)在第一時間收到文章更新。
+
+如果你不知道什麼是 RSS，這裡簡單的解釋一下：RSS 就是你的程式小精靈，他會定期去你指定的網站清單看有沒有上傳新文章，如果有他就會通知你，省去你平常沒事進網站刷更新的繁瑣操作，你可以自己決定要看到哪些網站的更新，而不用像是在一般社群媒體一樣在廣告堆中找你朋友的最近動態，因此我也強烈建議你架設一個自己的網站發表你的想法給你的朋友。[^1]
+
+[^1]: 如果你想看更多有關 RSS 的操作，可以看我朋友毛哥 EM 寫的 [RSS 閱讀器介紹](https://emtech.cc/p/rss)，有足夠資訊能力的也可以考慮自架閱讀器
+
+這裡不是學習筆記站點，我有在打算建另一個網站寫這些東西，不過還沒有準備好公開，再等等吧~

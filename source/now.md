@@ -2,7 +2,6 @@
 title: 近況
 layout: now
 ---
-<sub>最後更新日期：2025/8/16</sub>
 
 ## 最近的生活
 ### 生活型態
@@ -31,6 +30,12 @@ layout: now
 - logitech G102-在保固內壞掉免費換新的滑鼠
 - Flipper zero-好東西，可以拿來當遙控器、卡片模擬和訊號干擾器
 - ANYTALK FT388GPS-支援三等頻段的對講機
+## 證書
+比較喜歡考網管、資安技術相關的證照，沒為什麼，就是比較讀的下去。最近剛和朋友入坑業餘無線電，有二等操作執照。
+
+- CCNA (Cisco Certified Network Associate)
+- IPAS (Industry Professional Assessment System)Information Security Engineer
+- NCC Amateur Radio Operator's Certificate (Call sign: BM4LTB)
 ## 遊戲
 最近地球 Online 支線任務比較多，沒什麼空閒玩其他遊戲，不太可能玩新的。
 #### 偶爾遊玩
