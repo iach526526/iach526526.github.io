@@ -11,7 +11,7 @@ layout: about
 #### 秒讀～三小時內回覆 😄
 - Discord：只給夠熟的朋友和社群訊息
 - [Signal](https://signal.me/#eu/_bVYwHbGfgIHw0xRL-XAPmcSnBnx9KJYLr8A--ZRwzFuBxVdfO9MeJEJ9V079Ud3)
-- [Telegram](https://t.me/iach526)
+- [Telegram](https://t.me/BM4LTB)
 - email:**info@iach.cc**
 #### 一～兩天內回覆 😃
 - [Matrix](https://app.element.io/#/user/@iach526:matrix.org)(可以使用任何支援[Matrix](https://matrix.org/)通訊協定的客戶端，例如 Element、FluffyChat[等等](https://matrix.org/ecosystem/clients/))
