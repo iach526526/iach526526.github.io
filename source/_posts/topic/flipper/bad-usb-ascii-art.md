@@ -4,6 +4,7 @@ prelink: /bad-usb-ascii-art
 cover: https://img.iach.cc/general/flipper/bad-usb-ascii.webp
 coverHeight : 600
 coverWidth : 1200
+date: 2025-08-06
 description: '這年頭留給繪圖區的工具不多了，今天要用海豚機畫圖'
 keywords: flipper,bad usb
 categories: 
