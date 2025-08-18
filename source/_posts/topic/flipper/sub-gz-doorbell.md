@@ -46,11 +46,13 @@ coverWidth : 1200
 如果要合法使用其他頻段，可以去考業餘無線電執照，很多 Flipper 可以用的頻段是放在業餘無線電頻段，去考到二等就都可以用了。
 
 
-最後，同場加映使用 flipper 自動按門鈴，你可以躲在暗處不用真的按到門鈴，也不用一直按 fllipper 就可以讓門鈴不停亂叫。好孩子請勿模仿，這招整朋友就好，圖我就不放了，只是提出來給各位作為研究用途。
+今天這個例子不適合表演自動化，如果是自動開門、寵物餵食的開關就很適合排程或連續執行，因此下面兩個 App 只是提出來給各位作為研究用途，好孩子請不要使用在任何人的門鈴上，這可以讓你躲在暗處不用真的按到門鈴，也不用一直按 Flipper 就讓門鈴不停亂叫，這招整朋友就好，不要說我是教的。
 
 
-去 Flipper App 裡面的 Sub-GHz 區找到 Sub-gHz playlist （momentum 預設安裝）可以去設定重複次數，不過這東西通常是拿來組合不同的裝置用的，比如說我要開燈再開電扇，就可以串接兩個 sub file。
+#### Sub-GHz plylist
+去 Flipper App 裡面的 Sub-GHz 區找到 Sub-GHz plylist （momentum 預設安裝）可以去設定重複次數，不過這東西通常是拿來組合不同的裝置用的，比如說我要開燈再開電扇，就可以串接兩個 sub file。
 
+#### Sub-GHz Scheduler
 第二種方法是用 [Sub-GHz Scheduler](https://lab.flipper.net/apps/subghz_scheduler)，如同其名，可以設定排程自動執行，有更多細部設定例如 delay 時間等等。
 
 ## 參考資料
