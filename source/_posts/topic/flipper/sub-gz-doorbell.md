@@ -1,5 +1,5 @@
 ---
-title: 誰按了我的無線門鈴？Flipper Sub-Gz 擷取
+title: 誰按了我的無線門鈴？Flipper Sub-Gz 擷取術
 cover: https://img.iach.cc/general/flipper/sub-gz/banner.webp
 tags:
   - flipper
@@ -8,6 +8,7 @@ categories:
 date: 2025-08-18 12:47:22
 coverHeight : 400
 coverWidth : 1200
+description: 用 Fllipper 讀取 Sub-Gz 門鈴信號
 ---
 ## 我家的門鈴...
 我家的門鈴是那種老式有線對講機門鈴，可以選擇樓層按鈴。語音線路是共用的，每一層樓都有收話機，這樣的缺點是郵差可能得每個都按一遍才有可能按到我待的樓層，這東西存在很久了，年久失修早已無法雙向傳輸語音只剩下電鈴功能，前陣子在一樓門口重新整理的時候我猜是誤動什麼線路連叫都不會叫了，感覺修起來要花不少錢，但順便修好雙向傳輸又很沒必要，其實沒人會常常到我家門口透過對講機跟我講話，讓郵差有辦法告訴我他在我家樓下就夠了。

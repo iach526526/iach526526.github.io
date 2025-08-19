@@ -11,6 +11,7 @@ categories:
 
 date: 2025/8/1 13:22
 permalink: /start-flipper
+description: Flipper zero 入門介紹
 ---
 # 什麼是 Flipper Zero？
 Flipper zero 是一個集合眾多功能的開源硬體工具，根據[官網](https://flipperzero.one/)的介紹，你可以透過 Flipper 入門電子系統的開發和使用。製作團隊受到 pwnagotchi [^1]這個樹莓派電子寵物專案啟發，除了提供各種方便的工具和軟體以外的，它還是一隻電子寵物，Flipper zero 裡面住了一隻賽博海豚，它會根據你使用 Flipper 的行為豐富的反應，在 Flipper 的各種程式裡面都會看到他。

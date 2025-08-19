@@ -7,6 +7,7 @@ tags:
       -  好駭客
 categories: [科技玩物]
 cover: https://img.iach.cc/general/flipper/james-wheeler-HJhGcU_IbsQ-unsplash.webp
+description: 使用 Flipper 製作假 AP 並送出假的驗證網頁讓連到的人輸入機敏訊息
 ---
 
 
