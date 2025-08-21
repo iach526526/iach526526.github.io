@@ -7,4 +7,5 @@ tags:
 categories: 
     - foo
 description:
+permalink: {{ title }}
 ---
