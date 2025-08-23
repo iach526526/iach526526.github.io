@@ -26,7 +26,7 @@ function searchkey(keyword) {
     keyword.forEach(word => {
         searchData.forEach(post => {
             const rend = {};
-            const reg = new RegExp(word, 'g');
+            const reg = new RegExp(word, 'gi');//大小寫不敏感
             let flag = false;
             if (post.title.search(reg) !== -1) {
                 rend.title = post.title.replace(reg, `<span class="keyword">${word}</span>`);
@@ -41,7 +41,7 @@ function searchkey(keyword) {
             if (flag) {
                 rend.title = !rend.title ? post.title : rend.title;
                 rend.text = !rend.text ? post.text : rend.text;
-                rend.href = `/${post.path}`;
+                rend.href = `${post.path}`;
                 render(rend);
             }
         });
@@ -67,6 +67,13 @@ if (key !== undefined && key !== 'undefined') {
 // 事件
 function sclose() {
     document.getElementById('nexmoe-search-space').style.display = 'none';
+
+    if (window.history.replaceState) 
+    {
+        // 現在的完整網址，不包含 q?= 
+        const url = window.location.protocol + "//" + window.location.host + window.location.pathname;
+        window.history.replaceState({}, document.title, url);
+    }
 }
 
 function sinput() {
