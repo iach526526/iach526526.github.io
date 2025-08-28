@@ -91,6 +91,7 @@ tag_map:
   前端開發: front-end
   字型: font
   電腦周邊: PC
+  樹莓派: raspberry-pi
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
 meta_generator: true
