@@ -13,7 +13,7 @@ article.nexmoe-py ul {
 
 article.nexmoe-py ul li {
     transition: all 0.03s;
-    width: calc(14.285714285714286% - 10px);
+    width: calc(14.285714285714286% + 10px);
     margin: 5px;
     border-radius: 10px;
     box-shadow: 0 0 0 1px #eee;
@@ -52,17 +52,21 @@ article.nexmoe-py ul li > a:before {
     z-index: 1;
     opacity: 0.8;
 }
-
+article.nexmoe-py ul li > a:hover::after {
+    
+}
 article.nexmoe-py ul li > a::after {
+
     font-size: 13px;
     color: #fff;
+    background: linear-gradient( #cdd0f037, #171717b1); 
     -webkit-transition: none;
     transition: none;
     content: attr(title);
     display: block;
     width: 100%;
     border: none;
-    padding: 8px 10px;
+    padding: 2px 10px;
     text-align: center;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -70,6 +74,9 @@ article.nexmoe-py ul li > a::after {
     position: absolute;
     bottom: 0;
     z-index: 2;
+
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px); /* Safari 相容性 */
 }
 
 article.nexmoe-py ul li img {
