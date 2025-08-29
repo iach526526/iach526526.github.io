@@ -8,4 +8,6 @@ categories:
     - foo
 description:
 permalink: {{ title }}
+keyword: 
+    - test
 ---
