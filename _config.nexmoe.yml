@@ -35,9 +35,10 @@ menu:
         - /bookshelf
     近況:
         - /now.html
+        - icon-time-circle-fill
+    部落滾:
+        - /blogroll.html
         - icon-battlenet
-    # 我的朋友:
-    #     - /PY.html
     # 给我赞助:
     #     - https://nexmoe.com/donate.html
     #     - icon-coffee
