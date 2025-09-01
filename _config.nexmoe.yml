@@ -1,4 +1,4 @@
-avatar: https://github.com/iach526526.png # 网站 Logo
+avatar: https://img.iach.cc/static/me-2025-8.jpg # 网站 Logo
 background: # 既是博客的背景，又是文章默认头图
     path: https://img.iach.cc/banner/john-bakator-_kJjvPI8t4M-unsplash.webp
     width: 1280
@@ -73,6 +73,11 @@ widgets:
                 - icon-telegram
                 - rgb(59, 151, 239)
                 - rgba(59, 151, 239, .1)
+            Signal:
+              - https://signal.me/#eu/_bVYwHbGfgIHw0xRL-XAPmcSnBnx9KJYLr8A--ZRwzFuBxVdfO9MeJEJ9V079Ud3
+              - emfont-󰭹
+              - rgb(41, 100, 213)
+              - rgba(15, 0 , 151,.1)
             Matrix-@iach526:
               - https://app.element.io/#/user/@iach526:matrix.org
               - emfont-󰭹
@@ -82,6 +87,7 @@ widgets:
                 - mailto:info@iach.cc
                 - icon-mail-fill
                 - rgb(59, 151, 239)
+                - rgba(59, 151, 239, .1)
             Rss:
                 - ./rss.xml
                 - icon-rss
