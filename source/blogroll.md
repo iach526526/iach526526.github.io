@@ -7,7 +7,7 @@ comments: false
 
 又叫做部落格名冊、部落卷，收錄我常造訪的網站，大部分超連結的引用是我自發性的，沒有特別到對方的站要求互貼，只是希望能藉由我的足跡帶領其他人發現寶藏 blog。
 <br>
-部落滾這個名字來自於 ivon 的翻譯，聽著覺得很可愛就也跟著這麼叫。
+部落滾這個名字來自於 [ivon](https://ivonblog.com) 的翻譯，聽著覺得很可愛就也跟著這麼叫。
 
 ---
 
@@ -17,7 +17,7 @@ comments: false
 "title": "折影轻梦",
 "link": "https://nexmoe.com",
 "img": "https://www.gravatar.com/avatar/c7fd185f8c967dec20c29c75a40b9e09",
-"des": "为热爱战斗着，努力学着变得勇敢（他是這個 hexo 主題的作者，謝謝你做出好看的網頁）"
+"des": "這個 hexo 主題的作者，謝謝你做出好看的網頁"
 },
 {
 "title":"ivonblog",
@@ -56,11 +56,24 @@ comments: false
 "des": "分享自由軟體跟免費雲端工具的知識與技術，現在是我們學校通識課的老師。他的「資訊人權貴ㄓ疑」、「玩具烏托邦」等都很推"
 },
 {
+"title":"編成隨想",
+"link": "https://program-think.blogspot.com/",
+"img": "https://img.iach.cc/blogroll/think-program.jpg",
+"des": "分享一些網路匿名技巧和批判社會實事，有很多不錯的文章。不過博主被中國公安抓到被關了，希望他人沒事"
+},
+{
     "title":"BV3FG",
     "link":"https://www.qsl.net/bv3fg",
     "img": "https://img.iach.cc/blogroll/default.svg",
     "des":"分享一些業餘無線電知識"
+},
+{
+    "title":"Whisky's Personal Blog",
+    "link":"https://windson.cc/",
+    "img":"https://windson.cc/images/profile.jpg",
+    "des":"應數系學長，同時也是我的直屬"
 }
+
 
 ]
 {% endlinks %}
