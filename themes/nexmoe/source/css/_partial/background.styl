@@ -39,6 +39,7 @@
   padding: 12px;
   color: #202020ff;
   min-height: 120px;
+
 }
 
 /* 快速連結 */
@@ -57,6 +58,8 @@
   color: #212121ff;
   font-size: 14px;
   transition: background 0.3s;
+  max-height: 6rem;
+  min-width: 4rem;
 }
 .quick-btn:nth-child(odd) {
   background: linear-gradient(0.25turn, #7ac2e1ff,  #3cf674ff);
@@ -75,9 +78,12 @@
     position: relative;
     padding-left: 89px; /* 頭像佔位 */
     min-height: 80px;
+    display:flex;
+    align-items:center;
 }
 
 .profile-avatar {
+  flex-shrink:0;
     position: absolute;
     top: 16px;
     left: 16px;
@@ -96,6 +102,12 @@
     margin-right:50px
 }
 
+.profile-info{
+  flex:1;
+  min-width: 0;
+}
+
+
 .profile-name {
   font-size: 16px;
   font-weight: bold;
@@ -113,9 +125,29 @@
   font-size: 18px;
   text-decoration: none;
 }
+/*箭頭 icon*/
 .profile-action {
   position: absolute;
   bottom: 12px;
   right: 12px;
   font-size: 20px;
+}
+
+@media (max-width: 420px){
+  .profile-card {
+    flex-direction: column;  /* ✅ 改直排 */
+    align-items: center;
+    padding-left: 0;         /* 取消佔位 */
+    min-height: auto;
+  }
+
+  .profile-avatar {
+    position: static;  /* ✅ 不要絕對定位 */
+    margin-bottom: 8px;
+  }
+
+  .profile-info {
+    text-align: center;
+    margin-top: 0;
+  }
 }

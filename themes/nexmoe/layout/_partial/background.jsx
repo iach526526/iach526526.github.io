@@ -28,7 +28,7 @@ module.exports = class extends Component {
                     <div class="top-grid">
                         <div class="quick-links card emfont-ChironGoRoundTC">
                             <a href="/rss.xml" class="quick-btn">RSS</a>
-                            <a href="/about" class="quick-btn">關於本站</a>
+                            <a href="/about" class="quick-btn">關於</a>
                             <a href="/bookshelf" class="quick-btn">書架</a>
                             <a href="/blogroll" class="quick-btn">部落滾</a>
                         </div>
@@ -45,13 +45,16 @@ module.exports = class extends Component {
                                 alt={config.author || config.title}
                             />
                         </a>
+                        <div class="profile-info">
                             <h3 class="profile-name emfont-XiaoLaiMono">{config.author || "name"}</h3>
                             <p class="profile-desc emfont-Tiejili">世界上大部分事，都沒有太大意義。<br/><br/>真理與熱愛除外。</p>
                             {/* <div class="profile-icons">
                                 <a href="https://github.com/" target="_blank">github icon</a>
                             </div> */}
-                            <div class="profile-action">➜</div>
+                            <div class="profile-action"><a href='/now'>➜</a></div>
+
                         </div>
+                    </div>
                     </div>
                 </div>
             </div>
