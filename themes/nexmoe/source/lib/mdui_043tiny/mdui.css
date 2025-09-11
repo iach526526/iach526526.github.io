@@ -323,7 +323,6 @@ template {
 body {
   font-family: Roboto, Noto, Helvetica, Arial, sans-serif;
   font-size: 14px;
-  color: rgba(216, 247, 215, 0.87);
   background-color: #fff;
 }
 @media (min-width: 600px) {
@@ -407,7 +406,7 @@ body.mdui-locked {
  * =============================================================================
  */
 .mdui-theme-layout-dark {
-  color: #fff;
+  color: #21c2d3;
   background-color: #303030;
 }
 /**
@@ -439,6 +438,7 @@ body.mdui-locked {
   display: block !important;
   width: 24px;
   height: 24px;
+  color: var(--color-btn);
 }
 /**
  * =============================================================================
@@ -5748,7 +5748,7 @@ select.mdui-select[multiple] option:last-child {
   width: 24px;
   min-width: 24px;
   height: 24px;
-  color: rgba(0, 0, 0, .54);
+  color:var(--list-item-icon) ;
 }
 /* 列表项头像 */
 .mdui-list-item-avatar {
@@ -6014,7 +6014,7 @@ body.mdui-loaded .mdui-drawer {
 @media (max-width: 1023px) {
   .mdui-drawer {
     /* 始终有背景和阴影 */
-    background-color: #fff;
+    background-color: var(--color-card);
     -webkit-box-shadow: 0 8px 10px -5px rgba(0, 0, 0, .2), 0 16px 24px 2px rgba(0, 0, 0, .14), 0 6px 30px 5px rgba(0, 0, 0, .12);
             box-shadow: 0 8px 10px -5px rgba(0, 0, 0, .2), 0 16px 24px 2px rgba(0, 0, 0, .14), 0 6px 30px 5px rgba(0, 0, 0, .12);
     /* 默认隐藏 */
