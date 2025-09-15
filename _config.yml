@@ -92,6 +92,7 @@ tag_map:
   字型: font
   電腦周邊: PC
   樹莓派: raspberry-pi
+  存檔點: save-point
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
 meta_generator: true
