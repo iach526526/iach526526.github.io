@@ -36,8 +36,9 @@ Me-tan’s image quickly spread worldwide,and  after that, other operating syste
 XP tans is based on Windows XP. She has long black hair, adorned with a hair clip shaped like her name, “XP.”. Windows XP look great, but use too much RAM. So her character was always shown eating, causing her clothes to be tight on her.
 There is an unspoken rule where the more RAM that os used ,the bigger their breast would.
 
-| ![windows XP](https://img.iach.cc/2025/7-9/os-tans/xp-tan.webp) | ![windows XP 2](https://img.iach.cc/2025/7-9/os-tans/xp-tans2.webp) |
-|---|---|
+![windows XP](https://img.iach.cc/2025/7-9/os-tans/xp-tans.webp)
+
+
 
 With the release of Windows 7, this fan-made culture was officially recognized when Microsoft introduced Madobe Nanami.
 Her character is a computer shop employee, and her appearance marked the company’s first public embrace of this community-created tradition.
@@ -49,12 +50,14 @@ I feel more like the Linux-tans — because, like the operating system itself, m
 
 
 Remember the unspoken rule I mentioned before? Well, Linux-tans follow it too. Most Linux-tans are depicted in loli style. For example, Arch Linux-tan is a naughty little loli wearing a hoodie.
+
+
 ![Arch-linux-tan](https://img.iach.cc/2025/7-9/os-tans/arch-linux-tan.webp)
 
 There are many other Linux distributions and their OS-tans in the community, like Ubuntu-tan, Debian-tan, Mint-tan, and more. 
 
-| ![mint-tan](https://img.iach.cc/2025/7-9/os-tans/mint-tans.webp) | ![Debian](https://img.iach.cc/2025/7-9/os-tans/debian-tans.webp) | ![ubuntu-tan](https://img.iach.cc/2025/7-9/os-tans/ubuntu-tan.webp) |
-|---|---|---|
+
+![other-linux tans](https://img.iach.cc/2025/7-9/os-tans/other-linux.webp)  
 
 OS-tans connect people who love these operating systems, letting them share their experiences through imagery. Which OS-tan do you like, or what is your favorite operating system?
 
