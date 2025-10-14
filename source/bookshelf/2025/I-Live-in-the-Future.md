@@ -1,5 +1,6 @@
 ---
 title: 一位數位移民的告白
+layout: book-content
 cover: https://img.iach.cc/book/I-Live-in-the-Future.webp
 author: Nick Bilton
 ---

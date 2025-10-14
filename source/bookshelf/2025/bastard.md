@@ -1,5 +1,6 @@
 ---
 title: 孽種
+layout: book-content
 author: 司馬中原
 cover: https://img.iach.cc/book/bastard.webp
 ---

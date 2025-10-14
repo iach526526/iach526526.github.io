@@ -1,5 +1,6 @@
 ---
 title: 萬物藍圖
+layout: book-content
 cover: https://img.iach.cc/book/every-blueprint.webp
 author: 詹姆斯．艾希頓James Ashton
 ---

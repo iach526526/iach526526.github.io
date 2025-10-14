@@ -1,5 +1,6 @@
 ---
 title: 你必須無知 自由，從此開始
+layout: book-content
 author : OSHO
 cover: https://img.iach.cc/book/book-of-understand.webp
 ---
