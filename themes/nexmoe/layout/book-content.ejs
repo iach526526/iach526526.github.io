@@ -1,0 +1,53 @@
+<div class="nexmoe-post">
+  <article class="emfont-TaipeiSansTC">
+    <div style="display: flex;justify-content: space-between;">
+        <div>
+            <h1><%= page.title %></h1>
+            <!-- 書籍資訊，如果有則渲染 -->
+            <div class="nexmoe-post">
+                <ul>
+                    <h3>書籍資訊</h3>
+                    <%  if (!(page.author || page.pubH || page.ISBN)){%>
+                        <p>未紀錄</p>
+                    <%} %>
+                    <% if (page.author){ %>
+                        <li>Author：<%- page.author %></li>
+                    <%} %>
+                    <% if (page.pubH){ %>
+                        <li>Publishing house：<%- page.pubH %></li>
+                    <%} %>
+                    <% if (page.ISBN){ %>
+                        <li>ISBN：<%- page.ISBN %></li>
+                    <%} %>
+                </ul>
+        
+            </div>
+
+        </div>
+        <% if (page.cover){ %>
+            <div class="" style="width: 25%;"> 
+                <img src="<%- page.cover %>" alt="<%= page.title %>">
+            </div>
+        <%} %>
+    </div>
+
+    <%- partial('_partial/_post/meta', {page: page}) %>
+    <%- page.content %>
+    <%- theme.slotArticleEnd %>
+  </article>
+
+  <% if (!page.reprint){ %>
+      <%- partial('_partial/_post/copyright') %>
+  <% } %>
+  
+  <%- partial('_partial/_post/tag') %>
+  
+  <% if (page.comments){ %>
+    <div class="nexmoe-post-footer">
+        <%- theme.slotComment %>
+    </div>
+    <% } %>
+    <% if (theme.function.copyCode) { %>
+      <%- js_auto_version('js/copy-codeblock') %>
+    <% } %>
+</div>
