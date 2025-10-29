@@ -12,8 +12,10 @@
     "version": "7.3.0"
   },
   "dependencies": {
+    "@babel/preset-env": "^7.28.5",
+    "babel-plugin-inferno": "^6.8.4",
     "hexo": "^7.3.0",
-    "hexo-component-inferno": "^3.0.0",
+    "hexo-component-inferno": "^3.1.2",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
     "hexo-generator-feed": "^3.0.0",
@@ -33,5 +35,8 @@
     "inferno-create-element": "^8.2.3",
     "markdown-it-footnote": "^4.0.0",
     "semver": "^7.7.3"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.28.5"
   }
 }
