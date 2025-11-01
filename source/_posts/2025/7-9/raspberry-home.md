@@ -85,7 +85,7 @@ coverWidth: 1200
 
 ![小 P 的家正面](https://img.iach.cc/2025/7-9/rasbperry-home/pi-home1.webp)
 
-裡側很土炮的用了交代把電線黏在牆壁，其他方法都要加很多不必要的方塊，這樣做是相對簡單的。
+裡側很土炮的用膠帶把電線黏在牆壁，其他方法都要加很多不必要的方塊，這樣做是相對簡單的。
 
 ![小 P 的家裡面](https://img.iach.cc/2025/7-9/rasbperry-home/pi-home2.webp)
 
