@@ -72,8 +72,45 @@ comments: false
     "link":"https://windson.cc/",
     "img":"https://windson.cc/images/profile.jpg",
     "des":"應數系學長，同時也是我的直屬"
+},
+{
+    "title":"王道維的部落格",
+    "link":"http://blog.udn.com/dawweiwang",
+    "img":"物理系教授，最近在研究人工智慧與機器學習的系統於基礎科學或人文社會領域的應用",
+    "des":""
+},
+{
+    "title":"Wolf 的小小部落格",
+    "link":"https://wolf-yuan.dev/",
+    "img":"https://img.iach.cc/blogroll/wolf.webp",
+    "des":"前端開發者"
+},
+{
+    "title":"muan",
+    "link":"https://muan.co/",
+    "img":"https://img.iach.cc/blogroll/muan.png",
+    "des":"軟體工程師，GitHub 有很多很有用的小工具"
+},
+{
+    "title":"immarcus",
+    "link":"https://immarcus.com/",
+    "img":"https://img.iach.cc/blogroll/immarcus.svg",
+    "des":""
+},
+{
+    "title":"The Pudding",
+    "link":"https://pudding.cool/",
+    "img":"https://img.iach.cc/blogroll/Pudding.ico",
+    "des":"用很多很酷炫的網頁動畫搭配文字解釋各種議題的網站"
+},
+{
+    "title":"Matthew Inman",
+    "link":"https://theoatmeal.com/",
+    "img":"https://img.iach.cc/blogroll/Matthew-Inman.png",
+    "des":"漫畫家，網站上有他畫的漫畫。在 NetFlix 有他的動畫"
 }
 
 
 ]
 {% endlinks %}
+
