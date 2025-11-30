@@ -6,16 +6,17 @@ description: now now ～ 我的近況
 
 ## 最近的生活
 ### 生活型態
--  🛏️ 每天子時睡覺，辰時起床
+-  🛏️ 子時睡覺，辰時起床
 -  在應用數學系就讀大學一年級
 ### 科技研究
-- SLA 光固化 3D 列印
+- 沒有，**要期末考了QQ**
+#### Code
+這是我的 [GitHub](https://github.com/iach526526) 連結，下面的專案是我近期十分喜歡的儲存庫。
 
-#### 主推專案
 [emfont](https://font.emtech.cc/)-開源 webfont 服務
+[Forall Math](https://github.com/iach526526/pastexam)
 #### 學習中技能
-- 練習盲打
-    - 每天會上 [typeingClub ](https://www.typingclub.com/)上練習英文打字，現在可以 10 隻指頭並用盲打，平均正確率 95%，40 wpm。希望可以到 50 wpm 以上，拿來操作 Vim 應該很方便
+- typeScript
 - 操作 Docker
   - 我現在只會 docker up/down QQ，在系圖借了 《 22 天精通 Docker 》這本書，希望能如此順利
 ## 裝備
@@ -34,8 +35,8 @@ description: now now ～ 我的近況
 - [Flipper zero](./_posts/topic/flipper/start-flipper)-好東西，可以拿來當遙控器、卡片模擬和訊號干擾器
 - ANYTALK FT388GPS-支援三等頻段的對講機
 ## 最近聽/看/讀
-- 海盜與皇帝
-- 神州奇俠
+- 鬼店
+- 丈量世界
 ## 證書
 比較喜歡考網管、資安技術相關的證照，沒為什麼，就是比較讀的下去。最近剛和朋友入坑業餘無線電，有二等操作執照。
 
