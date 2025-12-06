@@ -83,6 +83,7 @@ category_map:
   資訊科技: tech
   雜談: other-talk
   精選: Featured
+  活動: activity
 tag_map:
   種樹: p-tree
   自架: self-host
