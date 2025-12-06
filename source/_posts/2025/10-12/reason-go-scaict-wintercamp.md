@@ -1,5 +1,5 @@
 ---
-title: 幾個你該去 SCIST x SCAICT 2026 聯合寒訓的理由
+title: 幾個你可以參加 SCIST x SCAICT 2026 聯合寒訓的理由
 cover: https://img.iach.cc/2025/10-12/winter-camp/banner.webp
 tags:
   - 活動
