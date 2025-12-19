@@ -96,6 +96,6 @@ coverWidth: 1200
 
 > tl;dr :清華大學的的高速運算體驗營，可以操作開機分分鐘貴到爆的超級電腦做運算，也是個很不錯的體驗
 ## 你需要知道以及不需要知道的連結
-- SCIST x SCAICT 2026 聯合寒訓活動網站： [scist.gonets.top](https://scist.camp/)
+- SCIST x SCAICT 2026 聯合寒訓活動網站： [https://scist.camp/](https://scist.camp/)
 - 中電官網:[scaict.org](https://scaict.org)
 - 中電喵：[一隻住在中電伺服器的貓](https://github.com/SCAICT/SCAICT-uwu)
