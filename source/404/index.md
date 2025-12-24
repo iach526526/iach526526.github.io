@@ -11,6 +11,7 @@ layout: false
 <title>404</title>
 
 <style>
+
 html, body {
   margin: 0;
   width: 100%;
@@ -78,6 +79,18 @@ canvas {
   color: #aaa;
 font-family: system-ui, -apple-system, BlinkMacSystemFont;
 }
+.footer a {
+  color: #aaa;
+  text-decoration: none;
+  border-bottom: 1px dotted rgba(255,255,255,0.3);
+}
+
+.footer a:hover,
+.footer a:focus {
+  color: white;
+  border-bottom-color: white;
+}
+
 </style>
 <link href="https://font.emtech.cc/css/BoutiqueBitmap9x9Gradient?weight=400&words=404PAGENOTFOUND.Backtohome" rel="stylesheet" />
 </head>
@@ -101,8 +114,10 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont;
 
 <script>
 // dynamic insert path name
-const approach = document.getElementById('approach')
-approach.textContent = `x→${decodeURIComponent(location.pathname)}`
+const path = decodeURIComponent(location.pathname)
+approach.textContent = path === '/404.html'
+  ? 'x → page'
+  : `x → ${path}`
 
 const canvas = document.getElementById('bg')
 const ctx = canvas.getContext('2d')
@@ -124,7 +139,8 @@ function drawTan(offset) {
   const scaleX = 90
   const scaleY = 40
 
-  for (let x = -w; x < w * 2; x += 2) {
+const step = devicePixelRatio > 1 ? 3 : 2
+for (let x = -w; x < w * 2; x += step) {
     const rad = (x + offset) / scaleX
     let y = Math.tan(rad)
 
