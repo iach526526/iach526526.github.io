@@ -108,6 +108,12 @@ comments: false
     "link":"https://theoatmeal.com/",
     "img":"https://img.iach.cc/blogroll/Matthew-Inman.png",
     "des":"漫畫家，網站上有他畫的漫畫。在 NetFlix 有他的動畫"
+},
+{
+    "title":"JN",
+    "link":"https://blog.giveanornot.com/",
+    "img":"https://blog.giveanornot.com/img/avatar_hu_4b7b53acf39ce207.jpg",
+    "des":"銀行雲端工程師，部落格常分享一些技術分享和生活隨筆"
 }
 
 
