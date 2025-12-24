@@ -2,6 +2,7 @@
     "name": "hexo-nexmoe",
     "compatibility_date": "2025-06-05",
       "assets": {
-        "directory": "./public"
+        "directory": "./public",
+        "not_found_handling": "404-page"
   }
 }
