@@ -3,6 +3,7 @@ title: 你必須無知 自由，從此開始
 layout: book-content
 author : OSHO
 cover: https://img.iach.cc/book/book-of-understand.webp
+permalink: book/for-fredom-need-knowless
 ---
 
 挺有意思的一本書，探討了人的意義、宗教、外在規則對我們的設限。前半他幾乎把所有宗教的問題整理出來，我很能認同，尤其是基督教佔的篇幅蠻多的，死忠基督徒看到應該不會太高興，無神論的觀點會摧毀你的信仰。奧修說的「無知」不是字面上的愚蠢或無知，而是一種拋開預設立場、知識與社會制約的狀態，講白話說就是活的像孩子一樣對萬物充滿好奇，沒有心機。
