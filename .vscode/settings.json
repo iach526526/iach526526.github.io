@@ -1,0 +1,22 @@
+{
+    "frontMatter.content.pageFolders": [
+        {
+            "path": "[[workspace]]/source/_posts/fortnightly/2025",
+            "title": "2025"
+        },
+        {
+            "path": "[[workspace]]/scaffolds",
+            "title": "scaffolds"
+        },
+        {
+            "path": "[[workspace]]/source/_posts/topic/flipper",
+            "title": "flipper"
+        },
+        {
+            "path": "[[workspace]]/source/_posts/fortnightly/2026",
+            "title": "2026"
+        }
+    ],
+    "[markdown]": {
+    }
+}
