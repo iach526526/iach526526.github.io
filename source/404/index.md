@@ -11,7 +11,18 @@ layout: false
 <title>404</title>
 
 <style>
-
+@media (max-width: 768px) {
+  .center h1 {
+    font-size: 15vw; /* 適合手機螢幕 */
+  }
+  .center .formula {
+    font-size: 1.2rem;
+  }
+  .footer {
+    font-size: 1rem;
+    bottom: 36%;
+  }
+}
 html, body {
   margin: 0;
   width: 100%;
@@ -49,8 +60,8 @@ canvas {
 }
 
 .center .formula {
-  margin-top: -10px;
-  font-size: 18px;
+  margin-top: 0.5rem;
+  font-size: 2rem;
   opacity: 0.75;
   letter-spacing: 0.08em;
 }
@@ -69,24 +80,25 @@ canvas {
   margin-top: -0.1em;
   letter-spacing: 0.05em;
 }
-.footer {
-  position: absolute;
-  bottom: 12%;
+footer {
+  /* position: absolute;
+  bottom: 12%; */
+  margin-top: 1.5rem;
   width: 100%;
   text-align: center;
-  font-size: 13px;
+  font-size: 1.5rem;
   letter-spacing: 0.25em;
   color: #aaa;
 font-family: system-ui, -apple-system, BlinkMacSystemFont;
 }
-.footer a {
+footer a {
   color: #aaa;
   text-decoration: none;
   border-bottom: 1px dotted rgba(255,255,255,0.3);
 }
 
-.footer a:hover,
-.footer a:focus {
+footer a:hover,
+footer a:focus {
   color: white;
   border-bottom-color: white;
 }
@@ -97,26 +109,29 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont;
 
 <body>
 
-<canvas id="bg"></canvas>
+
 
 <div class="center">
   <h1>404</h1>
   <div class="formula">
         <span class="lim">
-        lim<sub id="approach">page</sub>
+        lim<sub id="approach">
+        AAA
+        <!-- AAA will be alt in js below -->
+        </sub>
         </span>
         <span> iach.cc(x) does not exist.</span>
 
+<footer>PAGE NOT FOUND. Back to <a href="./../index.html">home</a></footer>
   </div>
 </div>
-
-<div class="footer">PAGE NOT FOUND. Back to <a href="./../index.html">home</a></div>
+<canvas id="bg"></canvas>
 
 <script>
 // dynamic insert path name
 const path = decodeURIComponent(location.pathname)
 approach.textContent = path === '/404.html'
-  ? 'x → page'
+  ? 'x → you_want'
   : `x → ${path}`
 
 const canvas = document.getElementById('bg')
@@ -173,7 +188,24 @@ function animate() {
   requestAnimationFrame(animate)
 }
 
-animate()
+function isMobileDevice() {
+  let mobileDevices = ['Android', 'webOS', 'iPhone', 'iPad', 'iPod', 'BlackBerry', 'Windows Phone']
+  for (var i = 0; i < mobileDevices.length; i++) {
+      if (navigator.userAgent.match(mobileDevices[i])) {
+        //console.log("isMobileDevice: match " + mobileDevices[i]);
+        return true;
+      }
+  }
+  return false
+}
+if (isMobileDevice()) {
+
+  canvas.style.display = 'none'
+  console.log("is mobile device");
+} else {
+    animate()
+  console.log("not mobile device");
+}
 
 </script>
 
