@@ -11,11 +11,13 @@ description: now now ～ 我的近況
    -  寒假預習
    -  原本想做的專案
    -  買了一堆書想看
--  住在台中市南區，在應用數學系就讀大學一年級
+-  學校、家裡疊加態，但通常都不在家就是
+<!-- -  在應用數學系就讀大學一年級 -->
 ### 科技研究
-- 包 docker
+- docker
+- HPC
 #### Code
-這是我的 [GitHub](https://github.com/iach526526) 連結，下面的專案是我近期十分喜歡的儲存庫。
+這是我的 [GitHub](https://github.com/iach526526) 連結，下面的專案是我近期比較常推東西儲存庫。
 
 [emfont](https://font.emtech.cc/)-開源 webfont 服務
 [Forall Math](https://github.com/iach526526/pastexam)
@@ -47,7 +49,7 @@ description: now now ～ 我的近況
 - IPAS (Industry Professional Assessment System)Information Security Engineer
 - NCC Amateur Radio Operator's Certificate (Call sign: BM4LTB)[^1]
 
-[^1]:儘管我有二等證照，但我還沒去申請二等呼號
+[^1]:我有二等證照，只是還沒去驗機子拿二等呼號
 ## 遊戲
 最近地球 Online 支線一直開，因此全部擱置。反正我買的遊戲都不會跑掉，總有一天會玩完的。
 #### 偶爾遊玩
