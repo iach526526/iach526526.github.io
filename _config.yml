@@ -13,6 +13,7 @@ keywords:
   iach
   iach.cc
   奕站
+  bm4ltb
 author: Each Chen
 language: zh-tw
 timezone: 'Asia/Taipei'
@@ -95,6 +96,7 @@ tag_map:
   樹莓派: raspberry-pi
   存檔點: save-point
   時事討論: Discussions-current
+  旅行: travel
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
 meta_generator: true
