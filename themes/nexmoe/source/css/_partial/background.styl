@@ -26,128 +26,80 @@
             display: block !important;
         }
     }
-}.top-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 12px;
-  padding: 12px;
 }
-
-.card {
-  background: #f8f8f8ff;
-  border-radius: 16px;
-  padding: 12px;
-  color: #202020ff;
-  min-height: 120px;
-
-}
-
-/* 快速連結 */
-.quick-links {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 8px;
-}
-.quick-btn {
+.quick-links{
   display: flex;
-    align-items: flex-end;   /* 垂直靠下 */
-  justify-content: flex-start; /* 水平靠左 */
-  padding: 10px;
-  border-radius: 12px;
-  text-decoration: none;
-  color: #212121ff;
-  font-size: 14px;
-  transition: background 0.3s;
-  max-height: 6rem;
-  min-width: 4rem;
-}
-.quick-btn:nth-child(odd) {
-  background: linear-gradient(0.25turn, #7ac2e1ff,  #3cf674ff);
-}
-
-.quick-btn:nth-child(even) {
- background: linear-gradient(0.25turn, #3cf674ff,  #f6b53cff);
-}
-
-.quick-btn:hover {
-  background: #d2bd23ff;
-}
-
-/* 名片樣式 */
-.profile-card {
-    position: relative;
-    padding-left: 89px; /* 頭像佔位 */
-    min-height: 80px;
-    display:flex;
-    align-items:center;
-}
-
-.profile-avatar {
-  flex-shrink:0;
-    position: absolute;
-    top: 16px;
-    left: 16px;
-    display: block;
-    width: 64px;
-    height: 64px;
-    border-radius: 50%;
-    overflow: hidden;
-}
-
-.profile-avatar img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-    margin-right:50px
-}
-
-.profile-info{
-  flex:1;
-  min-width: 0;
-}
-
-
-.profile-name {
-  font-size: 16px;
-  font-weight: bold;
-  margin: 0 0 4px;
-}
-.profile-desc {
-  font-size: 13px;
-  margin: 0 0 8px;
-}
-.profile-icons {
-  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   gap: 10px;
+  padding: 10px 12px;
+  align-items: center;
+  background: #1609350a
 }
-.profile-icons a {
-  font-size: 18px;
+
+.quick-btn{
+  display: inline-flex;
+  align-items: center;        
+  justify-content: space-between;
+  padding: 8px 10px;
+  border-radius: 10px;
   text-decoration: none;
+  color: var(--color-text-2);
+  background: transparent !important;
+  min-width: 0;
+  max-height: none;
+  font-size: 2rem;
+  line-height: 1;
+  white-space: nowrap;
 }
-/*箭頭 icon*/
-.profile-action {
-  position: absolute;
-  bottom: 12px;
-  right: 12px;
-  font-size: 20px;
+.quick-search{
+  flex: 1 1 240px;
+  min-width: 160px;
+  margin: 0;
 }
 
-@media (max-width: 420px){
-  .profile-card {
-    flex-direction: column;  /* ✅ 改直排 */
-    align-items: center;
-    padding-left: 0;         /* 取消佔位 */
-    min-height: auto;
+/* 搜尋框本體 */
+.quick-search-input{
+  width: 100%;
+  height: 40px;
+  padding: 0 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,.25);
+  background: rgba(0,0,0,.25);
+  color: #fff;
+  font-size: 14px;
+  outline: none;
+}
+
+.quick-search-input::placeholder{
+  color: rgba(255,255,255,.7);
+}
+
+.quick-search-input:focus{
+  border-color: rgba(255,255,255,.5);
+  background: rgba(0,0,0,.35);
+}
+
+@media screen and (max-width: 800px){
+  .quick-links{
+    flex-direction: column;
+    align-items: stretch;
+    gap: 8px;
   }
 
-  .profile-avatar {
-    position: static;  /* ✅ 不要絕對定位 */
-    margin-bottom: 8px;
+  .quick-btn{
+    justify-content: flex-start;
+    padding-left: 14px;
   }
 
-  .profile-info {
-    text-align: center;
-    margin-top: 0;
+  .quick-search{
+    flex: none;
+    width: 100%;
   }
+
+  .quick-search-input{
+    height: 44px;
+    font-size: 15px;
+  }
+
 }
