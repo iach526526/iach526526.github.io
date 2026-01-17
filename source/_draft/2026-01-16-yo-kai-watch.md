@@ -1,0 +1,275 @@
+---
+title: yo-kai-watch
+description: ""
+date: null
+preview: ""
+tags: []
+categories: []
+cover: ""
+permalink: 2026/yo-kai-watch
+---
+> 這是我參加[BlogBlog 同樂會](https://blogblog.club/party/) - 2026 年 1 月的投稿文章。本月主題是「推坑」。如果你有自己的部落格，歡迎一起來參加！
+
+
+今天我想聊聊妖怪手錶這個系列，這系列是先出了掌機遊戲才有動畫，老實說我算比較雲的粉絲，我是在 2014 動畫在台灣電視台播出才認識這部作品，~~而且我記得我第一次看的還是第二集的重播~~。
+
+後來一邊跟著台灣動畫的播映，才去認識它的其他手機遊戲、掌機的周邊作品。這個 IP 已經發展了十多年有，系列作眾多，我確定我不是每一集動畫、周邊和掌機遊戲都有追上進度，剛推出的時候我年紀沒有很大，理解能力和和能付出的狂熱程度都有限，我只是個有持續在追這個系列的粉絲，動畫是我每週都會期待的精神泉源，手機遊戲是我踏入網路世界和社群媒體的一個契機，會翻牆、剪片都是因為妖怪手錶開始接觸的，如果有疏漏歡迎行家[來信](mailto:info@iach.cc)補充。
+
+看著它一路轉型到現在，世界觀也挺完整的，，就是在台灣一直沒有紅起來覺得很可惜。
+
+下條列我確定有接觸過的作品
+
+- 動畫＆電影
+  - 只能說「幾乎」都有看過
+- 掌機遊戲
+  - 系列除了最新的兩作 4++ 和妖怪學園，都在 3DS 平台上推出，3DS 上的遊戲我不曾親自玩過，只看過日文實況大致知道核心玩法。不在 switch 上推出的，應該都沒有官方中文化，但有[英文版可以玩](https://citra-emulator.com/?post_type=current_query&s=yokai+watch)），之後有機會應該搞個模擬器來玩玩 3DS 上的遊戲
+  - 我有 Nintendo Switch 掌機，只玩了[《妖怪學園 Y～歡樂學園生活～》](https://store-jp.nintendo.com/item/software/D70010000027847)
+- 玩具
+  - 我有一副《妖怪學園 Y》的 Alien Watch
+- 手遊
+  - 噗尼噗尼：台版加日版應該玩了 6 年左右
+  - 妖怪三國志：台版加日版應該玩 2～3 年
+
+> 你知道嗎？妖怪手錶的製作公司和閃電十一人一樣是 [level-5](https://en.wikipedia.org/wiki/Level-5_(company)) 哦。這家公司還有推出紙箱戰機、雷頓偵探社等作品，推雷頓神秘偵探社動畫卡特莉解迷事件簿，我覺得很好看，主角講話的抑揚頓挫很帶感，花澤香菜配的很好
+
+
+## 喚醒你的記憶
+首先，要先播這首我不是很喜歡這首妖怪體操，為什麼要不喜歡還是要播呢？因為多數人提到妖錶系列除了唱這首歌好像一無所知，每次只要和人聊到我很喜歡看妖怪手錶，一定有人問我會不會跳這首， **拜託不要再問了！** 這真的不是一個能讓話題繼續、也不會讓粉絲感到被理解的開場。這首歌太芭樂了。不過為了喚醒大家對這個系列的印象，還是播一下，如果你聽過可以不用再聽了，在這篇文章的過程會穿插更燃、更耐聽的主題曲，全部看完保證你對妖怪手表系列有更充分的認識。
+
+這是日文版
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VyKLQXOj0ts?si=DidHpsHQpek5kBCn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+這是中文版[^1]
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JCZK4mhDlmw?si=xuPe-YqktK_6fRfd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
+
+[^1]:中文官方的資源我只有看到 15 分鐘循環版，太可怕了我不要貼你自己去查
+
+## 妖怪手錶動畫在講什麼故事？
+妖怪手錶 TV 動畫、掌機作品非常豐富，要我細數完整內容實在有點困難，TV 中間還經歷兩次風格大改，換過主角走別的主線，一言以蔽之就是：主人公看得到一般人看不到的妖怪，和他們交流、互動、~~或是趕跑他們的故事~~[^2]，在獲得妖怪的認同或解決他們的心事之後會拿到證明友誼的妖怪徽章，往後可以使用妖怪手錶隨時召喚出來幫忙。
+### 起點：景太篇
+
+[^2]:有些妖怪的附身效果會造成日常生活的不便或讓其他人有一些奇怪的行為
+
+推出順序是先 3DS 遊戲才出動畫，動畫是日常單元劇，主要是宣傳遊戲用的，台灣只有做一半你大概只會看過賣手錶玩具周邊的廣告。這個長得普普通通的小學生和他的紅色貓咪你要是知道妖怪手錶就不可能不認識他們。
+
+![圖源：八週年紀念網站 www.youkai-watch.jp/8th-anniversary/](https://img.iach.cc/2026/1-3/yo-kai-watch/yo-kai-8th.png)
+
+
+
+一開始的動畫一集半小時的播放時間會有 2～3 則妖怪的故事，基本套路是主人公景太在生活中遇到什麼反常的事打開探照燈去找妖怪，並和他們交涉、做朋友，互動過程都挺搞笑無理頭的；後來妖怪角色出的足夠多之後它們可能發現動畫的推出速度大概很快就會把在遊戲中已經設計好的妖怪遭遇完，開始塞一些妖怪 5 分鐘左右的單元劇[^99]，比較經典的像是小石獅的城市體驗[^4]、人面犬系列、[3 年 Y 班喵八老師](https://www.youtube.com/watch?v=fz0XpNLaupY&list=PL95vwsIMiPwKhpu8NFim0xJyexg6YC-OH)、[北斗之犬](https://www.youtube.com/watch?v=x91aV5Z1meQ)、稻蹦不可思議偵探社、稻穗與 USA 蹦火箭組裝、[妖怪三國志](https://www.youtube.com/watch?v=c3X8ZkhQWr4)、[九尾的啾玉蒐集](https://www.youtube.com/watch?v=3qFcZx6GTN4)。妖怪手錶動畫很會玩梗，像喵八老師就是在致敬日劇[ 3 年 B 組金八先生](https://zh.wikipedia.org/zh-tw/3%E5%B9%B4B%E7%B5%84%E9%87%91%E5%85%AB%E5%85%88%E7%94%9F)、北斗之犬在致敬[北斗神拳](https://zh.wikipedia.org/wiki/%E5%8C%97%E6%96%97%E7%A5%9E%E6%8B%B3)，不過在台灣很多梗不是所有人都知道，有些梗單純中文配音又沒有附註就沒那麼好笑，其中我最看不懂的單元劇是機器人山田，這個系列無聊的令人印象深刻。
+
+[^4]:我忘記具體名字了，反正就是專屬小石獅賣萌的短劇
+[^99]: 我這裡貼的單元劇連結都是官方上傳，但都需要翻牆，詳見[附錄](#附錄)
+
+景太篇的故事演了四季 214 集，詳細[維基百科](https://zh.wikipedia.org/wiki/%E5%A6%96%E6%80%AA%E6%89%8B%E8%A1%A8_(%E5%8A%A8%E7%94%BB)#%E5%90%84%E9%9B%86%E5%85%A7%E5%AE%B9)有條目專門寫這個，看到有興趣的內容或單元短劇可以把 VPN 打開在 YouTube 搜日文關鍵字可以找到切片或官方的統整版。
+
+片源：
+- [正版四季 214 集（日文無字幕）](https://www.youtube.com/watch?v=xxIPdeVmuKc&list=PLMt_VfjRBaIM_c1rqq783aV03MbBIW-Ay&index=1)（免費觀看）
+  - 片源為快樂快樂月刊
+  - 觀看需翻牆。順帶一提，YouTube 播放顯示上限是一次 200 部的樣子，要看 201 之後你得先點進 200 集才能看到之後的內容，或是你可以調整 URL 中的 index 參數直接跳過去。
+- [在 B 站上觀看 214 集（中文配音）](https://www.bilibili.com/video/BV1iLxKzoEyd?spm_id_from=333.788.videopod.sections&vd_source=6e0af0d15d322d4cf3325af1bc1dfdd5)
+  
+> NOTE：接下來我有給的正版片源，皆需使用 VPN 翻牆到日本，翻牆方式詳見[附錄](#附錄)
+
+#### 趣事：妖怪手錶是哪裡來的
+
+### 光影之卷（シャドウサイド）
+
+光影之卷的設定在景太篇之後 30 年，主角是景太的小孩，妖怪畫風變得陰暗成熟，根據製作組的說法：他們好像覺得當年看妖怪手錶得小朋友們長大了，會更喜歡這種風格，沒想到造成一些人的反彈，一開始我看到也挺震驚，但有些妖怪其實變得很帥很好看，這邊無法一一盤點，有興趣參考這支 [YouTube 影片](https://www.youtube.com/watch?v=i-EwzNKsW-w) 看前後比較。這部核心劇情是講君臣關係，看完會對劇中很多對君臣組合產生崇拜，~~然後就會想嗑 CP~~ 。
+
+
+![光影之卷的吉胖喵](https://img.iach.cc/2026/1-3/yo-kai-watch/shadow-side-Jibanyan.png)
+
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=22039448&bvid=BV15W411L7K6&cid=36428400&p=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
+> 妖怪手錶光影之卷 OP1 ：[HardBirds / 進め少年!ヒューイヒュー](https://www.youtube.com/embed/PushOcr3GN0?si=H-Z3c1Ft0gGWYUrU)[^7]
+
+
+不採用過去單元劇的形式，每一集多少有點連貫，需要按照順序不能跳著看完的。日常集數會給一個妖怪都市傳說讓主角去處理積攢經驗，過程中釋放一些主線的情報[^10]，中間打個迷你 boss ，最後幾集才把所有線索串在一起解決主線任務。
+
+光影之卷主角團有三位有能力操作妖怪手錶召喚妖怪，其中月浪冬馬的展開另一種特攝英雄式的召喚模式，有別過召喚出妖怪展開寶可夢對戰形式對決，從冬馬開始是妖怪附身在人身上親自下去戰鬥。冬馬這隻手錶叫做妖怪手錶．王牙，內建四隻妖怪，後面獲得妖聖劍（你可以理解為另一種形式的徽章）還能召喚其他更帥的。我想他的人氣多少有影響到後面妖怪學園 Y 的召喚模式。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dzJSrJ4IoaE?si=UxXNXHrmtI3Rt03F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+[^7]:網路上找不到不翻牆能看的主題曲，求助了 B 站上的搬運，如果你有 VPN 可以點這部看[官方高畫質版本](https://www.youtube.com/watch?v=PushOcr3GN0)，我只是為了網頁內嵌必須找到大家都能看的畫面。
+
+[^10]:光影之卷主線我到快完結才看懂，所以我不能說
+
+片源：
+- [YouTube 正版片源租看（日文配音無字幕）](https://www.youtube.com/show/SCL_YU2IN_ltmjj6Qf5wt45A?season=1&sbp=CgEx)（需翻牆）
+- [在 B 站上觀看（台配中字）](https://www.bilibili.com/video/BV1KP4zzMEW9?spm_id_from=333.788.videopod.sections&vd_source=6e0af0d15d322d4cf3325af1bc1dfdd5)
+- [在 B 站上觀看（日配中字）](https://www.bilibili.com/video/BV1YWHwzcENS/?share_source=copy_web&vd_source=2fa5a1f0585d88a61510c717cd74341d)
+- [animekai：日配英字](https://animekai.to/watch/youkai-watch-shadow-side-8rqe#ep=1-2)
+
+### 妖怪學園 Y 第 N 類接觸（妖怪学園Y 〜Nとの遭遇〜）
+![妖怪學園 Y](https://img.iach.cc/2026/1-3/yo-kai-watch/y-school.jpg)
+
+妖怪學園系列和前面兩作故事沒有直接延續，主角大多都是過去熟悉的妖怪角色擬人化，可以當成平行世界來看，也可以當成原本的時間軸再過非常多年後大家都轉生成人類來看都可以。故事背景在住宿學校，敘事手法沿用光影之卷，平常一樣解決妖怪事件，偶爾推主線抵抗外星人侵略地球。平常對話很多梗，好在當時 level-5 每週有釋出中文字幕版本在他們的 YouTube 頻道（現在下架的，當時要看中文翻譯也是得翻牆，這操作也是服了），字幕組很貼心的有附梗的解釋。
+
+
+
+這邊放上一段 39 集我印象非常深刻的片段，大概是說學校反派的風紀委員為了反抗學生會建立閃星共和國，聯合外國領袖制裁主角團，這個外星人不是用我們想像中的傳統武力征服，反而使用國際手段來造成內部鬥爭，劇情走向非常荒誕，卻殘酷的引人深思，這種事好像也不是不會發生呢！這集還出現了非常魔性的[閃星共和國國歌](https://www.youtube.com/watch?v=cZPbY-Om49E)，詞曲是 level-5 日野社長親自操刀，他真的太天才了。
+
+
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=114070640399152&bvid=BV1EdPje5EJN&cid=28591197134&p=2&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
+全角色變身合輯
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7GlUc0pIGvE?si=Levsngz_XMMelh3h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+> 帥氣的蘭斗君值得獨立一個[變身影片連結](https://www.youtube.com/watch?v=ARJRrwyDqHI)
+
+片源：
+- [bilibili 日語中字](https://www.bilibili.com/list/ml1312337273?spm_id_from=333.1387.0.0&oid=374409610&bvid=BV1QZ4y1A7hB)
+
+
+## 電影系列
+要進入妖怪手錶的世界觀，看電影可以很快進入
+
+為了讓大家更沒有語言隔閡的觀看電影，這裡列出中文、英文或正版的片源。到永遠的朋友台灣都有正式代理並在電影院和電視台放映，每一部我都有買電影票去看，從鬼王的復活開始我就只看日文配音了，如果你有日語中字的片源請分享給我。
+
+現在找個正版片源還需要翻牆實在很拉垮，我真的很想找到日配中字，我要是早一點學會[為沒網路做準備](https://wiwi.blog/blog/digital-prepping)、認知到那些雲端平台一點都不可靠就不會發生連我自己想私下看都找不到這種事了。你隨時都應該你喜歡的影片用 yt-dlp 之類的程式下載下來（如果官方沒有販售 DVD 公播版），只要你不要隨意公開販售，這麼做不是在助長售盜版，這是在保護你愛的影視作品！
+
+- 誕生的秘密喵
+  - [在 YouTube Movie 租看](https://www.youtube.com/watch?v=FS-Tsn-ZoYo)（需翻牆，正版片源）
+  - [在 bilibili 上觀看](https://www.bilibili.com/video/BV1x4WkzMEVY/?spm_id_from=333.337.search-card.all.click&vd_source=6e0af0d15d322d4cf3325af1bc1dfdd5)(台配中字)
+- 閻魔大王與五個故事的大冒險
+  - [在 YouTube 觀看](https://www.youtube.com/watch?v=29rcoLTSur8)（日語簡中）
+  - [在 bilibili 上觀看](https://www.bilibili.com/video/BV1x4WkzMEVY?spm_id_from=333.788.videopod.sections&vd_source=6e0af0d15d322d4cf3325af1bc1dfdd5&p=2)(台配中字)
+- 飛天巨鯨與兩個世界的大冒險喵！
+  - [在 bilibili 上觀看](https://www.bilibili.com/video/BV1x4WkzMEVY?spm_id_from=333.788.videopod.sections&vd_source=6e0af0d15d322d4cf3325af1bc1dfdd5&p=3)(台配中字)
+- 鬼王的復活
+  - [在 bilibili 上觀看](https://www.bilibili.com/video/BV1x4WkzMEVY?spm_id_from=333.788.videopod.sections&vd_source=6e0af0d15d322d4cf3325af1bc1dfdd5&p=4)(台配中字)
+- 永遠的朋友
+  - [在 YouTube Movie 租看](https://www.youtube.com/watch?v=a6DOfUQEfyg)（正版片源）
+- 妖怪學園 Y 我也能成為貓英雄嗎？
+  - [在 bilibili 上觀看](https://www.bilibili.com/video/BV1J85GzHEak/)
+- *妖怪ウォッチ♪ ケータとオレっちの出会い編だニャン♪ワ、ワタクシも〜♪♪
+- *妖怪ウォッチ♪ ジバニャンvsコマさん もんげー大決戦だニャン
+
+
+參考資料：https://pixiin.com/yo-kai-watch-movie/
+
+後記：音符系列的電影太冷門了，我為了寫這篇文去確認推出順序才發現這兩部。暫時找不到片源我也沒有看過，但問題不大，看了預告，一集是像柯南電影那樣是個比較大的日常事件，另一個是回顧集，拿以前 TV 動畫前幾集炒冷飯吸引新觀眾用的。
+
+
+## 如何開始入坑系列作品？
+### 按照順序看完
+你可以假裝你活在 2014 ，從最一開始的動畫、遊戲再接光影之卷、妖怪學園。電影第一集《誕生的秘密喵》要在 TV 動畫 27 集之前看，可以把電影當成 26.5 級；《閻魔大王與五個故事的大冒險》建議看到 78 集拿到新的 U 型錶；《飛天巨鯨與兩個世界的大冒險喵》就隨意，反正看完第二部電影再看就好，會有幾個重要角色在前兩部電影初登場你要認識，不過飛天巨鯨不看也無所謂。
+
+景太篇的 TV 集數我覺得看到 100 集之後比較膩了可以先轉光影之卷或妖怪學園，景太篇後面只有日常也沒有太重要的角色會登場了。看光影之卷之前，一定要先看《鬼王的復活》；妖怪學園在看完 TV 第一集後不能不看《我也能成為貓英雄嗎？》，這兩部的定位是第零級等級的，只看 TV 版會漏掉很多重要的故事。
+### 從妖怪學園開始
+
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=540546385&bvid=BV1mi4y1x73b&cid=189479392&p=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
+> 草莓王子すとぷりちゃんねる [ギンギラ銀河](https://www.youtube.com/watch?v=H_rd_qjk6sI)
+
+確實，上面這部影片確實很適合入坑，~~有誰有辦法抗拒 JK 跳舞呢~~。妖怪學園集數少，畫風歡樂，配音請了網路上蠻有名的 P 丸、草莓王子、[花澤香菜來配音](https://youtu.be/LhvwK4DZyow?si=B9H8CgtopG_Pv0ZX)開場，算是比較可能戳中現代人的喜好。可以先踩進來試水溫，。Switch 掌機遊戲的劇情跟電視是一樣的，可以擇一或全都要，我是先看完電視才玩遊戲，體驗一樣好。
+## 二創＆嗑 CP
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zpkHUGNBev8?si=AQagKNyyC2YTZHuG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+> 東方神起 DAISUKIDATTA，永遠的朋友電影主題曲
+
+如果你到 Pixiv 、X（Twitter ）、Pinstrest 用日文關鍵字搜尋會找到很多很棒的找妖怪手錶系列同人圖，妖錶的角色足夠多，能夠滿足 BL、BG 、百合、純愛再到獸控的多樣化的喜好。妖怪手錶系列的貓妖、狐妖例如劍豪紅丸、狂野仔、蒼魔藍月、九尾也算是我開始接受獸文化的啟蒙。現在我按照系列講起，不會講 R18 或獵奇東西，這篇文還是闔家觀賞比較好，要在網路上找這些東西我想都不用我來教學。
+### 本家妖怪
+這幾隻的作品相對比較多。
+
+- 大蛇（オロチ）
+- 九尾（きゅうび）
+- 吹雪姬（ふぶき姫）
+- 小石獅（キラコマさん）
+- 閃釀釀小石（キラコマサンタ）
+- 王族妖怪
+
+妖怪顏值擔當，這三個角色出了很多變體版本，像是影大蛇、影九尾、百鬼姬（這些都是他們的黑色版本），除此之外還有很多變體像是極大蛇、極吹雪、聖誕大蛇等等就不細數，如果你有很喜歡的變體不在這要推薦可以寫 [mail](mailto:iach.cc) 抗議，我幫你加上來。
+
+![大蛇寫真](https://img.iach.cc/2026/1-3/yo-kai-watch/Orochi.jpg)
+
+> 圖源:[pixiv KMNK](https://www.pixiv.net/artworks/102312418) 
+> 上面的連結有 14 張圖，一定要點進去全部看完喔，超帥的
+
+![小石狮](https://img.iach.cc/2026/1-3/yo-kai-watch/Komasan.jpg)
+> 圖源：[Pixiv ・](https://www.pixiv.net/artworks/42178358)
+
+
+![閃釀釀小石](https://img.iach.cc/2026/1-3/yo-kai-watch/kirakomasannta.jpg)
+> 圖源：[Pixiv ！！](https://www.pixiv.net/artworks/66187249)
+
+#### 王族
+
+![西裝閻魔＆凱拉](https://img.iach.cc/2026/1-3/yo-kai-watch/Enma-Kaira-sama.jpg)
+
+
+> 圖源：[Pixiv おぶらーと野島](https://www.pixiv.net/artworks/73811655)
+
+加碼我在[我的雲端硬碟](https://drive.google.com/drive/folders/1X4pormPY77lfOqVh4oJifJ-254Ze8OP-?usp=sharing)找到一大堆王族角色的二創圖，我記得這是之前一起玩噗尼的朋友傳給我的，圖源已不可考，有興趣自己以圖搜圖吧！
+### 光影之卷
+我推冬馬能變身的所有角色，還有酒吞和夏芽這對XD
+
+![劍武魔神](https://img.iach.cc/2026/1-3/yo-kai-watch/kennbumajinn.jpg)
+> 圖源：[Pixiv オーレ](https://www.pixiv.net/artworks/74849506)
+
+
+![劍武魔神 朱雀](https://img.iach.cc/2026/1-3/yo-kai-watch/Suzaku.jpg)
+> 圖源：[Pixiv 花六／KENO](https://www.pixiv.net/artworks/134274848)
+
+<iframe src="https://assets.pinterest.com/ext/embed.html?id=636555728562642110" height="800" width="236" frameborder="0" scrolling="no" ></iframe>
+
+<iframe src="https://assets.pinterest.com/ext/embed.html?id=512354895109208893" height="800" width="236" frameborder="0" scrolling="no" ></iframe>
+
+### 妖怪學園
+先從官方開放投稿的二創開始，影片播放的歌曲是 [P丸様](https://www.youtube.com/@Pmarusama)演唱的 学園スペーシー
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0yXdva5mZJY?si=p_Uy_qw9Okz2ek95" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+- 剣豪紅丸
+- 艾路澤美琪亞（エルゼメキア）
+- 藍碰
+- 滾球咪
+- 吹雪
+### branch
+
+#### 三國志
+- 索爾加（ソルカ）和奧爾加（ノルカ）
+
+![來自妖怪三國志遊戲公告](https://img.iach.cc/2026/1-3/yo-kai-watch/Soruga-Oruga.jpg)
+
+<iframe src="https://assets.pinterest.com/ext/embed.html?id=693132198896789819" height="300" width="345" frameborder="0" scrolling="no" ></iframe>
+
+
+## 和妖怪手錶有關的創作者
+### 日文區
+- [おもちゃ貴族](https://www.youtube.com/@Omocha-Kizoku)
+    - 長期分享它用紙、樹脂之類的材料做出每一代的妖怪手錶和道具，手作能力非常好
+- [妖怪ウォッチ専門チャンネル](https://www.youtube.com/@youkaisenmon)
+  - 大部分周邊都有開箱影片，偶爾也有系列遊戲實況
+- [とーまゲーム](https://www.youtube.com/@tomagame7373)
+  - 玩 Puni Puni 的實況主，搜當麻皇帝就能找到他
+- [masa](https://www.youtube.com/@masa-12345/videos)
+  - 以前玩三國志認識的實況主，現在都在玩 Puni
+- [mihoco ♪のゆっくりゲーム実況](https://www.youtube.com/@mihoco24)
+  - Puni&妖怪三國志的實況主
+- [ペペロンチーノニャンニャン](https://www.youtube.com/@%E3%83%9A%E3%83%9A%E3%83%AD%E3%83%B3%E3%83%81%E3%83%BC%E3%83%8E%E3%83%8B%E3%83%A3%E3%83%B3%E3%83%8B%E3%83%A3%E3%83%B3)
+### 中文區（多數已停更）
+- [TO LUNG](https://www.youtube.com/@TOLUNG/videos)
+  - 中文區 Puni 攻略區第一
+- [Wright wei胖丁（胖丁）](https://www.youtube.com/@k0904320)
+  - 娛樂台我以前很喜歡看
+- [無形幻影](https://www.youtube.com/@user-phantom1120)
+  - 以前玩妖怪手表系列遊戲的朋友，現在開了新頻道[只愛綺蘿](https://www.youtube.com/@Keera-Vtuber)
+- [Each Chen](https://www.youtube.com/@eachchen2147)
+  - ~~自肥~~
+## 附錄
+### 如何翻牆到日本
+-  Proton 
+
+這服務應該比那些 YouTuber 推薦的奇怪 VPN 還要靠譜的多，有免費方案提供一個裝置連線，除了提供 VPN 還提供 email、密碼管理器等[各種服務](https://proton.me/)，我目前有買 mail Plus 服務，算是老主顧了。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gLoTfTvqizs?si=88mUWXBw3HM62mKS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
