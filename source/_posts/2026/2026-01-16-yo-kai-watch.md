@@ -474,7 +474,7 @@ permalink: 2026/intro-yo-kai-watch
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/63m83IVEbDg?si=3x9_Z1vhmmzx8ymP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-上面是妖怪手錶4++：我們仰望著同一片天空 遊戲主題曲，這代把除了妖怪學園以外會操作妖怪手錶的主角都聚在一起了。部落滾俱樂部也讓同一片天空底下的我們在這裡相遇，不管你是舊雨還是新知，很高興能因為這篇 blog 文聚在一塊。希望有成功讓你想馬上開始看妖怪手錶系列的作品。這篇文我也是花了不少時間查資料，~~平常肯定沒動力想寫這麼長的文~~，謝謝 WiWi 開啟這個活動讓我有動機把這麼長的文章整理出來。
+上面是妖怪手錶4++：我們仰望著同一片天空 遊戲主題曲，這代把除了妖怪學園以外會操作妖怪手錶的主角都聚在一起了。部落滾俱樂部也讓同一片天空底下的我們在這裡相遇，不管你是舊雨還是新知，很高興能因為這篇 blog 文聚在一塊。希望有成功讓你想馬上開始看妖怪手錶系列的作品。這篇文我也是花了不少時間查資料，~~平常肯定沒動力想寫這麼長的文~~，謝謝 Wiwi 開啟這個活動讓我有動機把這麼長的文章整理出來。
 
 還是覺得要有點結尾的主題曲，容我再放個妖怪三國志 3DS 遊戲破關的畫面和妖怪學園蘭斗的主題曲做結尾。
 
