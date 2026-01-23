@@ -1,12 +1,14 @@
 ---
 title: 推坑妖怪手錶
-description: ""
-date: null
+description: 聊聊妖怪手錶（妖怪ウォッチ）這個我很喜歡的系列作品
+date: 2026-01-23T13:46:20.452Z
 preview: ""
-tags: []
-categories: []
-cover: ""
-permalink: 2026/yo-kai-watch
+tags: [妖怪手錶]
+categories: [ACG]
+cover: https://img.iach.cc/2026/1-3/yo-kai-watch/banner.png
+coverHeight: 675
+coverWidth: 1200
+permalink: 2026/intro-yo-kai-watch
 ---
 <style>
 
@@ -20,7 +22,7 @@ permalink: 2026/yo-kai-watch
 
 ## 妖怪手錶動畫在講什麼故事？
 
-今天我想聊聊妖怪手錶（妖怪ウォッチ）這個系列，這是 level-5 在 2013 推出的系列，周邊有掌機遊戲、動畫、漫畫和手遊、聲光玩具等等。世界觀主要是主角能看到別人看不到的妖怪並和他們對話，並解決他們造成的妖怪不詳事件。TV 動畫、掌機作品非常豐富，要我細數完整內容實在有點困難，TV 中間還經歷兩次風格大改，換過主角走別的主線，一言以蔽之就是：主人公看得到一般人看不到的妖怪，和他們交流、互動、~~或是趕跑他們的故事~~[^2]，在獲得妖怪的認同或解決他們的心事之後會拿到證明友誼的妖怪徽章，往後可以使用妖怪手錶隨時召喚出來幫忙。整體氣氛搞笑，有幾位角色之間的關係刻畫得很到味，偶爾會有放一些很刀的設定。
+今天我想聊聊妖怪手錶（妖怪ウォッチ）這個系列，這是 level-5 在 2013 推出的系列，周邊有掌機遊戲、動畫、漫畫和手遊、聲光玩具等等。世界觀基於主角能看到別人看不到的妖怪，並和他們對話，並解決他們造成的妖怪不詳事件。TV 動畫、掌機作品非常豐富，要我細數完整內容實在有點困難，TV 中間還經歷兩次風格大改，換過主角走別的主線，一言以蔽之就是：主人公看得到一般人看不到的妖怪，和他們交流、互動、~~或是趕跑他們的故事~~[^2]，在獲得妖怪的認同或解決他們的心事之後會拿到證明友誼的妖怪徽章，往後可以使用妖怪手錶隨時召喚出來幫忙。整體氣氛搞笑，有幾位角色之間的關係刻畫得很到味，偶爾會有放一些很刀的設定。
 
 
 > 你知道嗎？妖怪手錶的製作公司和閃電十一人一樣是 [level-5](https://en.wikipedia.org/wiki/Level-5_(company)) 。這家公司還有推出紙箱戰機、雷頓偵探社等作品，推雷頓神秘偵探社動畫卡特莉解迷事件簿，我覺得很好看，主角講話的抑揚頓挫很帶感，花澤香菜配的很好
@@ -32,7 +34,7 @@ permalink: 2026/yo-kai-watch
 - 動畫＆電影
   - 只能說「幾乎」都有看過
 - 掌機遊戲
-  - 系列除了最新的兩作 4++ 和妖怪學園，都在 3DS 平台上推出，3DS 上的遊戲我不曾親自玩過，只看過日文實況大致知道核心玩法。不在 switch 上推出的應該都沒有官方中文化，但有[英文版可以玩](https://citra-emulator.com/?post_type=current_query&s=yokai+watch)），之後有機會應該搞個模擬器來玩玩 3DS 上的遊戲
+  - 系列除了最新的兩作 4++ 和妖怪學園，都在 3DS 平台上推出，3DS 上的遊戲我不曾親自玩過，只看過日文實況大致知道核心玩法。不在 switch 上推出的應該都沒有官方中文化。有些 3DS 遊戲近期有[移植到手機上](https://www.youkai-watch.jp/yw-sp/)，之後有時間會回去玩看看，沒有移植可能要用模擬器， 3DS 應該不好買了，我有看到模擬器上有[英文版](https://citra-emulator.com/?post_type=current_query&s=yokai+watch)）可以玩
   - 我有 Nintendo Switch 掌機，只玩了[《妖怪學園 Y～歡樂學園生活～》](https://store-jp.nintendo.com/item/software/D70010000027847)
 - 玩具
   - 我有一副《妖怪學園 Y》的 Alien Watch
@@ -112,21 +114,26 @@ permalink: 2026/yo-kai-watch
 - [animekai：日配英字](https://animekai.to/watch/youkai-watch-shadow-side-8rqe#ep=1-2)
 
 ### 妖怪學園 Y 第 N 類接觸（妖怪学園Y 〜Nとの遭遇〜）
+
 ![妖怪學園 Y](https://img.iach.cc/2026/1-3/yo-kai-watch/y-school.jpg)
 
-![主角甚平所有的變身型態](https://img.iach.cc/2026/1-3/yo-kai-watch/all-uwu-hero.jpg)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cRgRf8roY9g?si=BA0qw6YGw10BtXOl&amp;start=91" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-
+> 三首主題曲我都很愛，直接來個串燒，幫你從第二首開始播，第一首後面還會再放一次
+> [すとぷりちゃんねる：ギンギラ銀河](https://www.youtube.com/watch?v=H_rd_qjk6sI&pp=ygUS44Ku44Oz44Ku44Op6YqA5rKz)
+> [すとぷりちゃんねる：大宇宙ランデブー](https://www.youtube.com/watch?v=sB7X6EtVtgo&pp=ygUY5aSn5a6H5a6Z44Op44Oz44OH44OW44O8)
+> [P丸様。：いにしえロマンティック](https://www.youtube.com/watch?v=ip1Jk6ahD1k&pp=ygUh44GE44Gr44GX44GI44Ot44Oe44Oz44OG44Kj44OD44Kv)
 
 妖怪學園系列和前面兩作故事沒有直接延續，主角大多都是過去熟悉的妖怪角色擬人化，可以當成平行世界來看，或是當成原本的時間軸再過非常多年後大家都轉生成人類也行。故事背景在住宿學校的校園生活，敘事手法沿用光影之卷，平常一樣解決妖怪事件，偶爾推主線抵抗外星人侵略地球。當時 level-5 每週有釋出中文字幕版本在他們的 YouTube 頻道（現在下架的，當時要看中文翻譯也是得翻牆，這操作也是服了），劇情台詞會塞很多梗，好在字幕組很貼心的有附梗的解釋。總體氣氛很歡樂，中間有幾位角色有刀看了會真的替他們難過。
 
+![主角甚平所有的變身型態](https://img.iach.cc/2026/1-3/yo-kai-watch/all-uwu-hero.jpg)
 
 這邊放上一段 39 集我印象非常深刻的片段，大概是說學校反派的風紀委員為了反抗學生會建立閃星共和國，聯合外國領袖制裁主角團，這個外星人不是用我們想像中的傳統武力征服，反而使用國際手段來造成內部鬥爭，劇情走向非常荒誕，卻殘酷的引人深思，~~這種事好像也不是不會發生呢~~！這集還出現了非常魔性的[閃星共和國國歌](https://www.youtube.com/watch?v=cZPbY-Om49E)，詞曲是 level-5 日野社長親自操刀，他真的太天才了。
 
 
 <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=114070640399152&bvid=BV1EdPje5EJN&cid=28591197134&p=2&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
-全角色變身合輯
+全角色變身合輯，變身動畫這麼華麗我當初差點就買了 YSP 手錶踏入萬代的收集坑，YSP 手錶支援一大堆徽章，我要是買了手錶大概又會想補齊，但後來缺貨一直沒買到。之後我的朋友懶狗給我他買到的 Alian Watch，這副手錶支援的徽章就沒那麼多，但已經滿足了我在家偶爾拿出來把玩變身的需求。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7GlUc0pIGvE?si=Levsngz_XMMelh3h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -135,7 +142,7 @@ permalink: 2026/yo-kai-watch
 片源：
 - [bilibili 日語中字](https://www.bilibili.com/list/ml1312337273?spm_id_from=333.1387.0.0&oid=374409610&bvid=BV1QZ4y1A7hB)
 
-
+> 妖怪學園有自己的[介紹網站](https://www.youkai-watch.jp/yokai-gakuen-y-info/about/)，做的非常精美，推薦去逛逛
 ## 電影系列
 妖怪手錶目前出了八部電影版，前五部到永遠的朋友台灣都曾代理並在電影院、電視台放映，每一部我都有買電影票去看。劇情就不破梗了，~~而且 1/31 要交稿部落滾同樂會我大概寫不完~~，以後有機會再額外發一篇文認真聊聊。除了飛天巨鯨之外其他都很有劇情深度，飛天巨鯨的賣點在真人版、無尾熊喵和機器喵 U 型，推薦都看。
 
@@ -163,9 +170,28 @@ permalink: 2026/yo-kai-watch
 - *妖怪ウォッチ♪ ジバニャンvsコマさん もんげー大決戦だニャン
 
 
-參考資料：https://pixiin.com/yo-kai-watch-movie/
+參考資料：https://www.youkai-watch.jp/#movieArea
 
 後記：音符系列的電影太冷門了，我為了寫這篇文去確認推出順序才發現這兩部。暫時找不到片源我也沒有看過，但問題不大，看了預告，一集是像柯南電影那樣是個比較大的日常事件，另一個是回顧集，拿以前 TV 動畫前幾集炒冷飯吸引新觀眾用的。
+
+## 遊戲
+遊戲系列很多，挑我玩比較久的噗尼、三國志和來講。
+### 噗尼噗尼
+連線消珠遊戲，遊戲裡面的珠珠就叫做噗尼。主要玩法是在血量見底前打死敵人，常駐地圖幾乎沒有再更新了，活動地圖每兩星期換一次，現在限定地圖都要玩轉蛋拿到最新的角色才比較容易打倒最終可以成為夥伴在隊伍中使用的角色。偶爾會和其他作品連動推出新角色，例如名偵探柯南、七大罪、超人力霸王、葬送的芙莉蓮、Re.0 從零開始的異世界生活、通靈王、hololive等等。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FLZkuZ_TLjc?si=1sW_tILs6PJAqbW5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+這是特殊賽制的玩法，對手打不死，限時間刷分數，玩到後面就有這種可以連玩幾十分鐘不中斷的技能連攜。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5M3h6CitKDI?si=DKcYlMj0wzYsvgfa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+有興趣歡迎入坑，這裡有[日版入坑教學](https://www.bilibili.com/video/BV1bq4y1u7bN/?share_source=copy_web&vd_source=2fa5a1f0585d88a61510c717cd74341d) From wingwing25。
+### 妖怪三國志 竊國戰爭
+
+![妖怪三國志](https://img.iach.cc/2026/1-3/yo-kai-watch/Sangokushi.jpg)
+> 圖源：[官方 FB](https://www.facebook.com/photo.php?fbid=810135157788565&set=pb.100063762631521.-2207520000&type=3)
+
+課金抽卡戰略遊戲，單機地圖是戰略遊戲要靈活打技能、切換前後排，多人地圖要和其他同盟打架圈地，有足夠多角色做技能連擊並加入活躍的公會遊戲體驗會很好。只不過現在台版日版都是結束營運了，就不多討論玩法，有興趣考古可以參考這篇[巴哈姆特上的貼文](https://forum.gamer.com.tw/C.php?bsn=33513&snA=117)，應該是中文圈寫最詳細的一篇了。
 
 
 ## 如何開始入坑系列作品？
@@ -180,6 +206,8 @@ permalink: 2026/yo-kai-watch
 > 草莓王子すとぷりちゃんねる [ギンギラ銀河](https://www.youtube.com/watch?v=H_rd_qjk6sI)
 
 確實，上面這部影片確實很適合入坑，~~有誰有辦法抗拒 JK 跳舞呢~~。妖怪學園集數少，畫風歡樂，配音請了網路上蠻有名的 P 丸、草莓王子、[花澤香菜配音](https://youtu.be/LhvwK4DZyow?si=B9H8CgtopG_Pv0ZX)，算是比較可能戳中現代人的喜好。可以先踩進來試水溫，。Switch 掌機遊戲的劇情跟電視比起來少了高中部篇。我推薦先看完電視才玩遊戲，玩遊戲的感覺和只看動畫不太一樣，多了自主操作可以在學校閒逛的機會，看完動畫你比較知道有哪些地方能去，在親自回去造訪朝聖會更開心。
+### 玩遊戲
+推薦玩掌機，3DS 或 switch 上的都好，免費手遊噗尼噗尼太商業導向，雖然更新頻繁很多香噴噴的角色，但都要抽，要抽到基本上不動用鈔能力是抽不到的，手遊就不是設計給你全圖鑑的，如果你真心想和妖怪做朋友，**從掌機遊戲開始**。
 ## 二創＆嗑 CP
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zpkHUGNBev8?si=AQagKNyyC2YTZHuG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -197,7 +225,7 @@ permalink: 2026/yo-kai-watch
 - 閃釀釀小石（キラコマサンタ）
 - 王族妖怪
   - 閻魔大王（エンマ大王）
-  - 滑瓢議長
+  - 滑瓢議長（ぬらりひょん議長）
   - 蛇王凱拉（蛇王カイラ）
 
 大蛇、九尾、吹雪算是妖怪顏值擔當，這三個角色出了很多變體版本，像是影大蛇、影九尾、百鬼姬（這些都是他們的黑色版本），如果你有很喜歡的變體或角色不在這要推薦可以寫 [mail](mailto:iach.cc) 抗議，我幫你加上來。
@@ -223,45 +251,47 @@ permalink: 2026/yo-kai-watch
 
 
 - 百鬼姬（ひゃっきひめ）
+
 ![百鬼姬](https://img.iach.cc/2026/1-3/yo-kai-watch/Hyakki-hime.jpg)
 > 圖源：[Pixiv kirara](https://www.pixiv.net/artworks/64849291)
 > 這是我朋友無形幻影推薦的畫師，畫出來的角色都很可愛
 
 - 吹雪姬＆閃釀釀小石
+
 ![吹雪姬＆閃釀釀小石](https://img.iach.cc/2026/1-3/yo-kai-watch/kirakomasannta.jpg)
 > 圖源：[Pixiv ！！](https://www.pixiv.net/artworks/66187249)
 
 
 - 小石獅
-萌萌的小石獅
+
+萌給！是可愛的小石獅茲拉
+
 ![小石狮](https://img.iach.cc/2026/1-3/yo-kai-watch/Komasan.jpg)
 > 圖源：[Pixiv ・](https://www.pixiv.net/artworks/42178358)
 
 
-
-
-
-  
-
 #### 王族
 
+![閻模＆滑瓢](https://img.iach.cc/2026/1-3/yo-kai-watch/enma-and-Nurarhyon.png)
+> 圖源：TV 動畫（他們倆不用二創就很帥了，根本官方親生的）
 
-- 蛇王凱拉
+
+- 閻魔＆蛇王凱拉
+
 
 ![蛇王凱拉](https://img.iach.cc/2026/1-3/yo-kai-watch/Kaira.jpg)
 > 圖源：[Pixiv おぶらーと野島](https://www.pixiv.net/artworks/68952198)
 
-- 西裝閻魔＆凱拉
+~~突然有個大膽的想法，我要去學 Blender 讓他們跳晚安大小姐。~~
 
 ![閻魔＆凱拉](https://img.iach.cc/2026/1-3/yo-kai-watch/Enma-Kaira-sama.jpg)
 
 > 圖源：[Pixiv おぶらーと野島](https://www.pixiv.net/artworks/73811655)
 
-- 凱拉和閻魔也是一對很好嗑的 CP，~~畢竟他們在電影版合體過~~
+凱拉和閻魔也是一對很好嗑的 CP，~~畢竟他們在電影版合體過~~
 <iframe src="https://assets.pinterest.com/ext/embed.html?id=624733779549500214" height="600" width="236" frameborder="0" scrolling="no" ></iframe>
 
-- 凱拉和閻魔合體後的闇閻魔
-
+凱拉和閻魔合體後的闇閻魔
 
 ![闇閻魔](https://img.iach.cc/2026/1-3/yo-kai-watch/dark-enma.jpg)
 
@@ -280,6 +310,10 @@ permalink: 2026/yo-kai-watch
 ![劍武魔神](https://img.iach.cc/2026/1-3/yo-kai-watch/kennbumajinn.jpg)
 > 圖源：[Pixiv オーレ](https://www.pixiv.net/artworks/74849506)
 
+朱雀從哪個角度看都是是位帥哥[^13]，在後期還充當計程車的角色載主角團去各種地方。
+
+[^13]:像我一樣
+
 
 ![劍武魔神 朱雀](https://img.iach.cc/2026/1-3/yo-kai-watch/Suzaku.jpg)
 > 圖源：[Pixiv 花六／KENO](https://www.pixiv.net/artworks/134274848)
@@ -290,27 +324,10 @@ permalink: 2026/yo-kai-watch
 
 <iframe src="https://assets.pinterest.com/ext/embed.html?id=512354895109208893" height="800" width="236" frameborder="0" scrolling="no" ></iframe>
 
+這對是酒吞童子和洞潔，別看他們一副壞人臉，他們人其實都忠肝義膽。
 
 ![酒吞童子＆洞潔](https://img.iach.cc/2026/1-3/yo-kai-watch/Shuten-Doji.jpg)
 > 圖源：[Pixiv 如月@仙元山](https://www.pixiv.net/artworks/76131094)
-## 遊戲
-遊戲系列很多，挑我玩比較久的噗尼、三國志和來講。
-### 噗尼噗尼
-連線消珠遊戲，遊戲裡面的珠珠就叫做噗尼。主要玩法是在血量見底前打死敵人，常駐地圖幾乎沒有再更新了，活動地圖每兩星期換一次，現在限定地圖都要玩轉蛋拿到最新的角色才比較容易打倒最終可以成為夥伴在隊伍中使用的角色。偶爾會和其他作品連動推出新角色，例如名偵探柯南、七大罪、超人力霸王、葬送的芙莉蓮、Re.0 從零開始的異世界生活、通靈王、hololive等等。
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FLZkuZ_TLjc?si=1sW_tILs6PJAqbW5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-這是特殊賽制的玩法，對手打不死，限時間刷分數，玩到後面就有這種可以連玩幾十分鐘不中斷的技能連攜。
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5M3h6CitKDI?si=DKcYlMj0wzYsvgfa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-有興趣歡迎入坑，這裡有[日版入坑教學](https://www.bilibili.com/video/BV1bq4y1u7bN/?share_source=copy_web&vd_source=2fa5a1f0585d88a61510c717cd74341d) From wingwing25。
-### 妖怪三國志 竊國戰爭
-
-![妖怪三國志](https://img.iach.cc/2026/1-3/yo-kai-watch/Sangokushi.jpg)
-> 圖源：[官方 FB](https://www.facebook.com/photo.php?fbid=810135157788565&set=pb.100063762631521.-2207520000&type=3)
-
-課金抽卡戰略遊戲，單機地圖是戰略遊戲要靈活打技能、切換前後排，多人地圖要和其他同盟打架圈地，有足夠多角色做技能連擊並加入活躍的公會遊戲體驗會很好。只不過現在台版日版都是結束營運了，就不多討論玩法，有興趣考古可以參考這篇[巴哈姆特上的貼文](https://forum.gamer.com.tw/C.php?bsn=33513&snA=117)，應該是中文圈寫最詳細的一篇了。
 ### 妖怪學園
 先從官方開放投稿的二創開始，影片播放的歌曲是 [P丸様](https://www.youtube.com/@Pmarusama)演唱的 学園スペーシー
 
@@ -326,15 +343,26 @@ permalink: 2026/yo-kai-watch
 - 艾路澤美琪亞（エルゼメキア）
 - 姬川吹雪（姫川フブキ）
 
-<iframe src="https://assets.pinterest.com/ext/embed.html?id=831688256187526612" height="1131" width="450" frameborder="0" scrolling="no" ></iframe>
+三貓是必須放第一個的，合體前後風格反差感很大，怨靈型態都有點像是深藏不漏的武林高手，看上去除了一身好看的皮囊好像也沒什麼，不過變身後都超強的，這部動畫會讓人愛上貓咪。
+
+![怪化喵、滾球咪、藍碰、桃桃飛鼠](https://img.iach.cc/2026/1-3/yo-kai-watch/3cat.jpg)
+> 圖源：pinterest 看到的，應該是 TV 動畫
+
+<iframe src="https://assets.pinterest.com/ext/embed.html?id=831688256187526612" height="1231" width="450" frameborder="0" scrolling="no" ></iframe>
+
+吹雪同學的臉不適合 TV 動畫的畫風，使的我覺得這個角色很普通，不是特別戳我的喜好。不過二創圖特多而且總能畫出一總難以言喻的精隨，特別好看！這個角色的怪圖也是數一數二多的。
 
 ![姬川吹雪＆吹雪姬](https://img.iach.cc/2026/1-3/yo-kai-watch/Fubuki.jpg)
 > 圖源：[Pixiv ふゆ](https://www.pixiv.net/artworks/100972396)
 
+蘭斗要看人型態，人型橫看成嶺側成峰，遠近高低各不同，每個角度我都愛看，不過變身後走外型人風格就很像假面騎士的蒼蠅臉。
 
 ![蘭斗＆Mist Shadow](https://img.iach.cc/2026/1-3/yo-kai-watch/Ranto.jpg)
 > 圖源：[Pixiv マージー](https://www.pixiv.net/artworks/82136718)
 
+形象鮮活很俏皮的反派，有自己的主題曲的反派都不簡單。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ElmwkIvfaAY?si=-o6SkzT7qvyNT24j&amp;start=91" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ![艾路澤美琪亞](https://img.iach.cc/2026/1-3/yo-kai-watch/Eruzemekia.jpg)
 > 圖源：[Pixiv kirara](https://www.pixiv.net/artworks/86414589)
@@ -348,9 +376,13 @@ permalink: 2026/yo-kai-watch
 ![甚平X艾瑪X萊姆X阿万手ラナ](https://img.iach.cc/2026/1-3/yo-kai-watch/y-school-cp1.jpg)
 > 圖源：[Pixiv ふりゅ翔](https://www.pixiv.net/artworks/104431535)
 
+在外星人佔領地球之前，他假裝沒注意到，我也是
+
 <iframe src="https://assets.pinterest.com/ext/embed.html?id=617556167650903059" height="738" width="450" frameborder="0" scrolling="no" ></iframe>
 
 ### 其他分支角色
+
+- 喵 KB
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sN28uDSUf2g?si=PZtEX8BWd1zwdo9q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -363,19 +395,22 @@ permalink: 2026/yo-kai-watch
 <iframe src="https://assets.pinterest.com/ext/embed.html?id=613193305494894173" height="600" width="345" frameborder="0" scrolling="no" ></iframe>
 
 - 半妖の滅龍士
+
 圖片中的角色是里羽龍太（里羽リュウタ）和御呂知修（御呂知シュウ）
+
 ![里羽龍太和御呂知修](https://img.iach.cc/2026/1-3/yo-kai-watch/orochi-shu.jpg)
 > 圖源：[Pixiv kirara](https://www.pixiv.net/artworks/86414589)
 
-> 滅龍士系列甚至在 level-5 漫畫網站[有漫畫](https://manga-5.com/content/00820001)連載
-
+> 滅龍士系列甚 level-5 漫畫網站[有漫畫](https://manga-5.com/content/00820001)連載
 
 
 - 妖魔人
+
 ![妖魔人](https://img.iach.cc/2026/1-3/yo-kai-watch/yo-man.jpg)
 > 圖源：遊戲公告
 
 - 妖怪三國志
+
 妖怪三国志系列除了本傳妖怪穿上三國套裝，還推出了原創軍魔神角色，下圖是軍魔神鳳雛先生龐統。
 
 
@@ -389,7 +424,6 @@ permalink: 2026/yo-kai-watch
 ![妖怪三國志遊戲公告](https://img.iach.cc/2026/1-3/yo-kai-watch/Soruga-Oruga.jpg)
 
 <iframe src="https://assets.pinterest.com/ext/embed.html?id=693132198896789819" height="300" width="345" frameborder="0" scrolling="no" ></iframe>
-
 
 ## 和妖怪手錶有關的創作者
 ### 日文區
@@ -429,21 +463,21 @@ permalink: 2026/yo-kai-watch
 ### 整理好的維基百科
 這些地方可以找到角色的日/英文名字，妖怪維基是最全的，進首頁後在頂部 Universe 分類可以找到很多東西。
 - [妖怪維基](https://yokaiwatch.fandom.com/wiki/Main_Page)
-- [妖怪手錶維基百科條目](https://zh.wikipedia.org/wiki/%E5%A6%96%E6%80%AA%E6%89%8B%E8%A1%A8_(%E5%8A%A8%E7%94%BB)#%E5%90%84%E9%9B%86%E5%85%A7%E5%AE%B9)
+- [妖怪手錶維基百科條目](https://zh.wikipedia.org/wiki/%E5%A6%96%E6%80%AA%E6%89%8B%E8%A1%A8_(%E5%8A%A8%E7%94%BB))
 ### 如何翻牆到日本
 -  Proton 
 
 這服務應該比那些 YouTuber 推薦的奇怪 VPN 還要靠譜的多，有免費方案提供一個裝置連線，除了提供 VPN 還提供 email、密碼管理器等[各種服務](https://proton.me/)，我目前有買 mail Plus 服務，算是老主顧了。
 
 
-## End
-#### 冷知識：妖怪手錶是從哪裡來的
+## 寫完啦XD
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/63m83IVEbDg?si=3x9_Z1vhmmzx8ymP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-> 4++ 遊戲主題曲，這代把除了妖怪學園以外會操作妖怪手錶的主角都聚在一起了
+上面是妖怪手錶4++：我們仰望著同一片天空 遊戲主題曲，這代把除了妖怪學園以外會操作妖怪手錶的主角都聚在一起了。部落滾俱樂部也讓同一片天空底下的我們在這裡相遇，不管你是舊雨還是新知，很高興能因為這篇 blog 文聚在一塊。希望有成功讓你想馬上開始看妖怪手錶系列的作品。這篇文我也是花了不少時間查資料，~~平常肯定沒動力想寫這麼長的文~~，謝謝 WiWi 開啟這個活動讓我有動機把這麼長的文章整理出來。
 
-妖怪手錶裡面有人間界和妖魔界，妖魔界有個公司
-以上，希望有成功讓你想馬上開始看妖怪手錶系列的作品。最後附上妖怪三國志 3DS 遊戲破關的畫面做結尾。
+還是覺得要有點結尾的主題曲，容我再放個妖怪三國志 3DS 遊戲破關的畫面和妖怪學園蘭斗的主題曲做結尾。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XqMl9kXswdY?si=G0s_8mWt9_VQXWjg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gLoTfTvqizs?si=88mUWXBw3HM62mKS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

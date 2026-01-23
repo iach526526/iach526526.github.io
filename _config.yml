@@ -85,6 +85,7 @@ category_map:
   雜談: other-talk
   精選: Featured
   活動: activity
+  ACG: ACG
 tag_map:
   種樹: p-tree
   自架: self-host
@@ -97,6 +98,7 @@ tag_map:
   存檔點: save-point
   時事討論: Discussions-current
   旅行: travel
+  妖怪手錶: yo-kai-watch
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
 meta_generator: true
