@@ -33,6 +33,6 @@
     "inferno": "^8.2.3",
     "inferno-create-element": "^8.2.3",
     "markdown-it-footnote": "^4.0.0",
-    "semver": "^7.7.3"
+    "semver": "^7.7.4"
   }
 }
