@@ -99,6 +99,7 @@ tag_map:
   時事討論: Discussions-current
   旅行: travel
   妖怪手錶: yo-kai-watch
+  生活觀察: social-observation
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
 meta_generator: true
