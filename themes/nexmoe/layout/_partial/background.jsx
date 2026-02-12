@@ -26,10 +26,9 @@ module.exports = class extends Component {
                 </div>
                 <div class="quick-links">
                     <a href="/" class="quick-btn">回首頁</a>
-                    <a href="/achive" class="quick-btn">文章列表</a>
+                    <a href="/archive.html" class="quick-btn">文章列表</a>
                     <a href="/blogroll" class="quick-btn">部落滾</a>
                     <a href="/bookshelf" class="quick-btn">書架</a>
-                    <a href="/about" class="quick-btn">關於</a>
                     <a href="/rss.xml" class="quick-btn">RSS</a>
                     <form id="search_form">
                       <form id="search_form" class="quick-search" action="/search/" method="get">
