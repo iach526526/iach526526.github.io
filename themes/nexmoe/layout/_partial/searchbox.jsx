@@ -6,6 +6,7 @@ module.exports = class extends Component {
         return (
             <div id="nexmoe-search-space">
                 <div class="search-container">
+                    <a class="search-close" onclick="sclose();">×</a>
                     <div class="search-header">
                         <div class="search-input-container">
                             <input
@@ -15,9 +16,8 @@ module.exports = class extends Component {
                                 onInput="sinput();"
                             />
                         </div>
-                        <a class="search-close" onclick="sclose();">
-							×
-                        </a>
+							
+                        
                     </div>
                     <div class="search-body"></div>
                 </div>
