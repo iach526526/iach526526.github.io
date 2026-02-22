@@ -135,11 +135,23 @@ theme: nexmoe
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
-feed:
-  type: rss2
-  path: rss.xml
-  limit: 0 # 最大文章數量
-  content: true # 是否顯示內文
+feed: # https://github.com/sergeyzwezdin/hexo-feed
+    limit: 0
+    order_by: "-date"
+    tag_dir: false
+    category_dir: "category"
+    rss:
+        enable: true
+        # template: "themes/theme/layout/_alternate/rss.ejs"
+        output: "rss.xml"
+    atom:
+        enable: true
+        # template: "themes/theme/layout/_alternate/atom.ejs"
+        output: "atom.xml"
+    jsonFeed:
+        enable: true
+        # template: "themes/theme/layout/_alternate/json.ejs"
+        output: "feed.json"
 
 # 站內搜尋
 jsonContent:

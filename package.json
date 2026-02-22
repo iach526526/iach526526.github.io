@@ -17,7 +17,6 @@
     "hexo-generator-alias": "^1.0.0",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
-    "hexo-generator-feed": "^3.0.0",
     "hexo-generator-index": "^4.0.0",
     "hexo-generator-json-content": "^4.2.3",
     "hexo-generator-sitemap": "^3.0.1",
@@ -34,5 +33,8 @@
     "inferno-create-element": "^8.2.3",
     "markdown-it-footnote": "^4.0.0",
     "semver": "^7.7.3"
+  },
+  "devDependencies": {
+    "hexo-feed": "^1.1.2"
   }
 }
