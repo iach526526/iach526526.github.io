@@ -3,6 +3,8 @@ title: 給 Line 的一封信
 cover: https://img.iach.cc/2025/7-9/dear-line/banner.webp
 tags:
   - 通訊軟體
+  - Discord
+  - 評論
 categories:
   - 精選
   - [雜談]

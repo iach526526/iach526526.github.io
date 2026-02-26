@@ -5,6 +5,7 @@ date: 2024-07-27 7:10:34
 tags:
   - python
   - notion
+  - 自動化
 categories: [資訊科技]
 cover: https://img.iach.cc/general/smart-notion/banner.webp
 coverWidth: 1200
