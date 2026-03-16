@@ -1,47 +1,216 @@
 <section class="nexmoe-bookshelf">
-  <h1 style="color: #eee;">📚 我的書架</h1>
-  
-  <% 
-  // 篩選書本頁面
-  let bookk = site.pages
-    .filter(p => p.source.startsWith('bookshelf/') && p.source.endsWith('.md') && p.source !== 'bookshelf/index.md')
-    .toArray();
-  
-  // 依年份降冪排序
-  let sortedPages = bookk.sort((a, b) => {
-    const yearA = parseInt(a.source.split('/')[1]) || 0;
-    const yearB = parseInt(b.source.split('/')[1]) || 0;
+  <style>
+    .nexmoe-bookshelf {
+      padding: 1.5rem;
+      border-radius: 16px;
+    }
+    .shelf-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+    .shelf-header h1 {
+      color: #f5f6fb;
+      margin: 0;
+      font-size: 1.6rem;
+      letter-spacing: 0.02em;
+    }
+    .nerd {
+      font-family: "NerdMono";
+      color: #ffb84c;
+      font-size: 1.2rem;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .rss-copy {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      padding: 0.45rem 0.75rem;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 184, 76, 0.5);
+      background: rgba(255, 184, 76, 0.08);
+      color: #ffd891;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      font-size: 0.95rem;
+    }
+    .rss-copy:hover {
+      background: rgba(255, 184, 76, 0.16);
+      border-color: rgba(255, 184, 76, 0.7);
+      transform: translateY(-1px);
+    }
+    .rss-copy:active {
+      transform: translateY(0);
+    }
+    .year-title {
+      width: 100%;
+      color: #ffcc00;
+      margin: 2rem 0 1rem 0;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+    }
+    .book-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 1.2rem;
+    }
+    .book-item {
+      text-align: center;
+      background: rgba(255, 255, 255, 0.02);
+      padding: 0.6rem;
+      border-radius: 12px;
+      border: 1px solid rgba(255, 255, 255, 0.04);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .book-item:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 28px rgba(0,0,0,0.35);
+    }
+    .book-item img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      object-fit: cover;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.35);
+    }
+    .book-item .cover-fallback {
+      width: 100%;
+      height: 200px;
+      background: linear-gradient(135deg, #b02020, #7c0b0b);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 8px;
+      color: #eee;
+      font-weight: 600;
+      letter-spacing: 0.01em;
+    }
+    .book-title {
+      margin-top: 0.6rem;
+      font-size: 1rem;
+      color: #f1f2f6;
+    }
+    .rss-toast {
+      position: fixed;
+      bottom: 1.5rem;
+      right: 1.5rem;
+      padding: 0.7rem 1rem;
+      background: rgba(17, 24, 39, 0.88);
+      color: #ffd891;
+      border: 1px solid rgba(255, 184, 76, 0.5);
+      border-radius: 10px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+      opacity: 0;
+      transform: translateY(10px);
+      transition: all 0.2s ease;
+      pointer-events: none;
+      z-index: 999;
+    }
+    .rss-toast.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+  <link href="https://font.emtech.cc/css/NerdMono?weight=400&words=&min=true" rel="stylesheet" />
+  <div class="shelf-header">
+    <h1>📚 我的書架</h1>
+    <button type="button" class="rss-copy" data-rss="/category/books/rss.xml">
+      <span class="nerd"></span>
+      <span>複製 RSS</span>
+    </button>
+  </div>
+<% 
+// 篩選書本頁面
+let bookk = site.posts
+  .filter(p => (p.source.startsWith('bookshelf/') || p.source.startsWith('_posts/bookshelf/')) && p.source.endsWith('.md'))
+  .toArray();
+
+const extractYear = (src) => {
+  const part = src.split('/').find(segment => /^\d{4}$/.test(segment));
+  return part || '未知年份';
+};
+
+// 依年份降冪排序
+let sortedPages = bookk.sort((a, b) => {
+    const yearA = parseInt(extractYear(a.source)) || 0;
+    const yearB = parseInt(extractYear(b.source)) || 0;
     return yearB - yearA;
-  });
+});
   
-  // 將頁面依年份分組 (key: 年份, value: 該年書本陣列)
-  let groupedByYear = {};
-  sortedPages.forEach(page => {
-    const year = page.source.split('/')[1] || '未知年份';
+// 將頁面依年份分組 (key: 年份, value: 該年書本陣列)
+let groupedByYear = {};
+sortedPages.forEach(page => {
+    const year = extractYear(page.source);
     if (!groupedByYear[year]) {
       groupedByYear[year] = [];
     }
     groupedByYear[year].push(page);
-  });
+});
   %>
 
   <% Object.keys(groupedByYear).sort((a,b) => b - a).forEach(year => { %>
-    <h2 style="width: 100%; color: #ffcc00; margin: 2rem 0 1rem 0;"><%= year %></h2>
-    <div class="book-list" style="display: flex; flex-wrap: wrap; gap: 1rem;">
+    <h2 class="year-title"><%= year %></h2>
+    <div class="book-list">
       <% groupedByYear[year].forEach(page => { %>
-        <div class="book-item" style="width: 150px; text-align: center;">
+        <div class="book-item">
           <a href="<%- url_for(page.path) %>">
             <% if (page.cover) { %>
-              <img src="<%- page.cover %>" alt="<%= page.title %>" style="width: 100%; height: auto; border-radius: 8px;">
+              <img src="<%- page.cover %>" alt="<%= page.title %>">
             <% } else { %>
-              <div style="width: 100%; height: 200px; background: #b02020; display: flex; align-items: center; justify-content: center;">
-                <span style="color: #eee;"><%= page.title %></span>
+              <div class="cover-fallback">
+                <span><%= page.title %></span>
               </div>
             <% } %>
           </a>
-          <h3 style="margin-top: 0.5rem; font-size: 1rem; color: #eee;"><%= page.title %></h3>
+          <h3 class="book-title"><%= page.title %></h3>
         </div>
       <% }) %>
     </div>
   <% }) %>
+  <div class="rss-toast" id="rss-toast">已複製 RSS 連結</div>
 </section>
+
+<script>
+  (function() {
+    const btn = document.querySelector('.rss-copy');
+    const toast = document.getElementById('rss-toast');
+    if (!btn || !toast) return;
+
+    const showToast = (msg) => {
+      toast.textContent = msg;
+      toast.classList.add('show');
+      setTimeout(() => toast.classList.remove('show'), 1600);
+    };
+
+    const copyText = async (text) => {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        await navigator.clipboard.writeText(text);
+        return true;
+      }
+      const temp = document.createElement('textarea');
+      temp.value = text;
+      document.body.appendChild(temp);
+      temp.select();
+      const ok = document.execCommand('copy');
+      document.body.removeChild(temp);
+      return ok;
+    };
+
+    btn.addEventListener('click', async () => {
+      const href = btn.dataset.rss || '/category/books/rss.xml';
+      const url = href.startsWith('http') ? href : new URL(href, window.location.origin).toString();
+      try {
+        await copyText(url);
+        showToast('已複製 RSS 連結');
+      } catch (err) {
+        console.warn('RSS copy failed', err);
+        showToast('複製失敗，請手動複製');
+      }
+    });
+  })();
+</script>

@@ -10,7 +10,7 @@
     </div>
 
     <div class="categories nexmoe-rainbow-fill">
-        <% site.categories.sort('name').map(function(category){  %>
+        <% site.categories.sort('name').filter(category => category.name !== 'books').map(function(category){  %>
             <% let coverx = "" %>
             <% if (category.name === "科技玩物") { %>~~
                 <% coverx = "https://img.iach.cc/banner/lorenzo-herrera-p0j-mE6mGo4-unsplash.webp" %>
@@ -44,6 +44,7 @@
         if (!page.year) {
             let years = {};
             let allpost = page.tag ? site.tags.findOne({name: page.tag}).posts :  site.posts;
+            allpost = allpost.filter(p => !p.categories.some(cat => cat.name === 'books'));
             allpost.each(post => years[post.date.year()] = null);
             for (let year of Object.keys(years).sort((a, b) => b - a)) {
                 let posts = allpost.filter(p => p.date.year() == year);
@@ -51,7 +52,7 @@
             }
         } else {
 			let year = page.year;
-			let posts = site.posts.filter(p => p.date.year() == year);
+			let posts = site.posts.filter(p => p.date.year() == year && !p.categories.some(cat => cat.name === 'books'));
 			buildArchive(posts, year)
         }
         %>

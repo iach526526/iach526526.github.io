@@ -1,4 +1,7 @@
-<% page.posts.each(function (page) { %>
+<%
+    const visiblePosts = page.posts.filter(p => !p.hide_from_home && !p.categories.some(cat => cat.name === 'books'));
+    visiblePosts.each(function (page) {
+%>
     <div class="nexmoe-post emfont-jfOpenHuninn">
         <a href="<%- url_for(page.path) %>">
             <% if (page.cover){ %>
