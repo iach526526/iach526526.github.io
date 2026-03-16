@@ -38,6 +38,9 @@ importers:
       hexo-image-link:
         specifier: ^0.0.6
         version: 0.0.6
+      hexo-pagination:
+        specifier: ^1.0.0
+        version: 1.0.0
       hexo-renderer-ejs:
         specifier: ^2.0.0
         version: 2.0.0
@@ -1022,6 +1025,10 @@ packages:
   hexo-log@4.1.0:
     resolution: {integrity: sha512-i2Sgxk8Cgx5viSjq5qW5N/rBFfwoCKQcH8qnnW1fawCapcdEAhIsq+Y3vbrs9bssyDlyU6Vqm4oQmosREaNI7Q==}
     engines: {node: '>=14'}
+
+  hexo-pagination@1.0.0:
+    resolution: {integrity: sha512-miEVFgxchPr2qNWxw0JWpJ9R/Yaf7HjHBZVjvCCcqfbsLyYtCvIfJDxcEwz1sDOC/fLzYPqNnhUI73uNxBHRSA==}
+    engines: {node: '>=8.6.0'}
 
   hexo-pagination@2.0.0:
     resolution: {integrity: sha512-ZZQli5UwFWTW6bJNF4zwp2PCeGsipgoPxadud8+cPPxvygTP5GjTS5eVWcUTcfEaCluP+O1maxZCCWmYQoJkiQ==}
@@ -2814,6 +2821,8 @@ snapshots:
   hexo-log@4.1.0:
     dependencies:
       picocolors: 1.1.1
+
+  hexo-pagination@1.0.0: {}
 
   hexo-pagination@2.0.0: {}
 

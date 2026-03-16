@@ -1,28 +1,33 @@
 <section class="nexmoe-bookshelf">
   <h1 style="color: #eee;">📚 我的書架</h1>
   
-  <% 
-  // 篩選書本頁面
-  let bookk = site.pages
-    .filter(p => p.source.startsWith('bookshelf/') && p.source.endsWith('.md') && p.source !== 'bookshelf/index.md')
-    .toArray();
-  
-  // 依年份降冪排序
-  let sortedPages = bookk.sort((a, b) => {
-    const yearA = parseInt(a.source.split('/')[1]) || 0;
-    const yearB = parseInt(b.source.split('/')[1]) || 0;
+<% 
+// 篩選書本頁面
+let bookk = site.posts
+  .filter(p => (p.source.startsWith('bookshelf/') || p.source.startsWith('_posts/bookshelf/')) && p.source.endsWith('.md'))
+  .toArray();
+
+const extractYear = (src) => {
+  const part = src.split('/').find(segment => /^\d{4}$/.test(segment));
+  return part || '未知年份';
+};
+
+// 依年份降冪排序
+let sortedPages = bookk.sort((a, b) => {
+    const yearA = parseInt(extractYear(a.source)) || 0;
+    const yearB = parseInt(extractYear(b.source)) || 0;
     return yearB - yearA;
-  });
+});
   
-  // 將頁面依年份分組 (key: 年份, value: 該年書本陣列)
-  let groupedByYear = {};
-  sortedPages.forEach(page => {
-    const year = page.source.split('/')[1] || '未知年份';
+// 將頁面依年份分組 (key: 年份, value: 該年書本陣列)
+let groupedByYear = {};
+sortedPages.forEach(page => {
+    const year = extractYear(page.source);
     if (!groupedByYear[year]) {
       groupedByYear[year] = [];
     }
     groupedByYear[year].push(page);
-  });
+});
   %>
 
   <% Object.keys(groupedByYear).sort((a,b) => b - a).forEach(year => { %>
