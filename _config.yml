@@ -98,8 +98,26 @@ tag_map:
   存檔點: save-point
   時事討論: Discussions-current
   旅行: travel
+  軟體調校: software-tweaks
+  評論: review
+  自動化: automation
+  隱私保護: privacy
+  遊戲硬體: game-hardware
+  宗教思想: religion-thought
+  年度回顧: annual-review
+  大學生活: university-life
+  通訊軟體: messaging-app
+  營隊活動: camp-activity
+  作業系統: os-design
+  DIY製造: diy-making
+  Linux伺服器: linux-server
+  AI開發: ai-development
+  社團: clubs
+  詩詞: poetry
+  國際關係: international-affairs
   妖怪手錶: yo-kai-watch
   生活觀察: social-observation
+  瀏覽器: browser
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
 meta_generator: true

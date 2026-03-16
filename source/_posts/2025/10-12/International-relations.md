@@ -3,6 +3,7 @@ title: 10 個當紅的國際關係議題
 cover: https://img.iach.cc/2025/10-12/International-relations/banner.webp
 tags:
   - 時事討論
+  - 國際關係
 categories:
   - 雜談
 permalink: 114International-relations-issue
