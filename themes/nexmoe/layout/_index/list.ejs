@@ -1,5 +1,5 @@
 <%
-    const visiblePosts = page.posts.filter(p => !p.categories.some(cat => cat.name === 'books'));
+    const visiblePosts = page.posts.filter(p => !p.hide_from_home && !p.categories.some(cat => cat.name === 'books'));
     visiblePosts.each(function (page) {
 %>
     <div class="nexmoe-post emfont-jfOpenHuninn">
