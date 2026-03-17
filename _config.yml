@@ -160,7 +160,7 @@ feed: # https://github.com/sergeyzwezdin/hexo-feed
     category_dir: "category"
     rss:
         enable: true
-        # template: "themes/theme/layout/_alternate/rss.ejs"
+        template: "template/rss.ejs"
         output: "rss.xml"
     atom:
         enable: true
