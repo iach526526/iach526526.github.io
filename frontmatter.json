@@ -73,7 +73,8 @@
         {
           "title": "Categories",
           "name": "categories",
-          "type": "categories"
+          "type": "categories",
+          "default": "books"
         },
         {
           "title": "cover",
