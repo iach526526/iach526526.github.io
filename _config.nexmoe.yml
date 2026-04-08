@@ -36,6 +36,9 @@ menu:
     近況:
         - /now.html
         - icon-time-circle-fill
+    Retro:
+        - /retro
+        - icon-coffee
     部落滾:
         - /blogroll.html
         - icon-battlenet
