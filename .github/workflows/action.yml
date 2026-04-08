@@ -50,3 +50,84 @@
 #       - name: Deploy to GitHub Pages
 #         id: deployment
 #         uses: actions/deploy-pages@v4
+# 每兩天跑 ，安裝 mc 後 list 
+name: Update retro gallery
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 */2 * *'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install mc and jq
+        run: |
+          curl -L https://dl.min.io/client/mc/release/linux-amd64/mc -o mc
+          chmod +x mc
+          sudo mv mc /usr/local/bin/mc
+          sudo apt-get update
+          sudo apt-get install -y jq
+
+      - name: Configure mc to access R2
+        run: |
+          mc alias set r2-retro \
+            "${{ secrets.R2_ENDPOINT }}" \
+            "${{ secrets.R2_ACCESS_KEY }}" \
+            "${{ secrets.R2_SECRET_KEY }}"
+
+      - name: Generate source/Gallery.md
+        run: |
+          mkdir -p source
+
+          {
+            cat <<'EOF'
+          ---
+          title: 動態牆
+          layout: about
+          description: 最近的相片
+          permalink: retro
+          ---
+
+          {% gallery %}
+          EOF
+
+            mc --json ls --recursive r2-retro/retro \
+            | jq -r '
+                select(.type != "folder")
+                | .key
+              ' \
+            | sort \
+            | while read -r key; do
+                # 從路徑取日期；你現在的 key 形如 2026/04/xxx.webp
+                alt="$(echo "$key" | cut -d/ -f1-2 | tr "/" "-")"
+                url="https://retro.iach.cc/$key"
+                printf '![%s](%s)\n' "$alt" "$url"
+              done
+
+            echo "{% endgallery %}"
+          } > source/Gallery.md
+
+          echo "Generated source/Gallery.md:"
+          sed -n '1,80p' source/Gallery.md
+
+      - name: Commit and push if changed
+        run: |
+          if git diff --quiet -- source/Gallery.md; then
+            echo "No changes"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add source/Gallery.md
+          git commit -m "chore: update retro gallery"
+          git push
