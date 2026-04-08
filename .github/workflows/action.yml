@@ -86,38 +86,36 @@ jobs:
 
       - name: Generate source/Gallery.md
         run: |
-          mkdir -p source
+            mkdir -p source
 
-          {
+            {
             cat <<'EOF'
-          ---
-          title: 動態牆
-          layout: about
-          description: 最近的相片
-          permalink: retro
-          ---
+            ---
+            title: 動態牆
+            layout: about
+            description: 最近的相片
+            permalink: retro
+            ---
 
-          {% gallery %}
-          EOF
+            {% gallery %}
+            EOF
 
             mc --json ls --recursive r2-retro/retro \
-            | jq -r '
-                select(.type != "folder")
-                | .key
-              ' \
-            | sort \
-            | while read -r key; do
-                # 從路徑取日期；你現在的 key 形如 2026/04/xxx.webp
-                alt="$(echo "$key" | cut -d/ -f1-2 | tr "/" "-")"
-                url="https://retro.iach.cc/$key"
-                printf '![%s](%s)\n' "$alt" "$url"
-              done
+            | jq -rs '
+                map(select(.type == "file"))
+                | sort_by(.lastModified)
+                | reverse
+                | .[]
+                | . as $f
+                | ($f.lastModified | sub("\\.[0-9]+([+-].*)$"; "\\1") | gsub("T"; " ")) as $alt
+                | "![\($alt)](https://retro.iach.cc/\($f.key))"
+                '
 
             echo "{% endgallery %}"
-          } > source/Gallery.md
+            } > source/Gallery.md
 
-          echo "Generated source/Gallery.md:"
-          sed -n '1,80p' source/Gallery.md
+            echo "Generated source/Gallery.md:"
+            sed -n '1,80p' source/Gallery.md
 
       - name: Commit and push if changed
         run: |
