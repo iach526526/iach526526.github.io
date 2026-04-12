@@ -1,27 +1,62 @@
 <?xml version="1.0"?>
-<rss version="2.0">
-    <channel>
-        <title><%= config.title %><%= tag ? ` • Posts by "${tag}" tag` : '' %><%= category ? ` • Posts by "${category}" category` : '' %></title>
-        <link><%= config.url %></link>
-        <description><%= config.description %></description>
-        <language><%= config.language %></language>
-        <pubDate><%= moment(lastBuildDate).locale('en').format('ddd, DD MMM YYYY HH:mm:ss ZZ') %></pubDate>
-        <lastBuildDate><%= moment(lastBuildDate).locale('en').format('ddd, DD MMM YYYY HH:mm:ss ZZ') %></lastBuildDate>
-        <%_ for (const { name } of (tags || [])) { _%>
-        <category><%= name %></category>
-        <%_ } _%>
-        <%_ for (const post of posts) { _%>
-         <item>
-            <guid isPermalink="true"><%= post.permalink %></guid>
-            <title><%= post.title %></title>
-            <link><%= post.permalink %></link>
-            <%_ for (const tag of (post.tags ? post.tags.toArray() : [])) { _%>
-            <category><%= tag.name %></category>
-            <%_ } _%>
-            <pubDate><%= moment(post.date).locale('en').format('ddd, DD MMM YYYY HH:mm:ss ZZ') %></pubDate>
-            <%_ const description = (post.excerpt || post.content || '').replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim(); _%>
-            <description><![CDATA[ <%= description %> ]]></description>
-        </item>
-        <%_ } _%>
-    </channel>
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <%_
+      const formatRssDate = (date) =>
+        moment(date).locale('en').format('ddd, DD MMM YYYY HH:mm:ss ZZ');
+
+      const stripHtml = (html) =>
+        (html || '')
+          .replace(/<[^>]*>/g, ' ')
+          .replace(/\s+/g, ' ')
+          .trim();
+
+      const buildDescription = (post) => {
+        if (post.description) return post.description;
+        const raw = stripHtml(post.excerpt || post.content || '');
+        const maxLength = 200;
+
+        if (raw.length <= maxLength) return raw;
+        return raw.slice(0, maxLength).replace(/\s+\S*$/, '') + '…';
+      };
+
+      const wrapCdata = (text) =>
+        String(text || '').replace(/]]>/g, ']]]]><![CDATA[>');
+    _%>
+
+    <title><%= config.title %><%= tag ? ` • Posts by "${tag}" tag` : '' %><%= category ? ` • Posts by "${category}" category` : '' %></title>
+    <link><%= config.url %></link>
+    <description><%= config.description %></description>
+    <language><%= config.language %></language>
+    <pubDate><%= formatRssDate(lastBuildDate) %></pubDate>
+    <lastBuildDate><%= formatRssDate(lastBuildDate) %></lastBuildDate>
+
+    <%_ if (category) { _%>
+    <category><%= category %></category>
+    <%_ } _%>
+
+    <%_ for (const { name } of (tags || [])) { _%>
+    <category><%= name %></category>
+    <%_ } _%>
+
+    <%_ for (const post of posts) { _%>
+    <item>
+      <guid isPermalink="true"><%= post.permalink %></guid>
+      <title><%= post.title %></title>
+      <link><%= post.permalink %></link>
+      <pubDate><%= formatRssDate(post.date) %></pubDate>
+
+      <%_ for (const tag of (post.tags ? post.tags.toArray() : [])) { _%>
+      <category><%= tag.name %></category>
+      <%_ } _%>
+
+      <%_ const description = buildDescription(post); _%>
+      <description><%= description %></description>
+
+      <%_ const fullContent = wrapCdata(post.content || ''); _%>
+      <content:encoded><![CDATA[<%- fullContent %>]]></content:encoded>
+    </item>
+    <%_ } _%>
+  </channel>
 </rss>
