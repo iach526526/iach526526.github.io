@@ -2,9 +2,73 @@
 <rss version="2.0"
      xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
+    <!-- - 有在 frontmatter 明確寫 date: → RSS 用 post.date
+- 沒有寫 date: → 才去查 Git 首次 commit 時間
+- 如果 Git 也查不到 → 最後 fallback 到 post.date（保底） -->
     <%_
+      const { execFileSync } = process.mainModule.require('node:child_process');
+      const { readFileSync } = process.mainModule.require('node:fs');
+
       const formatRssDate = (date) =>
         moment(date).locale('en').format('ddd, DD MMM YYYY HH:mm:ss ZZ');
+
+      const gitDateCache = new Map();
+      const frontmatterDateCache = new Map();
+
+      const hasFrontmatterDate = (sourcePath) => {
+        if (!sourcePath) return false;
+
+        const normalizedPath = sourcePath.startsWith('source/')
+          ? sourcePath
+          : `source/${sourcePath}`;
+
+        if (frontmatterDateCache.has(normalizedPath)) {
+          return frontmatterDateCache.get(normalizedPath);
+        }
+
+        try {
+          const raw = readFileSync(normalizedPath, 'utf8');
+          const match = raw.match(/^---\n([\s\S]*?)\n---/);
+          const hasDate = Boolean(match && /^\s*date\s*:/m.test(match[1]));
+          frontmatterDateCache.set(normalizedPath, hasDate);
+          return hasDate;
+        } catch (_) {
+          frontmatterDateCache.set(normalizedPath, false);
+          return false;
+        }
+      };
+
+      const getGitCreatedDate = (sourcePath) => {
+        if (!sourcePath) return null;
+
+        const normalizedPath = sourcePath.startsWith('source/')
+          ? sourcePath
+          : `source/${sourcePath}`;
+
+        if (gitDateCache.has(normalizedPath)) {
+          return gitDateCache.get(normalizedPath);
+        }
+
+        try {
+          const gitDate = execFileSync(
+            'git',
+            ['log', '--diff-filter=A', '--follow', '--format=%aI', '-1', '--', normalizedPath],
+            { encoding: 'utf8' }
+          ).trim();
+
+          const value = gitDate ? new Date(gitDate) : null;
+          gitDateCache.set(normalizedPath, value);
+          return value;
+        } catch (_) {
+          gitDateCache.set(normalizedPath, null);
+          return null;
+        }
+      };
+
+      const resolvePostPubDate = (post) => {
+        if (hasFrontmatterDate(post.source) && post.date) return post.date;
+        return getGitCreatedDate(post.source) || post.date;
+      };
 
       const stripHtml = (html) =>
         (html || '')
@@ -23,14 +87,20 @@
 
       const wrapCdata = (text) =>
         String(text || '').replace(/]]>/g, ']]]]><![CDATA[>');
+
+      const postsWithPubDate = Array.from(posts)
+        .map((post) => ({ post, pubDate: resolvePostPubDate(post) }))
+        .sort((a, b) => b.pubDate - a.pubDate);
+
+      const feedPubDate = postsWithPubDate[0]?.pubDate || lastBuildDate;
     _%>
 
     <title><%= config.title %><%= tag ? ` • Posts by "${tag}" tag` : '' %><%= category ? ` • Posts by "${category}" category` : '' %></title>
     <link><%= config.url %></link>
     <description><%= config.description %></description>
     <language><%= config.language %></language>
-    <pubDate><%= formatRssDate(lastBuildDate) %></pubDate>
-    <lastBuildDate><%= formatRssDate(lastBuildDate) %></lastBuildDate>
+    <pubDate><%= formatRssDate(feedPubDate) %></pubDate>
+    <lastBuildDate><%= formatRssDate(feedPubDate) %></lastBuildDate>
 
     <%_ if (category) { _%>
     <category><%= category %></category>
@@ -40,12 +110,12 @@
     <category><%= name %></category>
     <%_ } _%>
 
-    <%_ for (const post of posts) { _%>
+    <%_ for (const { post, pubDate } of postsWithPubDate) { _%>
     <item>
       <guid isPermalink="true"><%= post.permalink %></guid>
       <title><%= post.title %></title>
       <link><%= post.permalink %></link>
-      <pubDate><%= formatRssDate(post.date) %></pubDate>
+      <pubDate><%= formatRssDate(pubDate) %></pubDate>
 
       <%_ for (const tag of (post.tags ? post.tags.toArray() : [])) { _%>
       <category><%= tag.name %></category>
