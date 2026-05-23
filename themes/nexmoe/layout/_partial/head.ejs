@@ -1,4 +1,6 @@
 <%
+const siteHost = config.url ? config.url.replace(/^https?:\/\//, '').replace(/^www\./, '').replace(/\/$/, '') : '';
+const siteBrand = siteHost ? `${config.title} ${siteHost}` : config.title;
 var title = page.title;
 
 if (is_archive()){
@@ -14,13 +16,31 @@ if (is_archive()){
 } else if (is_tag()){
     title = __('count.tags') + '：' + page.tag;
 }
+
+const socialWidget = (theme.widgets || []).find(function(widget) {
+    return widget.enable && widget.name === 'social' && widget.options && widget.options.social;
+});
+const sameAs = socialWidget ? Object.values(socialWidget.options.social).map(function(item) { return item[0]; }) : [];
+const schema = is_home() ? {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    name: config.author || config.title,
+    url: config.url,
+    description: config.description,
+    image: theme.avatar,
+    sameAs: sameAs
+} : null;
 %>
-<title><% if (title){ %><%= title %> - <% } %><%= config.title %></title>
+<title><% if (title){ %><%= title %> - <% } %><%= siteBrand %></title>
 <meta charset="UTF-8">
 <meta name="keywords" content="<%= config.keywords %>">
+<meta name="description" content="<%= page.description || config.description %>">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
 <link rel="shortcut icon" href="<%= theme.favicon.href %>" type="<%= theme.favicon.type %>" />
 <%- open_graph({twitter_id: theme.twitter, google_plus: theme.google_plus, fb_admins: theme.fb_admins, fb_app_id: theme.fb_app_id ,image: page.cover}) %>
+<% if (schema) { %>
+<script type="application/ld+json"><%- JSON.stringify(schema) %></script>
+<% } %>
 <%- css([
     'lib/fancybox/fancybox.css', 
     'lib/mdui_043tiny/mdui.css'
@@ -69,5 +89,4 @@ if (is_archive()){
     littlefoot.littlefoot();
   });
 </script>
-
 
