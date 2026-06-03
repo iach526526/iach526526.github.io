@@ -7,12 +7,14 @@ tags:
     - social-observation
 categories:
     - other-talk
-cover: https://img.iach.cc/book/fc71faafbed356ebcfdaf5545a648361.jpg
+cover: https://img.iach.cc/2026/06/8f1d9fe8a87c6ea25c70ea80f99be373.png
 permalink: 2026/change-sentence
 keywords:
     - 山河令
     - 周子舒
     - "寧可肆意妄為的活十天，也不違背本心的活十年"
+coverHeight: 300
+coverWidth: 860
 ---
 
 >這是我的「[BlogBlog 同樂會 - 2026 年 5 月](https://blogblog.club/party/)」的投稿文章。本月主題是「[改變人生觀的一句話](https://eddielv.com/articles/a-sentence-changing-you/)」，由 [Eddie Lv](https://eddielv.com) 主持。如果你有自己的部落格，歡迎一起來參加！本來標題只有改變人生觀的一句話，但我覺得這太無聊了，我決定把山河令這個關鍵字放進來看看有沒有人會因此點進來，如果你看過這部劇歡迎來信和我討論！
@@ -20,7 +22,7 @@ keywords:
 今天我想來聊聊山河令電視劇中周子舒說過的這句話：「**寧可肆意妄為的活十天，也不違背本心的活十年**」。
 
 
-（圖我之前有截圖過但我忘了放在哪了，應該在第 14 集那邊，周子舒真的怎麼拍怎麼帥。之後再回來補圖，因為我部落格同樂會已經遲交一小時了QQ）
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kBOmOru7t00?si=xkiI6U6y3I9ErfsJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 背景
 先說說山河令這部作品，他是 Priest 的小說《天涯客》改的連續劇，有另一部小說前作叫做《七爺》但我還沒空看完嘻嘻，手機看小說效率和體驗都不太好，~~應該要考慮購入電子書增加我看書的速度~~。
