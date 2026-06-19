@@ -35,18 +35,18 @@ module.exports = class extends Component {
                     </div>
                     <div>
 
-                    <form id="search_form">
-                      <form id="search_form" class="quick-search" action="/search/" method="get">
+                    <form id="search_form" class="quick-search" action="/search/" method="get">
                         <input
                         class="quick-search-input"
                         id="search_value"
                         name="q"
                         type="search"
+                        title="Search"
+                        aria-label="Search"
                         placeholder="Search"
                         autocomplete="off"
                         />
                     </form>
-                </form>
                         </div>
                 </div>
             </div>

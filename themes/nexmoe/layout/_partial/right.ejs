@@ -5,8 +5,8 @@
 
             <% const toc_obj = toc(page.content, {list_number: true}); %>
             <% if (toc_obj.length > 0) { %>
-            <button class="mdui-fab catalog" style="overflow:unset;">
-                <i class="nexmoefont icon-i-catalog"></i>
+            <button class="mdui-fab catalog" style="overflow:unset;" type="button" aria-label="文章目錄" title="文章目錄">
+                <i class="nexmoefont icon-i-catalog" aria-hidden="true"></i>
                 <div class="nexmoe-toc">
                     <%- toc_obj %>
                 </div>
@@ -15,6 +15,6 @@
 
             <%} %>
 
-            <a href="#nexmoe-content" class="backtop toc-link" aria-label="Back To Top" title="top"><button class="mdui-fab mdui-ripple"><i class="nexmoefont icon-caret-top"></i></button></a>
+            <a href="#nexmoe-content" class="backtop toc-link mdui-fab mdui-ripple" aria-label="Back To Top" title="Back To Top"><i class="nexmoefont icon-caret-top" aria-hidden="true"></i></a>
         </div>
     </div>

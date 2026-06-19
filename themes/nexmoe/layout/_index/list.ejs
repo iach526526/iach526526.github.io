@@ -6,12 +6,12 @@
         <a href="<%- url_for(page.path) %>">
             <% if (page.cover){ %>
                 <div class="nexmoe-post-cover mdui-ripple absolute" style="padding-top: <%- page.coverHeight/page.coverWidth*100 %>%;"> 
-                    <img src="<%- page.cover %>" alt="<%= page.title %>" loading="lazy">
+                    <img src="<%- page.cover %>" alt="" loading="lazy">
                     <h2><%= page.title %></h2>
                 </div>
             <%}  else{ %>
                 <div class="nexmoe-post-cover mdui-ripple"> 
-                    <img src="<%- theme.background.path %>" alt="<%= page.title %>" loading="lazy">
+                    <img src="<%- theme.background.path %>" alt="" loading="lazy">
                     <h2><%= page.title %></h2>
                 </div>
             <% } %>

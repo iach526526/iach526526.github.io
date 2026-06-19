@@ -11,7 +11,10 @@ module.exports = class extends Component {
                         <div class="search-input-container">
                             <input
                                 class="search-input"
+                                id="nexmoe-search-input"
                                 type="text"
+                                title={ __('search')}
+                                aria-label={ __('search')}
                                 placeholder={ __('search')}
                                 onInput="sinput();"
                             />
