@@ -6,6 +6,7 @@
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
+    "lint:a11y": "node scripts/a11y-lint.js",
     "server": "hexo server"
   },
   "hexo": {
