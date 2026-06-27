@@ -218,27 +218,33 @@ function isPublicPage(file) {
   return true;
 }
 
-const sourceFiles = [
-  ...walk(path.join(root, 'source'), isSourceLike),
-  ...walk(path.join(root, 'themes', 'nexmoe', 'layout'), isSourceLike)
-];
+function main() {
+  const sourceFiles = [
+    ...walk(path.join(root, 'source'), isSourceLike),
+    ...walk(path.join(root, 'themes', 'nexmoe', 'layout'), isSourceLike)
+  ];
 
-for (const file of sourceFiles) {
-  const text = read(file);
-  lintFrames(file, text);
-  if (path.extname(file) === '.md') lintMarkdownHeadings(file, text);
-}
-
-for (const file of walk(path.join(root, 'public'), isPublicPage)) {
-  lintGeneratedHeadings(file, read(file));
-}
-
-if (issues.length > 0) {
-  console.error(`a11y lint found ${issues.length} issue(s):`);
-  for (const issue of issues) {
-    console.error(`${issue.file}:${issue.line}:${issue.column} [${issue.code}] ${issue.message}`);
+  for (const file of sourceFiles) {
+    const text = read(file);
+    lintFrames(file, text);
+    if (path.extname(file) === '.md') lintMarkdownHeadings(file, text);
   }
-  process.exitCode = 1;
-} else {
-  console.log('a11y lint passed.');
+
+  for (const file of walk(path.join(root, 'public'), isPublicPage)) {
+    lintGeneratedHeadings(file, read(file));
+  }
+
+  if (issues.length > 0) {
+    console.error(`a11y lint found ${issues.length} issue(s):`);
+    for (const issue of issues) {
+      console.error(`${issue.file}:${issue.line}:${issue.column} [${issue.code}] ${issue.message}`);
+    }
+    process.exitCode = 1;
+  } else {
+    console.log('a11y lint passed.');
+  }
 }
+
+if (require.main === module) main();
+
+module.exports = { main };
