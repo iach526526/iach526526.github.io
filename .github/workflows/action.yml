@@ -126,7 +126,7 @@ jobs:
 
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --rebase
           git add source/Gallery.md
           git commit -m "chore: update retro gallery"
-          git push
+          git pull --rebase
+          git push --force-with-lease
