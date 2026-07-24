@@ -6,7 +6,7 @@ tags:
     - 哲學思辨
     - social-observation
 categories:
-    - other-talk
+    - 雜談
 cover: https://img.iach.cc/2026/06/8f1d9fe8a87c6ea25c70ea80f99be373.png
 permalink: 2026/change-sentence
 keywords:
