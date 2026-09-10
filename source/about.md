@@ -9,9 +9,7 @@ keywords:
     - iach.cc
 ---
 
-嗨你好，我常用的網路 ID 是 iach,Each，取自我的名字奕其。
-
-我從高中開始接觸資訊領域相關技術，目前大學一年級，念的是應用數學系。
+嗨你好，我常用的網路 ID 是 iach,Each，取自我的名字奕其，是個生活在台中市的大學二年級人類。
 
 ### 聯絡我
 如果你想聯絡我的話[^2]，依照使用頻率由高到低可以使用這些方式：
@@ -22,9 +20,6 @@ keywords:
 - [Signal](https://signal.me/#eu/_bVYwHbGfgIHw0xRL-XAPmcSnBnx9KJYLr8A--ZRwzFuBxVdfO9MeJEJ9V079Ud3)
 - [Telegram](https://t.me/iach526)
 - email:**info@iach.cc**
-#### 數天內回覆 😃
-- [Matrix](https://app.element.io/#/user/@iach526:matrix.org)(可以使用任何支援[Matrix](https://matrix.org/)通訊協定的客戶端，例如 Element、FluffyChat[等等](https://matrix.org/ecosystem/clients/))
-- [simpleX](https://smp8.simplex.im/a#w7nEAU3WdaAMpkp9ZuzhX8TbGt82llgUjRElU60bGRs)（匿名去中心化即時通訊軟體，用起來邏輯和一般軟體不大相同，要負責管好自己的資料，不需要電話、email 就可以使用）
 #### 比較少用
 身為一名提倡自由與開源軟體的數位公民，我反對監控式資本主義，反對閉源又不以使用者利益為發展目標的通訊平台。我能理解平台需要錢維持運作，但我覺得開啟訂閱服務和接受贊助是比較健康的模式，在這種情況下，軟體才是直接為用戶服務，而不是廣告商。我不喜歡去廣告練蠱場從垃圾堆找朋友的貼文，我也不希望要看我發的文的人一定要看廣告或是註冊某平台帳號，這樣的網路不自由，違反了網路創立的初衷。
 
